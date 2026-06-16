@@ -4,6 +4,13 @@ A clean, **bilingual (English / हिन्दी)** navigation guide that puts
 
 > It is a single self-contained file. No build step, no server, no dependencies. Just open `index.html`.
 
+## 🔗 Live now
+
+- **Open the site:** https://yosoyun.github.io/allen-resource-hub/ — share this link with students, parents and your team.
+- **Source / backup:** https://github.com/Yosoyun/allen-resource-hub
+
+> Tip: send the link above on WhatsApp — it opens instantly on any phone, in English or हिन्दी.
+
 ---
 
 ## What it does
