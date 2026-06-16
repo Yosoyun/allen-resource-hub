@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#0e2a5e" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <style>
   :root{
     --brand:#0e2a5e;        /* ALLEN-style deep royal blue */
@@ -32,6 +32,7 @@
     --font:"Plus Jakarta Sans", "Noto Sans Devanagari", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   }
   html[lang="hi"]{ --font:"Noto Sans Devanagari","Plus Jakarta Sans", system-ui, sans-serif; }
+  html[lang="ta"]{ --font:"Noto Sans Tamil","Plus Jakarta Sans", system-ui, sans-serif; }
 
   *{ box-sizing:border-box; }
   html{ scroll-behavior:smooth; }
@@ -61,12 +62,32 @@
   .brand .name{ font-size:17px; line-height:1.05; }
   .brand .name small{ display:block; font-size:11px; font-weight:600; color:var(--muted); letter-spacing:.01em; }
   .bar .spacer{ flex:1; }
-  .lang-switch{ display:inline-flex; background:#fff; border:1px solid var(--line); border-radius:999px; padding:3px; box-shadow:var(--shadow); }
+  .lang-switch{ display:inline-flex; gap:5px; }
   .lang-switch button{
-    border:0; background:transparent; cursor:pointer; font-family:inherit; font-weight:700; font-size:13px;
-    color:var(--muted); padding:7px 13px; border-radius:999px; transition:.18s;
+    border:1.5px solid var(--line); background:#fff; cursor:pointer; font-family:inherit; font-weight:800; font-size:13px;
+    color:var(--muted); padding:7px 11px; border-radius:10px; transition:.16s; min-width:38px;
   }
-  .lang-switch button[aria-pressed="true"]{ background:var(--brand); color:#fff; }
+  .lang-switch button[data-lang="en"]{ color:var(--brand); border-color:#c7d6ef; }
+  .lang-switch button[data-lang="hi"]{ color:#c2410c; border-color:#fcd9b6; }
+  .lang-switch button[data-lang="ta"]{ color:#0f766e; border-color:#bfe7e2; }
+  .lang-switch button[aria-pressed="true"]{ color:#fff!important; }
+  .lang-switch button[data-lang="en"][aria-pressed="true"]{ background:var(--brand); border-color:var(--brand); }
+  .lang-switch button[data-lang="hi"][aria-pressed="true"]{ background:#ea580c; border-color:#ea580c; }
+  .lang-switch button[data-lang="ta"][aria-pressed="true"]{ background:#0d9488; border-color:#0d9488; }
+
+  /* prominent language chooser in the hero (easy for everyone) */
+  .lang-choose{ display:flex; flex-direction:column; gap:10px; margin:0 0 24px; padding:15px 16px; background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); }
+  .lang-choose .lc-label{ font-size:13px; font-weight:700; color:var(--muted); display:flex; align-items:center; gap:8px; }
+  .lang-choose .lc-btns{ display:flex; gap:10px; flex-wrap:wrap; }
+  .langbtn{ flex:1 1 120px; font-family:inherit; font-weight:800; font-size:16.5px; cursor:pointer; padding:14px 16px; border-radius:13px; border:2px solid; background:#fff; transition:.16s; }
+  .langbtn[data-lang="en"]{ color:var(--brand); border-color:#c7d6ef; }
+  .langbtn[data-lang="hi"]{ color:#c2410c; border-color:#f7c98f; }
+  .langbtn[data-lang="ta"]{ color:#0f766e; border-color:#9fdbd4; }
+  .langbtn:hover{ transform:translateY(-2px); box-shadow:var(--shadow-lg); }
+  .langbtn[aria-pressed="true"]{ color:#fff; }
+  .langbtn[data-lang="en"][aria-pressed="true"]{ background:var(--brand); border-color:var(--brand); }
+  .langbtn[data-lang="hi"][aria-pressed="true"]{ background:#ea580c; border-color:#ea580c; }
+  .langbtn[data-lang="ta"][aria-pressed="true"]{ background:#0d9488; border-color:#0d9488; }
   .btn-share{
     display:inline-flex; align-items:center; gap:7px; border:1px solid var(--line); background:#fff;
     color:var(--brand); font-weight:700; font-size:13px; padding:9px 14px; border-radius:999px; cursor:pointer;
@@ -223,9 +244,10 @@
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
       <span data-i18n="share">Share</span>
     </button>
-    <div class="lang-switch" role="group" aria-label="Language">
+    <div class="lang-switch" role="group" aria-label="Language / भाषा / மொழி">
       <button type="button" data-lang="en" aria-pressed="true">EN</button>
       <button type="button" data-lang="hi" aria-pressed="false">हिं</button>
+      <button type="button" data-lang="ta" aria-pressed="false">த</button>
     </div>
   </div>
 </header>
@@ -233,6 +255,14 @@
 <a id="top"></a>
 <section class="hero">
   <div class="wrap">
+    <div class="lang-choose" role="group" aria-label="Choose your language">
+      <span class="lc-label">🌐 English · हिन्दी · தமிழ் — <span data-i18n="chooseLang">choose your language</span></span>
+      <div class="lc-btns">
+        <button type="button" class="langbtn" data-lang="en" aria-pressed="true">English</button>
+        <button type="button" class="langbtn" data-lang="hi" aria-pressed="false">हिन्दी</button>
+        <button type="button" class="langbtn" data-lang="ta" aria-pressed="false">தமிழ்</button>
+      </div>
+    </div>
     <span class="eyebrow"><span class="dot"></span><span data-i18n="eyebrow">Curated guide to official ALLEN channels</span></span>
     <h1 class="title" data-i18n="heroTitle"></h1>
     <p class="lede" data-i18n="heroLede"></p>
@@ -319,7 +349,10 @@ window.CATALOG = {
             "jee"
           ],
           "verified": true,
-          "name_hi": "JEE (इंजीनियरिंग) की तैयारी?"
+          "name_hi": "JEE (इंजीनियरिंग) की तैयारी?",
+          "desc_ta": "வருங்கால IIT மற்றும் NIT மாணவர்களுக்கான ALLEN-இன் JEE Main மற்றும் Advanced பயிற்சிக்கு இங்கே செல்லுங்கள்.",
+          "how_ta": "JEE பக்கத்தைத் திறந்து, உங்கள் வகுப்புக்கு ஏற்ற பாதையைத் தேர்ந்தெடுங்கள்.",
+          "name_ta": "JEE (இன்ஜினியரிங்) தயாராகிறீர்களா?"
         },
         {
           "name": "Preparing for NEET (Medical)?",
@@ -337,7 +370,10 @@ window.CATALOG = {
             "neet"
           ],
           "verified": true,
-          "name_hi": "NEET (मेडिकल) की तैयारी?"
+          "name_hi": "NEET (मेडिकल) की तैयारी?",
+          "desc_ta": "11, 12 வகுப்பு மற்றும் ட்ராப்பர் மாணவர்களுக்கான ALLEN-இன் NEET-UG மருத்துவ பயிற்சிக்கு இங்கே செல்லுங்கள்.",
+          "how_ta": "NEET பக்கத்தைத் திறந்து, உங்கள் ஆண்டுக்கு ஏற்ற கோர்ஸைத் தேர்ந்தெடுங்கள்.",
+          "name_ta": "NEET (மருத்துவம்) தயாராகிறீர்களா?"
         },
         {
           "name": "Younger child (Class 6 to 10)?",
@@ -357,7 +393,10 @@ window.CATALOG = {
             "olympiad"
           ],
           "verified": true,
-          "name_hi": "छोटा बच्चा (कक्षा 6 से 10)?"
+          "name_hi": "छोटा बच्चा (कक्षा 6 से 10)?",
+          "desc_ta": "6 முதல் 10 வகுப்பு வரை உள்ள பிள்ளைகளுக்கான அடிப்படை கோர்ஸ்கள் — பள்ளிப் படிப்பு, ஒலிம்பியாட் மற்றும் NTSE ஆகியவை அடங்கும்.",
+          "how_ta": "Foundation பக்கத்தைத் திறந்து, உங்கள் பிள்ளையின் வகுப்பைத் தேர்ந்தெடுங்கள்.",
+          "name_ta": "சிறிய பிள்ளையா (6 முதல் 10 வகுப்பு)?"
         },
         {
           "name": "Have a question or want to enquire?",
@@ -375,9 +414,14 @@ window.CATALOG = {
             "general"
           ],
           "verified": true,
-          "name_hi": "कोई सवाल है या पूछताछ करनी है?"
+          "name_hi": "कोई सवाल है या पूछताछ करनी है?",
+          "desc_ta": "ALLEN-இன் சேர்க்கை ஹெல்ப்லைன் எண்கள், மின்னஞ்சல் மற்றும் தலைமை அலுவலக விவரங்களை ஒரே இடத்தில் பாருங்கள்.",
+          "how_ta": "சேர்க்கை உதவிக்காக கொடுக்கப்பட்ட எண்களுக்கு அழைக்கவும் அல்லது மின்னஞ்சல் அனுப்பவும்.",
+          "name_ta": "ஏதாவது கேள்வி உள்ளதா அல்லது விசாரிக்க வேண்டுமா?"
         }
-      ]
+      ],
+      "title_ta": "இங்கிருந்து தொடங்குங்கள்",
+      "blurb_ta": "எங்கே போவது என்று தெரியவில்லையா? இந்த எளிய வழிகாட்டுதல்கள் உங்களை சரியான அதிகாரப்பூர்வ ALLEN பக்கத்திற்கு அழைத்துச் செல்லும்."
     },
     {
       "id": "official-web",
@@ -407,7 +451,9 @@ window.CATALOG = {
             "ntse",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "NEET, JEE, Foundation மற்றும் Olympiad-க்கான வகுப்பறை மற்றும் ஆன்லைன் பயிற்சிக்கான ALLEN-இன் முக்கிய வலைதளம்.",
+          "how_ta": "இங்கே கோர்ஸ்கள், சென்டர்கள், முடிவுகள் மற்றும் சேர்க்கை விவரங்களைப் பார்க்கலாம்."
         },
         {
           "name": "ALLEN Online / ALLEN Digital",
@@ -427,7 +473,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "NEET, JEE மற்றும் 6 முதல் 10ஆம் வகுப்பு வரை நேரலை வகுப்புகள் உள்ள ALLEN-இன் ஆன்லைன் படிப்பு வலைதளம்.",
+          "how_ta": "ஆன்லைன் திட்டங்களையும் நேரலை வகுப்புகளையும் பார்த்து சேரலாம்."
         },
         {
           "name": "ALLEN E-Store",
@@ -448,7 +496,9 @@ window.CATALOG = {
             "olympiad",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "உண்மையான ALLEN படிப்பு மாட்யூல்கள், புத்தகங்கள் மற்றும் மாதிரித் தேர்வுத் தாள்களுக்கான அதிகாரப்பூர்வ கடை.",
+          "how_ta": "அச்சிடப்பட்ட மாட்யூல்களையும் தேர்வுத் தாள்களையும் ஆர்டர் செய்தால் வீட்டுக்கு வந்து சேரும்."
         },
         {
           "name": "ALLEN - NEET, JEE & Class 6-12 (iOS App)",
@@ -468,7 +518,9 @@ window.CATALOG = {
             "olympiad",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "நேரலை வகுப்புகள் மற்றும் வினா வங்கி உள்ள, iPhone மற்றும் iPad-க்கான ALLEN-இன் முக்கிய படிப்பு ஆப்.",
+          "how_ta": "வகுப்புகளுக்கும் பயிற்சிக்கும் iPhone அல்லது iPad-இல் இன்ஸ்டால் செய்யுங்கள்."
         },
         {
           "name": "ALLEN Overseas (iOS App)",
@@ -486,7 +538,9 @@ window.CATALOG = {
             "neet",
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "வளைகுடா நாடுகளில் உள்ள ALLEN Overseas மாணவர்கள் டிஜிட்டல் வகுப்புகளைப் பயன்படுத்த உதவும் ஆப்.",
+          "how_ta": "ALLEN Overseas திட்டத்தில் சேர்ந்திருந்தால் மட்டும் இன்ஸ்டால் செய்யுங்கள்."
         },
         {
           "name": "ALLEN Distance Learning Program (DLP)",
@@ -507,7 +561,9 @@ window.CATALOG = {
             "ntse",
             "olympiad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "தொலைவில் உள்ள மாணவர்களுக்கு படிப்புப் பொருட்கள், வினா வங்கி மற்றும் தேர்வுத் தொடர் தரும் தொலைதூரப் படிப்பு போர்ட்டல்.",
+          "how_ta": "DLP தொகுப்புகளை வாங்குங்கள்; சேர்ந்த மாணவர்கள் உள்ளடக்கத்திற்காக உள்நுழையலாம்."
         },
         {
           "name": "ALLEN Results (Yesteryears Portal)",
@@ -526,7 +582,9 @@ window.CATALOG = {
             "jee",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "கடந்த ஆண்டுகளில் ALLEN-இன் NEET மற்றும் JEE தேர்வுத் தேர்ச்சி முடிவுகளைப் பட்டியலிடும் அதிகாரப்பூர்வ போர்ட்டல்.",
+          "how_ta": "தேர்வைத் தேர்ந்தெடுத்து ALLEN-இன் ரேங்க் பெற்றவர்களின் முடிவுகளைப் பார்க்கலாம்."
         },
         {
           "name": "ALLEN Student Control Panel (Login 2025-26)",
@@ -543,7 +601,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "சேர்ந்த மாணவர்கள் 2025-26 பருவத்தின் கன்ட்ரோல் பேனலைப் பயன்படுத்த உள்நுழைவு.",
+          "how_ta": "உங்கள் படிவ எண் மற்றும் SMS-இல் வந்த கடவுச்சொல்லைக் கொண்டு உள்நுழையுங்கள்."
         },
         {
           "name": "ALLEN Form Status / Application Login (2025-26)",
@@ -560,7 +620,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "2025-26-க்கான உங்கள் ALLEN சேர்க்கை அல்லது உதவித்தொகை விண்ணப்பத்தின் நிலையைப் பார்க்க உள்நுழைவு.",
+          "how_ta": "உங்கள் படிவம் மற்றும் சேர்க்கை நிலையைப் பார்க்க உள்நுழையுங்கள்."
         },
         {
           "name": "ALLEN Batch Progress Monitoring System (BPMS)",
@@ -577,7 +639,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "வகுப்பறை பேட்ச்களில் வருகை, தேர்வுகள் மற்றும் செயல்திறனைப் பார்க்க மாணவர் உள்நுழைவு.",
+          "how_ta": "முன்னேற்றம், தேர்வுகள் மற்றும் வருகையைப் பார்க்க உள்நுழையுங்கள்."
         },
         {
           "name": "ALLEN ASTRA Login Portal",
@@ -593,7 +657,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "உங்கள் ALLEN கணக்கையும் அதனுடன் இணைந்த சேவைகளையும் நிர்வகிக்க உள்நுழைவு போர்ட்டல்.",
+          "how_ta": "உங்கள் ALLEN கணக்கை நிர்வகிக்க உள்நுழையுங்கள்."
         },
         {
           "name": "ALLEN – NEET, JEE & Class 6-12 (Android App)",
@@ -613,7 +679,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "நேரலை வகுப்புகள், தேர்வுகள் மற்றும் சந்தேகம் தீர்ப்பதற்கான ALLEN-இன் அதிகாரப்பூர்வ Android ஆப்.",
+          "how_ta": "உங்கள் Android போனில் Google Play-இல் இருந்து இலவசமாக இன்ஸ்டால் செய்யுங்கள்."
         },
         {
           "name": "ALLEN Focus Launcher (Android App)",
@@ -629,9 +697,33 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
+          "verified": true,
+          "desc_ta": "ALLEN-இன் படிப்பு டேப்லெட்கள் மற்றும் சாதனங்களுக்கான, கவனம் சிதறாத லாஞ்சர்.",
+          "how_ta": "நீங்கள் ALLEN படிப்பு சாதனத்தைப் பயன்படுத்தினால் மட்டும் இன்ஸ்டால் செய்யுங்கள்."
+        },
+        {
+          "name": "ALLENites — ALLEN Alumni Network",
+          "url": "https://www.allenites.com/",
+          "platform": "website",
+          "desc_en": "Official alumni network of ALLEN Career Institute. Connects former students globally, shares success stories and alumni events, and links back to allen.ac.in. Useful as an official community presence for past students.",
+          "desc_hi": "ALLEN Career Institute का आधिकारिक एलुमनाई नेटवर्क। दुनिया भर के पूर्व छात्रों को जोड़ता है, सफलता की कहानियाँ व एलुमनाई इवेंट साझा करता है, और allen.ac.in से लिंक करता है। पूर्व छात्रों के लिए आधिकारिक कम्युनिटी उपस्थिति के रूप में उपयोगी।",
+          "desc_ta": "ALLEN Career Institute-இன் அதிகாரப்பூர்வ பழைய மாணவர் (alumni) வலையமைப்பு. உலகெங்கிலும் உள்ள பழைய மாணவர்களை இணைக்கிறது, வெற்றிக் கதைகள் மற்றும் alumni நிகழ்வுகளை பகிர்கிறது, allen.ac.in-உடன் இணைக்கிறது. பழைய மாணவர்களுக்கான அதிகாரப்பூர்வ சமூக இருப்பாக பயனுள்ளது.",
+          "how_en": "Visit allenites.com, register or log in with your ALLEN student details, and use it to reconnect with batchmates and follow alumni news.",
+          "how_hi": "allenites.com पर जाएँ, अपने ALLEN छात्र विवरण से रजिस्टर या लॉगिन करें, और बैचमेट्स से दोबारा जुड़ने व एलुमनाई समाचार फॉलो करने के लिए इसका उपयोग करें।",
+          "how_ta": "allenites.com-ஐ பார்வையிட்டு, உங்கள் ALLEN மாணவர் விவரங்களுடன் பதிவு செய்யவும் அல்லது உள்நுழையவும்; உங்கள் பேட்ச் நண்பர்களுடன் மீண்டும் இணைய மற்றும் alumni செய்திகளை பின்தொடர இதை பயன்படுத்தவும்.",
+          "audience": [
+            "alumni",
+            "students"
+          ],
+          "streams": [
+            "NEET",
+            "JEE"
+          ],
           "verified": true
         }
-      ]
+      ],
+      "title_ta": "அதிகாரப்பூர்வ வலைதளங்கள், போர்ட்டல்கள் மற்றும் ஆப்ஸ்",
+      "blurb_ta": "நீங்கள் நம்பி பயன்படுத்தக்கூடிய உண்மையான ALLEN வலைதளங்கள், மாணவர் உள்நுழைவு போர்ட்டல்கள் மற்றும் மொபைல் ஆப்ஸ்."
     },
     {
       "id": "programs",
@@ -656,7 +748,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "11ஆம் வகுப்பு மாணவர்கள் மற்றும் drop செய்தவர்களுக்கான வழிகளுடன், வகுப்பறையில் JEE Main மற்றும் Advanced தயாரிப்பு.",
+          "how_ta": "உங்கள் வகுப்பு மற்றும் இலக்கு ஆண்டுக்கு ஏற்ற வழியைத் தேர்ந்தெடுங்கள்."
         },
         {
           "name": "ALLEN JEE (Main) Course",
@@ -673,7 +767,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "NIT, IIIT மற்றும் Main அடிப்படையிலான சேர்க்கையை இலக்காகக் கொண்ட மாணவர்களுக்கான JEE Main வகுப்பறைத் திட்டம்.",
+          "how_ta": "உங்கள் இலக்கு JEE Main மட்டுமே என்றால் இதைத் தேர்ந்தெடுங்கள்."
         },
         {
           "name": "ALLEN NEET-UG (Pre-Medical) Courses",
@@ -690,7 +786,9 @@ window.CATALOG = {
           "streams": [
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "11, 12ஆம் வகுப்பு மற்றும் drop செய்த அல்லது மீண்டும் எழுதும் மாணவர்களுக்கான வகுப்பறை NEET-UG தயாரிப்பு.",
+          "how_ta": "உங்கள் வகுப்பு அல்லது drop ஆண்டுக்கு ஏற்ற படிப்பைத் தேர்ந்தெடுங்கள்."
         },
         {
           "name": "ALLEN Pre-Nurture & Career Foundation (Class 6-10)",
@@ -709,7 +807,9 @@ window.CATALOG = {
             "ntse",
             "olympiad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "6 முதல் 10ஆம் வகுப்பு வரை, பள்ளிப் படிப்பு, Olympiad மற்றும் NTSE உள்ளடக்கிய Foundation படிப்புகள்.",
+          "how_ta": "உங்கள் குழந்தைக்கு சாதாரண அல்லது Olympiad படிப்பைத் தேர்ந்தெடுங்கள்."
         },
         {
           "name": "ALLEN CHAMP (Olympiad Champ Program)",
@@ -727,7 +827,9 @@ window.CATALOG = {
             "olympiad",
             "foundation"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "பள்ளி மாணவர்களின் Olympiad திறமையை சிறு வயதிலேயே வளர்க்க ALLEN கொடுக்கும் கௌரவம் மற்றும் வழிகாட்டுதல் திட்டம்.",
+          "how_ta": "Olympiad சார்ந்த திட்டம் மற்றும் பரிந்துரையைப் பாருங்கள்."
         },
         {
           "name": "ALLEN Ultimate Online Programs",
@@ -746,7 +848,9 @@ window.CATALOG = {
             "neet",
             "olympiad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "வழிகாட்டிகளுடன் JEE, NEET மற்றும் Olympiad-க்கான முக்கிய Ultimate நேரலை ஆன்லைன் படிப்புகள்.",
+          "how_ta": "உங்கள் தேர்வுக்கான Ultimate திட்டத்தை ஒப்பிட்டுப் பார்த்து வாங்குங்கள்."
         },
         {
           "name": "ALLEN Global Studies (Study Abroad)",
@@ -764,7 +868,9 @@ window.CATALOG = {
             "abroad",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "SAT, AP, IELTS தயாரிப்பு மற்றும் வெளிநாட்டுப் பல்கலைக்கழக சேர்க்கைக்கான ALLEN-இன் வெளிநாட்டுப் படிப்பு பிரிவு.",
+          "how_ta": "பல்கலைக்கழகத் தேர்வு மற்றும் தேர்வு தயாரிப்புக்கு counselling புக் செய்யுங்கள்."
         },
         {
           "name": "ALLEN Global Studies (on main site)",
@@ -781,7 +887,9 @@ window.CATALOG = {
           "streams": [
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "முக்கிய தளத்தில் உள்ள Global Studies பகுதி, SAT, ACT, TOEFL, IELTS, GRE மற்றும் GMAT உள்ளடக்கியது.",
+          "how_ta": "வெளிநாட்டுத் தேர்வு தயாரிப்பு பற்றி படியுங்கள், விசாரியுங்கள்."
         },
         {
           "name": "ALLEN Overseas",
@@ -802,9 +910,13 @@ window.CATALOG = {
             "olympiad",
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "வளைகுடா நாடுகளில் JEE, NEET மற்றும் Foundation-க்கான ALLEN-இன் கோச்சிங் பிரிவு.",
+          "how_ta": "வளைகுடா பகுதி திட்டங்கள் மற்றும் மாணவர் portal-களைப் பாருங்கள்."
         }
-      ]
+      ],
+      "title_ta": "படிப்புகள் மற்றும் திட்டங்கள்",
+      "blurb_ta": "இலக்கின் படி பிரிக்கப்பட்ட ALLEN கோச்சிங் திட்டங்கள் — JEE, NEET, Foundation, Olympiad மற்றும் வெளிநாட்டுப் படிப்பு."
     },
     {
       "id": "youtube",
@@ -833,7 +945,9 @@ window.CATALOG = {
             "olympiad",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "JEE, NEET, 6 முதல் 10ம் வகுப்பு மற்றும் Olympiad சார்ந்த பாடங்களுக்கான ALLEN-இன் முக்கிய சேனல்.",
+          "how_ta": "வழிமுறைகள், டாப்பர்களின் பேச்சு மற்றும் தேர்வு பகுப்பாய்வுக்காக subscribe செய்யுங்கள்."
         },
         {
           "name": "ALLEN JEE",
@@ -849,7 +963,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "ALLEN ஆசிரியர்கள் JEE Main மற்றும் JEE Advanced தயாரிப்புக்காக நடத்தும் தனி அதிகாரப்பூர்வ சேனல்.",
+          "how_ta": "கருத்து விளக்க பாடங்கள், PYQ தீர்வுகள் மற்றும் நேரடி வகுப்புகளைப் பார்க்கவும்."
         },
         {
           "name": "ALLEN NEET",
@@ -865,7 +981,9 @@ window.CATALOG = {
           "streams": [
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "ALLEN ஆசிரியர்கள் NEET-UG மருத்துவ நுழைவுத் தேர்வு தயாரிப்புக்காக நடத்தும் தனி அதிகாரப்பூர்வ சேனல்.",
+          "how_ta": "NEET பாடங்கள், தீர்வுகள் மற்றும் தேர்வு தகவல்களுக்காக follow செய்யுங்கள்."
         },
         {
           "name": "ALLEN Pre-Nurture & Career Foundation",
@@ -884,11 +1002,13 @@ window.CATALOG = {
             "olympiad",
             "ntse"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "6 முதல் 10ம் வகுப்பு, NTSE மற்றும் Olympiad தயாரிப்புக்கான அதிகாரப்பூர்வ Foundation சேனல்.",
+          "how_ta": "அடிப்படை கருத்துகள், Olympiad மற்றும் NTSE வீடியோக்களுக்காகப் பயன்படுத்துங்கள்."
         },
         {
           "name": "ALLEN Online Programs",
-          "url": "https://www.youtube.com/@ALLENOnlinePrograms",
+          "url": "https://www.youtube.com/channel/UCcPauQfd9drEEC8_PoZ6Wpw",
           "platform": "youtube",
           "desc_en": "Official ALLEN Online channel with lectures, strategy and exam updates.",
           "desc_hi": "लेक्चर, रणनीति और परीक्षा अपडेट के साथ आधिकारिक ALLEN ऑनलाइन चैनल।",
@@ -904,7 +1024,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": false
+          "verified": true,
+          "desc_ta": "பாடங்கள், வழிமுறைகள் மற்றும் தேர்வு தகவல்களுடன் கூடிய அதிகாரப்பூர்வ ALLEN Online சேனல்.",
+          "how_ta": "இலவச கருத்து விளக்க வீடியோக்கள் மற்றும் தேர்வு வழிகாட்டலுக்காக subscribe செய்யுங்கள்."
         },
         {
           "name": "ALLEN Online Official",
@@ -923,7 +1045,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "இலவச JEE, NEET மற்றும் பள்ளி பாடங்களுடன் கூடிய ALLEN-இன் டிஜிட்டல் பிரிவின் அதிகாரப்பூர்வ சேனல்.",
+          "how_ta": "இலவச நேரடி வகுப்புகள் மற்றும் பாட வீடியோக்களுக்காக subscribe செய்யுங்கள்."
         },
         {
           "name": "ALLEN Digital",
@@ -941,7 +1065,9 @@ window.CATALOG = {
             "neet",
             "foundation"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "வகுப்புகள் மற்றும் இலவச டெமோ வகுப்புகளுடன் கூடிய ALLEN Digital-இன் ஆன்லைன் படிப்பு சேனல்.",
+          "how_ta": "ஆன்லைன் கோர்ஸ் பாடங்கள் மற்றும் இலவச வகுப்புகளுக்காக subscribe செய்யுங்கள்."
         },
         {
           "name": "ALLEN Jaipur",
@@ -960,7 +1086,9 @@ window.CATALOG = {
             "neet",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "உள்ளூர் பேட்ச்கள் மற்றும் நிகழ்வுகளைப் பற்றிய ALLEN-இன் Jaipur மையத்தின் சேனல்.",
+          "how_ta": "Jaipur மைய பேட்ச் தகவல் மற்றும் புதுப்பிப்புகளுக்காக follow செய்யுங்கள்."
         },
         {
           "name": "ALLEN Global",
@@ -977,7 +1105,9 @@ window.CATALOG = {
           "streams": [
             "abroad"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "வெளிநாட்டுப் படிப்பு வழிகாட்டல் மற்றும் தேர்வு தயாரிப்பு பாடங்களுக்கான அதிகாரப்பூர்வ ALLEN Global சேனல்.",
+          "how_ta": "SAT, IELTS மற்றும் வெளிநாட்டு admission குறிப்புகளுக்காக subscribe செய்யுங்கள்."
         },
         {
           "name": "ALLEN Overseas (YouTube)",
@@ -996,9 +1126,13 @@ window.CATALOG = {
             "neet",
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "ALLEN Overseas (வளைகுடா நாடுகள்) மாணவர்களுக்கான இலவசப் பாடங்கள் மற்றும் புதுப்பிப்புகள்.",
+          "how_ta": "Overseas பேட்ச் பாடங்கள் மற்றும் செய்திகளுக்காக subscribe செய்யுங்கள்."
         }
-      ]
+      ],
+      "title_ta": "அதிகாரப்பூர்வ YouTube சேனல்கள் (இலவசப் படிப்பு)",
+      "blurb_ta": "இந்த அதிகாரப்பூர்வ சேனல்களில் ALLEN ஆசிரியர்களிடமிருந்து இலவசப் பாடங்கள், தேர்வுக்கான வழிமுறைகள் மற்றும் ஊக்கம் கிடைக்கும்."
     },
     {
       "id": "social",
@@ -1025,7 +1159,9 @@ window.CATALOG = {
             "jee",
             "neet"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "மாணவர்களுக்கு அப்டேட், ரிசல்ட், டாப்பர்கள், ஊக்கம் தரும் முக்கிய ALLEN Instagram பக்கம்.",
+          "how_ta": "தினசரி அப்டேட், தேர்வு அறிவிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Career Institute (Facebook - Kota)",
@@ -1044,7 +1180,9 @@ window.CATALOG = {
             "jee",
             "neet"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "ALLEN Career Institute, Kota-வின் அதிகாரப்பூர்வ முக்கிய Facebook பக்கம்.",
+          "how_ta": "நிறுவன செய்தி, நிகழ்வுகள், ரிசல்ட்டுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Career Institute (X / Twitter)",
@@ -1063,7 +1201,9 @@ window.CATALOG = {
             "jee",
             "neet"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "உடனடி தேர்வு செய்தி, ரிசல்ட், ஆன்சர்-கீ அறிவிப்புகளுக்கான அதிகாரப்பூர்வ X கணக்கு.",
+          "how_ta": "உடனடி தேர்வு தேதி, ரிசல்ட் அப்டேட்டுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Career Institute (LinkedIn)",
@@ -1079,7 +1219,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "நிறுவன அப்டேட், வேலைவாய்ப்பு, அறிவிப்புகளுக்கான அதிகாரப்பூர்வ நிறுவன LinkedIn பக்கம்.",
+          "how_ta": "வேலைவாய்ப்பு, நிறுவன செய்திக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Career Institute (Telegram - main)",
@@ -1098,7 +1240,9 @@ window.CATALOG = {
             "jee",
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "ALLEN அப்டேட், அறிவிப்பு, தேர்வு செய்திகளுக்கான சரிபார்க்கப்பட்ட முக்கிய Telegram சேனல்.",
+          "how_ta": "அறிவிப்புகள், தேர்வு செய்திகளுக்கு இணையுங்கள்."
         },
         {
           "name": "ALLEN NEET Official (Instagram)",
@@ -1115,7 +1259,9 @@ window.CATALOG = {
           "streams": [
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "NEET மருத்துவ தேர்வு தகவல், டாப்பர்கள், அப்டேட் தரும் NEET Instagram பக்கம்.",
+          "how_ta": "NEET குறிப்புகள், அறிவிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN NEET Official (Telegram)",
@@ -1131,7 +1277,9 @@ window.CATALOG = {
           "streams": [
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "NEET மாணவர்களுக்கு எல்லாமே ஒரே இடத்தில் தரும் சரிபார்க்கப்பட்ட NEET Telegram சேனல்.",
+          "how_ta": "NEET படிப்பு தகவல், தேர்வு அறிவிப்புகளுக்கு இணையுங்கள்."
         },
         {
           "name": "ALLEN JEE Official (Instagram)",
@@ -1147,7 +1295,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "இன்ஜினியரிங் தேர்வு மாணவர்களுக்கு குறிப்பு, அப்டேட் தரும் JEE Instagram பக்கம்.",
+          "how_ta": "JEE குறிப்புகள், தேர்வு அறிவிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN JEE Official (Telegram)",
@@ -1163,7 +1313,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "JEE Main, Advanced, BITSAT மற்றும் பலவற்றுக்கான சரிபார்க்கப்பட்ட JEE Telegram சேனல்.",
+          "how_ta": "JEE படிப்பு தகவல், தேர்வு அறிவிப்புகளுக்கு இணையுங்கள்."
         },
         {
           "name": "ALLEN Online Official (Instagram)",
@@ -1182,7 +1334,9 @@ window.CATALOG = {
             "neet",
             "foundation"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "ALLEN ஆன்லைன் பிரிவின் கோர்ஸ் அப்டேட், டெமோ, சலுகைகள் தரும் Instagram பக்கம்.",
+          "how_ta": "ஆன்லைன் கோர்ஸ் அப்டேட், சலுகைகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Digital (LinkedIn)",
@@ -1198,7 +1352,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "ALLEN-இன் ஆன்லைன் பிரிவான ALLEN Digital-இன் LinkedIn பக்கம்.",
+          "how_ta": "ALLEN Digital வேலைவாய்ப்பு, தயாரிப்பு செய்திக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Global (Instagram)",
@@ -1215,7 +1371,9 @@ window.CATALOG = {
           "streams": [
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "வெளிநாட்டு படிப்பு அப்டேட், மாணவர் வெற்றிகளை பகிரும் ALLEN Global Studies Instagram பக்கம்.",
+          "how_ta": "வெளிநாட்டு சேர்க்கை செய்தி, குறிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Delhi (Facebook)",
@@ -1232,7 +1390,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "சென்டர் செய்தி, நிகழ்வுகள், அறிவிப்புகளுக்கான அதிகாரப்பூர்வ ALLEN Delhi Facebook பக்கம்.",
+          "how_ta": "உள்ளூர் பேட்ச், சேர்க்கை அப்டேட்டுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Career Institute (Pinterest)",
@@ -1250,7 +1410,9 @@ window.CATALOG = {
             "jee",
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "இன்ஃபோகிராஃபிக்ஸ், படிப்பு குறிப்புகள், ஊக்க படங்கள் தரும் அதிகாரப்பூர்வ Pinterest.",
+          "how_ta": "படிப்பு குறிப்பு பின், இன்ஃபோகிராஃபிக்ஸ் பார்த்து சேமியுங்கள்."
         },
         {
           "name": "ALLEN Career Institute (Threads)",
@@ -1267,7 +1429,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "முக்கிய Instagram தகவலை காட்டும் சரிபார்க்கப்பட்ட அதிகாரப்பூர்வ Threads கணக்கு.",
+          "how_ta": "சிறு செய்தி அப்டேட், கதைகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Career Institute (Quora)",
@@ -1286,7 +1450,9 @@ window.CATALOG = {
             "jee",
             "neet"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "ALLEN, தயாரிப்பு பற்றி மாணவர் கேள்விகளுக்கு பதில் தரும் அதிகாரப்பூர்வ Quora பக்கம்.",
+          "how_ta": "அதிகாரப்பூர்வ பதில் படியுங்கள்; கோர்ஸ், சேர்க்கை பற்றி கேளுங்கள்."
         },
         {
           "name": "ALLEN NExT Official (Instagram)",
@@ -1302,7 +1468,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "ALLEN-இன் NEET PG, INI-CET, FMGE பிரிவான ALLEN NExT-இன் Instagram பக்கம்.",
+          "how_ta": "ALLEN NExT திட்ட அப்டேட், தகவலுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Overseas (Instagram)",
@@ -1321,7 +1489,9 @@ window.CATALOG = {
             "neet",
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "Instagram-இல் ALLEN Overseas-இன் அப்டேட், ரிசல்ட், குறிப்புகள்.",
+          "how_ta": "அப்டேட், ரிசல்ட், குறிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Overseas (Facebook)",
@@ -1340,7 +1510,9 @@ window.CATALOG = {
             "neet",
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "Facebook-இல் ALLEN Overseas செய்திகளும் அறிவிப்புகளும்.",
+          "how_ta": "அப்டேட், ரிசல்ட், குறிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Overseas (X / Twitter)",
@@ -1359,7 +1531,9 @@ window.CATALOG = {
             "neet",
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "X (Twitter)-இல் ALLEN Overseas-இன் விரைவான அப்டேட்கள்.",
+          "how_ta": "அப்டேட், ரிசல்ட், குறிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Career Institute Overseas (LinkedIn)",
@@ -1377,7 +1551,9 @@ window.CATALOG = {
             "abroad",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "LinkedIn-இல் ALLEN Overseas-இன் நிறுவன அப்டேட், வேலைவாய்ப்பு.",
+          "how_ta": "வெளிநாட்டு செய்தி, வேலைவாய்ப்புக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Overseas Oman (Instagram)",
@@ -1394,7 +1570,9 @@ window.CATALOG = {
           "streams": [
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "Instagram-இல் ALLEN Overseas Oman சென்டர் அப்டேட்கள்.",
+          "how_ta": "அப்டேட், ரிசல்ட், குறிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Overseas Oman (Facebook)",
@@ -1411,7 +1589,9 @@ window.CATALOG = {
           "streams": [
             "abroad"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "Facebook-இல் ALLEN Overseas Oman-இன் செய்திகள்.",
+          "how_ta": "அப்டேட், ரிசல்ட், குறிப்புகளுக்கு பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Bhopal (Instagram)",
@@ -1428,9 +1608,13 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "Instagram-இல் ALLEN Bhopal சென்டர் அப்டேட், நிகழ்வுகள்.",
+          "how_ta": "அப்டேட், ரிசல்ட், குறிப்புகளுக்கு பின்தொடருங்கள்."
         }
-      ]
+      ],
+      "title_ta": "சமூக ஊடகம்",
+      "blurb_ta": "தினசரி அப்டேட், ரிசல்ட், அறிவிப்புகள், டாப்பர் செய்திகளுக்கு ALLEN-இன் அதிகாரப்பூர்வ கணக்குகளை பின்தொடருங்கள்."
     },
     {
       "id": "free-resources",
@@ -1455,7 +1639,9 @@ window.CATALOG = {
             "jee",
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "இலவச JEE Main, JEE Advanced மற்றும் NEET பழைய பேப்பர்களையும் விடைகளையும் ஒரே இடத்தில் இணைக்கும் பக்கம்.",
+          "how_ta": "உங்கள் தேர்வைத் தேர்ந்தெடுத்து வருடவாரியாக பேப்பர்களைப் பதிவிறக்குங்கள்."
         },
         {
           "name": "JEE Main Previous Year Papers (2020-2025)",
@@ -1471,7 +1657,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "ஆங்கிலம் மற்றும் இந்தியில் விடைக்குறிப்புகளுடன் இலவச தீர்க்கப்பட்ட JEE Main பழைய பேப்பர்கள்.",
+          "how_ta": "ஷிப்ட் வாரியான PDF-களைப் பதிவிறக்கி, நேரம் வைத்து தீர்க்குங்கள்."
         },
         {
           "name": "JEE Advanced Previous Year Papers with Solutions",
@@ -1487,7 +1675,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "விரிவான படிப்படியான விடை PDF-களுடன் இலவச JEE Advanced பழைய பேப்பர்கள்.",
+          "how_ta": "பேப்பர்களைப் பதிவிறக்கி, நேரம் வைத்து தீர்த்து, பிறகு பார்க்கவும்."
         },
         {
           "name": "NEET Previous Year Papers (2016-2026)",
@@ -1503,7 +1693,9 @@ window.CATALOG = {
           "streams": [
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "இயற்பியல், வேதியியல், உயிரியல் PDF-கள் மற்றும் விடைகளுடன் இலவச 10 வருட NEET பழைய பேப்பர்கள்.",
+          "how_ta": "பாட வாரியான PDF-களைப் பதிவிறக்கி, விடைகளுடன் நீங்களே சரிபார்க்கவும்."
         },
         {
           "name": "Free Sample Papers with Solutions",
@@ -1523,7 +1715,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "JEE, NEET, BITSAT மற்றும் CBSE/ICSE 10, 12ம் வகுப்புக்கான இலவச மாதிரி பேப்பர்கள்.",
+          "how_ta": "உங்கள் தேர்வைத் தேர்ந்து, பேப்பரைப் பதிவிறக்கி, விடைகளைப் பார்க்கவும்."
         },
         {
           "name": "JEE Advanced Sample Papers",
@@ -1539,7 +1733,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "இயற்பியல், வேதியியல், கணிதத்தில் விடைகளுடன் இலவச JEE Advanced மாதிரி பேப்பர்கள்.",
+          "how_ta": "தேர்வு முறையைப் புரிந்துகொள்ள பதிவிறக்கி தீர்க்குங்கள்."
         },
         {
           "name": "CBSE Class 10 Sample Papers with Solutions",
@@ -1557,7 +1753,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "போர்டு தேர்வுக்கான இலவச CBSE, ICSE மற்றும் MH போர்டு 10ம் வகுப்பு மாதிரி பேப்பர்கள், விடைகளுடன்.",
+          "how_ta": "போர்டு பேப்பரைப் பதிவிறக்கி, மீள்பார்வைக்காக தீர்க்குங்கள்."
         },
         {
           "name": "NCERT Solutions (Class 6 to 12)",
@@ -1577,7 +1775,9 @@ window.CATALOG = {
             "jee",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "எல்லா முக்கிய பாடங்களிலும் 6 முதல் 12ம் வகுப்புக்கான இலவச அத்தியாய வாரியான NCERT விடைகள்.",
+          "how_ta": "வகுப்பு மற்றும் பாடத்தைத் தேர்ந்து, படிக்கவோ பதிவிறக்கவோ செய்யுங்கள்."
         },
         {
           "name": "NCERT Solutions Class 12",
@@ -1595,7 +1795,9 @@ window.CATALOG = {
             "jee",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "கணிதம், இயற்பியல், வேதியியல் மற்றும் உயிரியலுக்கான இலவச 12ம் வகுப்பு NCERT விடைகள்.",
+          "how_ta": "உங்கள் பாடத்தைத் திறந்து, அத்தியாய வாரியான PDF-களைப் பதிவிறக்குங்கள்."
         },
         {
           "name": "NCERT Solutions Class 11",
@@ -1613,7 +1815,9 @@ window.CATALOG = {
             "jee",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "முக்கிய பாடங்களில் படிப்படியான விடைகளுடன் இலவச 11ம் வகுப்பு NCERT விடைகள்.",
+          "how_ta": "PDF-களைப் பதிவிறக்க பாடத்தையும் அத்தியாயத்தையும் தேர்ந்தெடுக்கவும்."
         },
         {
           "name": "JEE Main Free Mock Test",
@@ -1629,7 +1833,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "புதிய தேர்வு முறையில் விடைக்குறிப்புகள் மற்றும் விடைகளுடன் இலவச JEE Main மாதிரி தேர்வுகள்.",
+          "how_ta": "நேரம் வைத்து மாதிரி தேர்வுகளை எழுதி, விடைக்குறிப்புகளுடன் சரிபார்க்கவும்."
         },
         {
           "name": "JEE Advanced Free Mock Test",
@@ -1645,7 +1851,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "உண்மையான தேர்வு முறைக்கு ஏற்ற இலவச JEE Advanced மாதிரி தேர்வுகள் மற்றும் பயிற்சித் தொகுப்புகள்.",
+          "how_ta": "ஆன்லைனிலோ PDF மூலமாகவோ பயிற்சி செய்து, பிறகு நீங்களே சரிபார்க்கவும்."
         },
         {
           "name": "NEET Free Mock Test",
@@ -1661,7 +1869,9 @@ window.CATALOG = {
           "streams": [
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "2026 தேர்வு முறையில் படிப்படியான விடைகளுடன் ஆன்லைன் அல்லது PDF இலவச NEET மாதிரி தேர்வுகள்.",
+          "how_ta": "முழு மாதிரி தேர்வை எழுதி, பிறகு பலவீனமான பகுதிகளைப் பார்க்கவும்."
         },
         {
           "name": "ALLEN Online Test Series & Self-Study",
@@ -1679,7 +1889,9 @@ window.CATALOG = {
             "neet",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "JEE மற்றும் NEET-க்கான தேசிய அளவில் ஒப்பிடும் ஆன்லைன் டெஸ்ட் சீரிஸ் மற்றும் சுய-படிப்பு கோர்ஸ்கள்.",
+          "how_ta": "சந்தா செலுத்தி, My Tests-ல் மாதிரி தேர்வுகளை எழுதுங்கள்."
         },
         {
           "name": "Doubtnut (ALLEN AI Doubt-Solving)",
@@ -1698,7 +1910,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "உடனடியாக இலவச வீடியோ மற்றும் படிவிடைகளைத் தரும் ALLEN-ன் AI சந்தேக-தீர்வு தளம்.",
+          "how_ta": "உடனடி விடைகளுக்கு கேள்வியை புகைப்படம் எடுக்கவோ தட்டச்சு செய்யவோ செய்யுங்கள்."
         },
         {
           "name": "ALLEN Exam News & Blog (news.allen.in)",
@@ -1718,7 +1932,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "தேர்வு தேதிகள், அட்மிட் கார்டுகள், விடைக்குறிப்புகள், முடிவுகள் மற்றும் தயாரிப்பு குறிப்புகளுடன் இலவச ALLEN வலைப்பதிவு.",
+          "how_ta": "சமீபத்திய தேர்வு அறிவிப்புகளுக்கும் முடிவு தேதிகளுக்கும் பின்தொடருங்கள்."
         },
         {
           "name": "ALLEN Exam News (myexam.allen.in)",
@@ -1737,9 +1953,13 @@ window.CATALOG = {
             "neet",
             "general"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "JEE, NEET மற்றும் போர்டு தேர்வு அறிவிப்புகள் மற்றும் முடிவுகளுக்கான இரண்டாம் ALLEN செய்தி தளம்.",
+          "how_ta": "புதிய தேர்வு செய்திகளுக்கும் தேதிகளுக்கும் இதைப் பயன்படுத்துங்கள்."
         }
-      ]
+      ],
+      "title_ta": "இலவச வளங்கள்",
+      "blurb_ta": "இலவசமாக பழைய தேர்வு பேப்பர்கள், மாதிரி பேப்பர்கள், NCERT விடைகள், மாதிரி தேர்வுகள் மற்றும் தேர்வு செய்திகள் — எந்த கட்டணமும் இல்லை."
     },
     {
       "id": "scholarship",
@@ -1766,7 +1986,9 @@ window.CATALOG = {
             "olympiad",
             "foundation"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "5ஆம் வகுப்பு முதல் 10ஆம் வகுப்பு வரை உள்ள மாணவர்களுக்கான தேசிய அளவிலான உதவித்தொகை மற்றும் திறமை தேடல் தேர்வு; உதவித்தொகை மற்றும் பரிசுகள் கிடைக்கும்.",
+          "how_ta": "போட்டியில் கலந்துகொள்ள, கடைசி தேதிக்கு முன் ஆன்லைனில் பதிவு செய்யுங்கள்."
         },
         {
           "name": "ALLEN Scholarship cum Admission Test (ASAT) - Kota",
@@ -1786,7 +2008,9 @@ window.CATALOG = {
             "foundation",
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "ALLEN வகுப்பறை வகுப்புகளில் சேர்வதற்கு தகுதி பெற உதவும் சேர்க்கை மற்றும் உதவித்தொகைத் தேர்வு.",
+          "how_ta": "ஆன்லைனில் அல்லது மையத்தில் விண்ணப்பியுங்கள்; 90% வரை உதவித்தொகை பெறுங்கள்."
         },
         {
           "name": "ALLEN Online Test Series (DLP)",
@@ -1804,7 +2028,9 @@ window.CATALOG = {
             "neet",
             "ntse"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "JEE Main, Advanced, NEET-UG மற்றும் NTSE தேர்வுகளுக்கான DLP ஆன்லைன் டெஸ்ட் தொடர்; விரிவான பகுப்பாய்வுடன் கிடைக்கும்.",
+          "how_ta": "ஒரு தேர்வுத் தொகுப்பைத் தேர்ந்தெடுத்து, நேரம் கணக்கிட்டு மாதிரித் தேர்வுகளை எழுதுங்கள்."
         },
         {
           "name": "JEE Main Answer Key 2026 (Live)",
@@ -1821,7 +2047,9 @@ window.CATALOG = {
           "streams": [
             "jee"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "பாடம் வாரியான விடைகள் மற்றும் ரெஸ்பான்ஸ்-ஷீட் வழிகாட்டுதலுடன் இலவச JEE Main 2026 விடைக் குறிப்பு.",
+          "how_ta": "உங்கள் பதில்களை இதனுடன் பொருத்திப் பார்த்து, உங்கள் மதிப்பெண்ணை மதிப்பிடுங்கள்."
         },
         {
           "name": "NEET Answer Key 2026 & Solutions",
@@ -1838,9 +2066,13 @@ window.CATALOG = {
           "streams": [
             "neet"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "உங்கள் மதிப்பெண்ணை மதிப்பிட, நிபுணர் விடைகளுடன் இலவச NEET 2026 கோடு வாரியான விடைக் குறிப்பு.",
+          "how_ta": "உங்கள் புத்தகக் கோடைத் தேர்ந்தெடுத்து, எதிர்பார்க்கும் மதிப்பெண்களைக் கணக்கிடுங்கள்."
         }
-      ]
+      ],
+      "title_ta": "உதவித்தொகை மற்றும் சேர்க்கைத் தேர்வுகள்",
+      "blurb_ta": "இந்த அதிகாரப்பூர்வத் தேர்வுகள் மற்றும் விடைக் குறிப்புகள் மூலம் உதவித்தொகை பெறுங்கள், ALLEN சேர்க்கைக்கும் தகுதி பெறுங்கள்."
     },
     {
       "id": "support",
@@ -1865,7 +2097,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "சேர்க்கை எண்கள், உதவி எண்கள், மின்னஞ்சல் மற்றும் தலைமை அலுவலக முகவரி உள்ள அதிகாரப்பூர்வ தொடர்பு பக்கம்.",
+          "how_ta": "சேர்க்கை உதவிக்கு கொடுக்கப்பட்ட எண்களுக்கு கால் செய்யுங்கள் அல்லது மின்னஞ்சல் அனுப்புங்கள்."
         },
         {
           "name": "ALLEN Centers Locator (Select Center)",
@@ -1882,7 +2116,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "கோர்ஸ் மற்றும் சேர்க்கைக்காக உங்கள் ஊருக்கு ஏற்ப இந்தியா முழுவதும் உள்ள ALLEN-இன் 70-க்கும் மேற்பட்ட மையங்களைக் கண்டறியுங்கள்.",
+          "how_ta": "உங்கள் ஊரைத் தேர்ந்தெடுத்து அந்த மையத்தின் கோர்ஸ்களையும் கட்டணங்களையும் பாருங்கள்."
         },
         {
           "name": "ALLEN WhatsApp Support",
@@ -1899,7 +2135,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "ALLEN சேர்க்கை மற்றும் தேர்வு தொடர்பான தகவல்களுக்கான அதிகாரப்பூர்வ WhatsApp எண்.",
+          "how_ta": "விரைவான சேர்க்கை தகவல்களுக்கு WhatsApp-இல் செய்தி அனுப்புங்கள்."
         },
         {
           "name": "ALLEN Support Email",
@@ -1917,7 +2155,9 @@ window.CATALOG = {
             "general",
             "foundation"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "அதிகாரப்பூர்வ பொது உதவி மின்னஞ்சல்; Foundation கோர்ஸுக்கு prenurture@allen.in பயன்படுத்துங்கள்.",
+          "how_ta": "உங்கள் பெயர், தொடர்பு எண் மற்றும் ஊருடன் உங்கள் கேள்வியை மின்னஞ்சல் செய்யுங்கள்."
         },
         {
           "name": "ALLEN Student Helpdesk (Request & Grievance)",
@@ -1934,7 +2174,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "சேர்ந்த மாணவர்கள் தங்கள் கோர்ஸ் தொடர்பான கோரிக்கைகளையும் புகார்களையும் தெரிவிக்கும் ஆன்லைன் படிவம்.",
+          "how_ta": "உங்கள் படிவ எண், மொபைல் எண், மையம் மற்றும் பிரச்சனையைப் பதிவு செய்யுங்கள்."
         },
         {
           "name": "ALLEN Digital Help Center",
@@ -1951,7 +2193,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "லாகின், பணம் செலுத்துதல் மற்றும் உதவி உள்ளிட்டவற்றுக்கான ALLEN Digital-இன் அதிகாரப்பூர்வ உதவி மற்றும் கேள்வி-பதில் தளம்.",
+          "how_ta": "லாகின், பணம் செலுத்துதல் மற்றும் சிக்கல் தீர்க்கும் வழிகாட்டிகளைத் தேடுங்கள்."
         },
         {
           "name": "ALLEN Careers (Work With Us)",
@@ -1967,7 +2211,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "ALLEN-இன் பணி சூழலை விளக்கும் அதிகாரப்பூர்வ வேலைவாய்ப்பு பக்கம்; தற்போதைய வேலைகளுக்கான இணைப்புடன்.",
+          "how_ta": "வேலைவாய்ப்புகளைப் பார்க்க அல்லது உங்கள் விவரத்தை அனுப்ப கிளிக் செய்யுங்கள்."
         },
         {
           "name": "ALLEN Job Openings (Submit Profile)",
@@ -1983,7 +2229,9 @@ window.CATALOG = {
           "streams": [
             "general"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "உங்கள் விவரத்தை அனுப்பவும் ALLEN-இன் தற்போதைய வேலைவாய்ப்புகளைப் பார்க்கவும் உதவும் வேலை சேர்க்கை பக்கம்.",
+          "how_ta": "பதிவு செய்து விண்ணப்பிக்க 'Submit your profile' என்பதைக் கிளிக் செய்யுங்கள்."
         },
         {
           "name": "ALLEN Overseas Digital Class Portal",
@@ -2001,7 +2249,9 @@ window.CATALOG = {
             "neet",
             "abroad"
           ],
-          "verified": true
+          "verified": true,
+          "desc_ta": "வளைகுடா நாடுகளில் உள்ள ALLEN Overseas டிஜிட்டல் மாணவர்களுக்கான ஆன்லைன் வகுப்பறை லாகின்.",
+          "how_ta": "சேர்ந்த Overseas மாணவர்கள் வகுப்புகளுக்கு லாகின் செய்யுங்கள்."
         },
         {
           "name": "ALLEN Global ACAP Application Portal",
@@ -2017,15 +2267,24 @@ window.CATALOG = {
           "streams": [
             "abroad"
           ],
-          "verified": false
+          "verified": false,
+          "desc_ta": "வெளிநாட்டுப் படிப்பு விண்ணப்பங்களை நிர்வகிக்க ALLEN Global மாணவர்களுக்கான லாகின் தளம்.",
+          "how_ta": "பல்கலைக்கழக விண்ணப்பங்களைப் பார்க்கவும் நிர்வகிக்கவும் லாகின் செய்யுங்கள்."
         }
-      ]
+      ],
+      "title_ta": "உதவி மற்றும் தொடர்பு",
+      "blurb_ta": "ஏதேனும் உதவி வேண்டுமா? ALLEN-ஐ தொடர்பு கொள்ள உதவி எண்கள், மின்னஞ்சல், WhatsApp, அருகிலுள்ள மையத்தைக் கண்டறியும் வசதி மற்றும் படிவங்கள் இங்கே உள்ளன."
     }
   ],
   "meta": {
     "generated": "2026-06-16",
-    "total_items": 92,
-    "verified_items": 76
+    "total_items": 93,
+    "verified_items": 78,
+    "languages": [
+      "en",
+      "hi",
+      "ta"
+    ]
   }
 };
 /* === CATALOG END === */
@@ -2036,9 +2295,9 @@ const UI = {
     brand:"ALLEN Resource Hub", brandSub:"Every official link, one place", share:"Share",
     eyebrow:"Curated guide to official ALLEN channels",
     heroTitle:"All of <span class='hl'>ALLEN</span>, finally in one simple place.",
-    heroLede:"Websites, apps, YouTube channels, social media, free study material and helplines — clearly organised and explained, in English and हिन्दी, so every student and parent knows exactly where to go.",
+    heroLede:"Websites, apps, YouTube channels, social media, free study material and helplines — clearly organised and explained, in English, हिन्दी and தமிழ், so every student and parent knows exactly where to go.",
     searchPh:"Search: JEE, NEET, YouTube, app, scholarship, contact…",
-    iAm:"I am", goal:"Goal",
+    chooseLang:"choose your language", iAm:"I am", goal:"Goal",
     aud_all:"Everyone", aud_student:"A Student", aud_parent:"A Parent",
     st_all:"All", st_jee:"JEE", st_neet:"NEET", st_foundation:"Foundation (6–10)", st_olympiad:"Olympiad", st_ntse:"NTSE", st_abroad:"Study Abroad", st_general:"General",
     open:"Open", verified:"Verified · official", official:"Official link",
@@ -2064,9 +2323,9 @@ const UI = {
     brand:"ALLEN रिसोर्स हब", brandSub:"हर आधिकारिक लिंक, एक जगह", share:"साझा करें",
     eyebrow:"ALLEN के आधिकारिक चैनलों की चुनी हुई गाइड",
     heroTitle:"पूरा <span class='hl'>ALLEN</span>, अब एक ही आसान जगह पर।",
-    heroLede:"वेबसाइट, ऐप, YouTube चैनल, सोशल मीडिया, मुफ़्त अध्ययन सामग्री और हेल्पलाइन — सब कुछ साफ़-साफ़ व्यवस्थित और समझाया हुआ, हिन्दी और English में, ताकि हर छात्र और अभिभावक को पता हो कि कहाँ जाना है।",
+    heroLede:"वेबसाइट, ऐप, YouTube चैनल, सोशल मीडिया, मुफ़्त अध्ययन सामग्री और हेल्पलाइन — सब कुछ साफ़-साफ़ व्यवस्थित और समझाया हुआ, हिन्दी, English और தமிழ் में, ताकि हर छात्र और अभिभावक को पता हो कि कहाँ जाना है।",
     searchPh:"खोजें: JEE, NEET, YouTube, ऐप, छात्रवृत्ति, संपर्क…",
-    iAm:"मैं हूँ", goal:"लक्ष्य",
+    chooseLang:"अपनी भाषा चुनें", iAm:"मैं हूँ", goal:"लक्ष्य",
     aud_all:"सभी", aud_student:"छात्र", aud_parent:"अभिभावक",
     st_all:"सभी", st_jee:"JEE", st_neet:"NEET", st_foundation:"फाउंडेशन (6–10)", st_olympiad:"ओलंपियाड", st_ntse:"NTSE", st_abroad:"विदेश में पढ़ाई", st_general:"सामान्य",
     open:"खोलें", verified:"सत्यापित · आधिकारिक", official:"आधिकारिक लिंक",
@@ -2087,6 +2346,34 @@ const UI = {
       {emoji:"👨‍👩‍👧",label:"मैं अभिभावक हूँ",aud:"parent"}
     ],
     stat_links:"आधिकारिक लिंक", stat_langs:"भाषाएँ", stat_free:"उपयोग मुफ़्त", stat_freeVal:"100%"
+  },
+  ta:{
+    brand:"ALLEN ரிசோர்ஸ் ஹப்", brandSub:"எல்லா அதிகாரப்பூர்வ லிங்க்களும் ஒரே இடத்தில்", share:"பகிர்",
+    eyebrow:"ALLEN-இன் அதிகாரப்பூர்வ சேனல்களுக்கான தேர்ந்தெடுத்த வழிகாட்டி",
+    heroTitle:"முழு <span class='hl'>ALLEN</span>-உம், இப்போது ஒரே எளிய இடத்தில்.",
+    heroLede:"வலைதளங்கள், ஆப்ஸ், YouTube சேனல்கள், சமூக ஊடகம், இலவசப் படிப்புப் பொருட்கள் மற்றும் ஹெல்ப்லைன்கள் — English, हिन्दी மற்றும் தமிழில் தெளிவாக ஒழுங்குபடுத்தப்பட்டு விளக்கப்பட்டுள்ளது; ஒவ்வொரு மாணவருக்கும் பெற்றோருக்கும் எங்கே போவது என்று தெளிவாகத் தெரியும்.",
+    searchPh:"தேடுங்கள்: JEE, NEET, YouTube, ஆப், உதவித்தொகை, தொடர்பு…",
+    chooseLang:"உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்", iAm:"நான்", goal:"இலக்கு",
+    aud_all:"அனைவரும்", aud_student:"மாணவர்", aud_parent:"பெற்றோர்",
+    st_all:"அனைத்தும்", st_jee:"JEE", st_neet:"NEET", st_foundation:"Foundation (6–10)", st_olympiad:"Olympiad", st_ntse:"NTSE", st_abroad:"வெளிநாட்டுப் படிப்பு", st_general:"பொது",
+    open:"திற", verified:"சரிபார்க்கப்பட்டது · அதிகாரப்பூர்வம்", official:"அதிகாரப்பூர்வ லிங்க்",
+    howLabel:"குறிப்பு",
+    emptyTitle:"இதற்கு எதுவும் பொருந்தவில்லை",
+    emptyBody:"வேறு வார்த்தையை முயற்சிக்கவும், அல்லது வடிகட்டிகளை அழிக்கவும்.",
+    clear:"வடிகட்டிகளை அழி",
+    verifyNote:"இங்குள்ள ஒவ்வொரு லிங்கும் ALLEN-இன் அதிகாரப்பூர்வ சேனல்; இந்த வழிகாட்டிக்காகத் தேர்ந்தெடுக்கப்பட்டது. பச்சை ✓ என்றால் அந்தப் பக்கம் சரியாகத் திறக்கிறது என்பதையும் நாங்கள் உறுதிசெய்தோம். எந்த கார்டையும் தட்டினால் நேராக ALLEN பக்கத்திற்குச் செல்லலாம்.",
+    discTitle:"ஒரு குறிப்பு:",
+    disclaimer:"இது இலவசமான, சமூகத்தால் உருவாக்கப்பட்ட வழிகாட்டி. இங்குள்ள ஒவ்வொரு லிங்கும் ALLEN Career Institute-இன் சொந்த அதிகாரப்பூர்வ வலைதளங்கள் மற்றும் சேனல்களுக்கே செல்கிறது. “ALLEN” மற்றும் தொடர்புடைய பெயர்கள் ALLEN Career Institute-இன் வர்த்தக முத்திரைகள் — இந்தப் பக்கம் அதிகாரப்பூர்வ ALLEN வலைதளம் அல்ல, ALLEN-உடன் தொடர்போ அங்கீகாரமோ இல்லை.",
+    reviewed:"கடைசியாக சரிபார்க்கப்பட்டது", madeFor:"மாணவர்கள் மற்றும் பெற்றோர்களுக்கு உதவ உருவாக்கப்பட்டது.",
+    copied:"லிங்க் காப்பி ஆனது — உங்கள் குழுவுடனும் பெற்றோருடனும் பகிருங்கள்!",
+    paths:[
+      {emoji:"🎓",label:"நான் JEE-க்குத் தயாராகிறேன்",stream:"jee"},
+      {emoji:"🩺",label:"நான் NEET-க்குத் தயாராகிறேன்",stream:"neet"},
+      {emoji:"📗",label:"வகுப்பு 6–10 / Foundation",stream:"foundation"},
+      {emoji:"🏅",label:"Olympiad / NTSE",stream:"olympiad"},
+      {emoji:"👨‍👩‍👧",label:"நான் பெற்றோர்",aud:"parent"}
+    ],
+    stat_links:"அதிகாரப்பூர்வ லிங்க்கள்", stat_langs:"மொழிகள்", stat_free:"இலவசம்", stat_freeVal:"100%"
   }
 };
 
@@ -2229,12 +2516,12 @@ function resetFilters(){ state.audience='all'; state.stream='all'; state.query='
 
 function setLang(l){
   state.lang=l; try{ localStorage.setItem('arh_lang', l); }catch(e){}
-  document.querySelectorAll('.lang-switch button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.lang===l));
+  document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed', b.dataset.lang===l));
   applyStaticI18n(); renderPaths(); renderStats(); renderFilters(); renderSections();
 }
 
 /* ---------- wire up ---------- */
-document.querySelectorAll('.lang-switch button').forEach(b=> b.onclick=()=>setLang(b.dataset.lang));
+document.querySelectorAll('[data-lang]').forEach(b=> b.onclick=()=>setLang(b.dataset.lang));
 document.getElementById('search').addEventListener('input', e=>{ state.query=e.target.value.trim(); renderSections(); });
 document.getElementById('shareBtn').onclick = async ()=>{
   const url=location.href;

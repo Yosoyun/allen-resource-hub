@@ -1,6 +1,6 @@
 # ALLEN Resource Hub 🧭
 
-A clean, **bilingual (English / हिन्दी)** navigation guide that puts **every official ALLEN Career Institute channel in one place** — websites, apps, YouTube channels, social media, free study material, scholarships, and helplines — so any student or parent knows exactly where to go.
+A clean, **trilingual (English / हिन्दी / தமிழ்)** navigation guide that puts **every official ALLEN Career Institute channel in one place** — websites, apps, YouTube channels, social media, free study material, scholarships, and helplines — so any student or parent knows exactly where to go. Defaults to English; one tap switches to हिन्दी or தமிழ். (Tamil is a primary audience — the whole interface, not just the links, is translated.)
 
 > It is a single self-contained file. No build step, no server, no dependencies. Just open `index.html`.
 
@@ -9,14 +9,14 @@ A clean, **bilingual (English / हिन्दी)** navigation guide that puts
 - **Open the site:** https://yosoyun.github.io/allen-resource-hub/ — share this link with students, parents and your team.
 - **Source / backup:** https://github.com/Yosoyun/allen-resource-hub
 
-> Tip: send the link above on WhatsApp — it opens instantly on any phone, in English or हिन्दी.
+> Tip: send the link above on WhatsApp — it opens instantly on any phone, in English, हिन्दी or தமிழ்.
 
 ---
 
 ## What it does
 
 - **One page, everything ALLEN** — official sites, apps, all YouTube channels, Instagram/Facebook/X/LinkedIn/Telegram/WhatsApp, free PYQs/sample papers/NCERT, TALLENTEX & ASAT, helplines and the centre locator.
-- **English ⇄ हिन्दी toggle** — every label and description is translated. The engine is built to add more languages easily (add a key to the `UI` object + `desc_<lang>` fields).
+- **English / हिन्दी / தமிழ் toggle** — a prominent, colour-coded language chooser; every label and description is translated in all three. The engine adds more languages easily (add a key to the `UI` object + `desc_<lang>`/`how_<lang>` fields).
 - **"Where do I go?" helper** — a *Start Here* section + quick-path chips (JEE / NEET / Foundation / Olympiad / Parent) for people who feel lost.
 - **Search + filters** — filter by audience (Student / Parent) and goal (JEE / NEET / Foundation / Olympiad / NTSE / Abroad), or just search.
 - **Every link opens the real, official ALLEN page** in a new tab. Each card shows a verification badge.
@@ -49,7 +49,7 @@ Each link is an item:
   name:"ALLEN — Official Website",
   url:"https://www.allen.ac.in/",
   platform:"website",              // website | app | youtube | instagram | facebook | x | linkedin | telegram | whatsapp | phone | book | trophy
-  desc_en:"…", desc_hi:"…",        // shown text in each language
+  desc_en:"…", desc_hi:"…", desc_ta:"…",   // shown text in each language
   how_en:"…",  how_hi:"…",         // optional "Tip: what to do there"
   audience:["student","parent"],    // who it's for
   streams:["jee","neet"],           // jee | neet | foundation | olympiad | ntse | abroad | general
