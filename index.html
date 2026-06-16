@@ -103,8 +103,8 @@
   .hero::before{
     content:""; position:absolute; inset:0; z-index:0; pointer-events:none;
     background:
-      radial-gradient(680px 320px at 12% -10%, rgba(27,74,160,.16), transparent 60%),
-      radial-gradient(560px 300px at 100% 0%, rgba(255,122,24,.13), transparent 58%);
+      radial-gradient(720px 340px at 10% -12%, rgba(27,74,160,.10), transparent 62%),
+      radial-gradient(560px 300px at 100% -4%, rgba(255,122,24,.07), transparent 60%);
   }
   .hero .wrap{ position:relative; z-index:1; }
   .eyebrow{
@@ -142,17 +142,31 @@
   .stat .l{ font-size:13px; color:var(--muted); font-weight:600; }
 
   /* ---------- Controls / filters ---------- */
-  .controls{ position:sticky; top:66px; z-index:40; background:rgba(246,248,252,.9); backdrop-filter:blur(8px); border-bottom:1px solid var(--line); padding:12px 0; }
-  .filters{ display:flex; flex-wrap:wrap; gap:16px; align-items:center; }
-  .fgroup{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
-  .fgroup .flabel{ font-size:12px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; }
+  .controls{ position:sticky; top:66px; z-index:40; background:rgba(246,248,252,.93); backdrop-filter:blur(10px); border-bottom:1px solid var(--line); padding:14px 0; }
+  .filters{ display:flex; flex-direction:column; gap:11px; align-items:stretch; }
+  .fgroup{ display:flex; align-items:center; gap:9px; flex-wrap:wrap; }
+  .fgroup .flabel{ font-size:11px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:.07em; min-width:46px; }
   .chip{
-    border:1px solid var(--line); background:#fff; color:var(--ink); font-family:inherit; font-weight:600; font-size:13px;
-    padding:7px 13px; border-radius:999px; cursor:pointer; transition:.15s; white-space:nowrap;
+    border:1.5px solid var(--line); background:#fff; color:var(--ink); font-family:inherit; font-weight:700; font-size:13px;
+    padding:8px 14px; border-radius:999px; cursor:pointer; white-space:nowrap;
+    transition:transform .16s, box-shadow .16s, background .16s, color .16s, border-color .16s;
   }
-  .chip:hover{ border-color:var(--brand-2); }
-  .chip[aria-pressed="true"]{ background:var(--brand); border-color:var(--brand); color:#fff; }
-  .chip.stream[aria-pressed="true"]{ background:var(--accent); border-color:var(--accent); }
+  .chip:hover{ border-color:var(--brand-2); background:var(--brand-tint); color:var(--brand); transform:translateY(-1px); }
+  .chip[aria-pressed="true"]{ background:var(--brand); border-color:var(--brand); color:#fff; box-shadow:0 7px 20px rgba(14,42,94,.32); transform:translateY(-1px) scale(1.05); animation:pop .24s ease; }
+  .chip[aria-pressed="true"]::before{ content:"✓ "; font-weight:900; }
+  .chip.stream:hover{ border-color:#f7b87f; background:var(--accent-soft); color:#b8540a; }
+  .chip.stream[aria-pressed="true"]{ background:var(--accent); border-color:var(--accent); color:#fff; box-shadow:0 7px 20px rgba(255,122,24,.36); }
+  @keyframes pop{ 0%{transform:scale(.86)} 55%{transform:translateY(-1px) scale(1.12)} 100%{transform:translateY(-1px) scale(1.05)} }
+
+  /* hover help tooltips */
+  [data-tip]{ position:relative; }
+  [data-tip]:hover::after, [data-tip]:focus-visible::after{
+    content:attr(data-tip); position:absolute; left:50%; bottom:calc(100% + 9px); transform:translateX(-50%);
+    background:var(--ink); color:#fff; font-size:12px; font-weight:600; line-height:1.4; letter-spacing:0; text-transform:none;
+    padding:8px 11px; border-radius:9px; width:max-content; max-width:230px; white-space:normal; text-align:center;
+    box-shadow:0 12px 32px rgba(13,27,48,.30); z-index:90; pointer-events:none;
+  }
+  .tipdown[data-tip]:hover::after, .tipdown[data-tip]:focus-visible::after{ top:calc(100% + 9px); bottom:auto; }
 
   /* ---------- Section nav ---------- */
   .secnav{ display:flex; gap:8px; overflow-x:auto; padding:14px 0 2px; -ms-overflow-style:none; scrollbar-width:none; }
@@ -162,13 +176,13 @@
 
   /* ---------- Sections & cards ---------- */
   main{ padding:26px 0 60px; }
-  .section{ margin:30px 0 8px; scroll-margin-top:150px; }
+  .section{ margin:44px 0 8px; scroll-margin-top:150px; }
   .section-head{ display:flex; align-items:flex-start; gap:14px; margin-bottom:16px; }
   .section-head .ic{ font-size:26px; line-height:1; width:48px; height:48px; flex:none; display:grid; place-items:center; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); }
   .section-head h2{ font-size:22px; letter-spacing:-.02em; margin:2px 0 3px; }
   .section-head p{ margin:0; color:var(--muted); font-size:14.5px; max-width:70ch; }
 
-  .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
+  .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:18px; }
 
   .card{
     position:relative; display:flex; flex-direction:column; gap:10px; background:var(--card);
@@ -198,6 +212,19 @@
   .card:hover .open{ gap:9px; }
   .card.guide{ background:linear-gradient(180deg,#fff, #fbfcff); border-color:#dfe7f5; }
   .card.guide .pic{ background:var(--accent-soft); color:var(--accent); }
+  .card-main{ display:flex; flex-direction:column; gap:10px; color:inherit; text-decoration:none; }
+
+  /* YouTube: top playlists disclosure */
+  .card .pl{ margin-top:2px; border-top:1px dashed var(--line); padding-top:11px; }
+  .card .pl > summary{ cursor:pointer; font-size:12.5px; font-weight:800; color:var(--brand); list-style:none; display:inline-flex; align-items:center; gap:7px; user-select:none; }
+  .card .pl > summary::-webkit-details-marker{ display:none; }
+  .card .pl > summary::before{ content:"▸"; transition:transform .15s; display:inline-block; }
+  .card .pl[open] > summary::before{ transform:rotate(90deg); }
+  .card .pl-list{ display:flex; flex-direction:column; gap:7px; margin-top:10px; }
+  .card .pl-list a{ display:flex; gap:8px; align-items:center; font-size:12.5px; font-weight:600; color:#33425c; padding:8px 10px; border-radius:10px; background:var(--bg); border:1px solid var(--line); transition:.14s; }
+  .card .pl-list a:hover{ border-color:var(--brand-2); background:#fff; color:var(--brand); transform:translateX(2px); }
+  .card .pl-list .sub{ font-size:10px; font-weight:800; color:#b8540a; background:var(--accent-soft); padding:2px 8px; border-radius:999px; flex:none; }
+  .card .foot a.open{ text-decoration:none; }
 
   .empty{ text-align:center; padding:60px 20px; color:var(--muted); }
   .empty .e{ font-size:40px; }
@@ -950,7 +977,34 @@ window.CATALOG = {
           ],
           "verified": true,
           "desc_ta": "JEE, NEET, 6 முதல் 10ம் வகுப்பு மற்றும் Olympiad சார்ந்த பாடங்களுக்கான ALLEN-இன் முக்கிய சேனல்.",
-          "how_ta": "வழிமுறைகள், டாப்பர்களின் பேச்சு மற்றும் தேர்வு பகுப்பாய்வுக்காக subscribe செய்யுங்கள்."
+          "how_ta": "வழிமுறைகள், டாப்பர்களின் பேச்சு மற்றும் தேர்வு பகுப்பாய்வுக்காக subscribe செய்யுங்கள்.",
+          "playlists_url": "https://www.youtube.com/@ALLENCareerInstituteofficial/playlists",
+          "playlists": [
+            {
+              "name": "Toppers Spotlight | ALLEN",
+              "url": "https://www.youtube.com/playlist?list=PL46TqiNVZpK-aC7QMHHeqiHBp5bvSDEdu",
+              "subject": "Toppers/Strategy",
+              "desc_en": "Interviews with JEE & NEET toppers sharing their success mantras.",
+              "desc_hi": "JEE और NEET टॉपर्स के इंटरव्यू, सफलता के मंत्र साझा करते हुए।",
+              "desc_ta": "JEE மற்றும் NEET டாப்பர்களின் நேர்காணல்கள், வெற்றி வழிமுறைகள் பகிர்வு."
+            },
+            {
+              "name": "Motivational Videos by ALLEN Career Institute",
+              "url": "https://www.youtube.com/playlist?list=PL46TqiNVZpK9K05jEDuQ09cvbxqe71OnG",
+              "subject": "Toppers/Strategy",
+              "desc_en": "Motivation and study mindset videos for aspirants under exam pressure.",
+              "desc_hi": "परीक्षा दबाव में छात्रों के लिए प्रेरणा और पढ़ाई की मानसिकता वीडियो।",
+              "desc_ta": "தேர்வு அழுத்தத்தில் உள்ள மாணவர்களுக்கான ஊக்க மற்றும் படிப்பு மனநிலை வீடியோக்கள்."
+            },
+            {
+              "name": "New Centers | ALLEN Career Institute",
+              "url": "https://www.youtube.com/playlist?list=PL46TqiNVZpK-ONqbEKKGCDssIh8ncjI5v",
+              "subject": "Other",
+              "desc_en": "Announcements about ALLEN's newly launched centers across India.",
+              "desc_hi": "भारत भर में ALLEN के नए खुले केंद्रों की घोषणाएँ।",
+              "desc_ta": "இந்தியா முழுவதும் ALLEN-இன் புதிய மையங்கள் குறித்த அறிவிப்புகள்."
+            }
+          ]
         },
         {
           "name": "ALLEN JEE",
@@ -968,7 +1022,50 @@ window.CATALOG = {
           ],
           "verified": true,
           "desc_ta": "ALLEN ஆசிரியர்கள் JEE Main மற்றும் JEE Advanced தயாரிப்புக்காக நடத்தும் தனி அதிகாரப்பூர்வ சேனல்.",
-          "how_ta": "கருத்து விளக்க பாடங்கள், PYQ தீர்வுகள் மற்றும் நேரடி வகுப்புகளைப் பார்க்கவும்."
+          "how_ta": "கருத்து விளக்க பாடங்கள், PYQ தீர்வுகள் மற்றும் நேரடி வகுப்புகளைப் பார்க்கவும்.",
+          "playlists_url": "https://www.youtube.com/@ALLENJEE/playlists",
+          "playlists": [
+            {
+              "name": "JEE Main 2025 Complete Preparation (Physics, Chemistry, Maths)",
+              "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s1ypx_GIE99bAbnn4lpfrCU",
+              "subject": "Toppers/Strategy",
+              "desc_en": "Full JEE Main prep: Physics, Chemistry, Maths concepts and strategy.",
+              "desc_hi": "संपूर्ण JEE Main तैयारी: भौतिकी, रसायन, गणित अवधारणाएँ और रणनीति।",
+              "desc_ta": "முழு JEE Main தயாரிப்பு: இயற்பியல், வேதியியல், கணித கருத்துகள் மற்றும் உத்தி."
+            },
+            {
+              "name": "Udaan - JEE Main PYQ Series (Previous Year Questions)",
+              "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s3SaoCmNcrJpGWM9pfB6Q9w",
+              "subject": "Other",
+              "desc_en": "Topic-wise JEE Main previous year questions solved across all subjects.",
+              "desc_hi": "विषयवार JEE Main पिछले वर्षों के प्रश्न, सभी विषयों के हल सहित।",
+              "desc_ta": "தலைப்பு வாரியாக JEE Main முந்தைய ஆண்டு வினாக்கள் அனைத்து பாடங்களிலும் தீர்க்கப்பட்டவை."
+            },
+            {
+              "name": "JEE Main Rank Booster 2.0 (Physics, Chemistry, Maths)",
+              "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s3n0nDKqlv74E1verw2G_s8",
+              "subject": "Toppers/Strategy",
+              "desc_en": "High-yield rank-boosting sessions in Physics, Chemistry and Maths.",
+              "desc_hi": "भौतिकी, रसायन और गणित में रैंक बढ़ाने वाले महत्वपूर्ण सत्र।",
+              "desc_ta": "இயற்பியல், வேதியியல், கணிதத்தில் ரேங்க் உயர்த்தும் முக்கிய அமர்வுகள்."
+            },
+            {
+              "name": "999 Most Important Questions Series",
+              "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s2RTMp2L6PHG7rPbmSMu6jg",
+              "subject": "Other",
+              "desc_en": "999 most important practice questions for JEE Main and Advanced.",
+              "desc_hi": "JEE Main और Advanced के लिए 999 सबसे महत्वपूर्ण अभ्यास प्रश्न।",
+              "desc_ta": "JEE Main மற்றும் Advanced க்கான 999 மிக முக்கியமான பயிற்சி வினாக்கள்."
+            },
+            {
+              "name": "Quick Revision Series - JEE 2024",
+              "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s1nKCZhEPZU-ohMjoCzoHlS",
+              "subject": "Other",
+              "desc_en": "Fast last-minute revision of key JEE topics across all subjects.",
+              "desc_hi": "सभी विषयों के मुख्य JEE टॉपिक्स का तेज़ अंतिम समय रिवीजन।",
+              "desc_ta": "அனைத்து பாடங்களின் முக்கிய JEE தலைப்புகளின் வேகமான இறுதிநேர மீள்பார்வை."
+            }
+          ]
         },
         {
           "name": "ALLEN NEET",
@@ -986,7 +1083,50 @@ window.CATALOG = {
           ],
           "verified": true,
           "desc_ta": "ALLEN ஆசிரியர்கள் NEET-UG மருத்துவ நுழைவுத் தேர்வு தயாரிப்புக்காக நடத்தும் தனி அதிகாரப்பூர்வ சேனல்.",
-          "how_ta": "NEET பாடங்கள், தீர்வுகள் மற்றும் தேர்வு தகவல்களுக்காக follow செய்யுங்கள்."
+          "how_ta": "NEET பாடங்கள், தீர்வுகள் மற்றும் தேர்வு தகவல்களுக்காக follow செய்யுங்கள்.",
+          "playlists_url": "https://www.youtube.com/@ALLENNEET/playlists",
+          "playlists": [
+            {
+              "name": "NEET 2026 Physics One Shot - Aagaz Series",
+              "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gdu2KTm-9x3I0POx4gcR8GF",
+              "subject": "Physics",
+              "desc_en": "Chapter-wise Physics one-shot lectures covering the full NEET syllabus.",
+              "desc_hi": "पूरे NEET सिलेबस को कवर करते अध्यायवार फिजिक्स वन-शॉट लेक्चर।",
+              "desc_ta": "முழு NEET பாடத்திட்டத்தை உள்ளடக்கிய அத்தியாயவாரி இயற்பியல் ஒன்-ஷாட் வகுப்புகள்."
+            },
+            {
+              "name": "NEET 2026 Chemistry One Shot - Aagaz Series",
+              "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gfntexp5UewLaoKphx6H8ix",
+              "subject": "Chemistry",
+              "desc_en": "Chapter-wise Chemistry one-shot lectures covering the full NEET syllabus.",
+              "desc_hi": "पूरे NEET सिलेबस को कवर करते अध्यायवार केमिस्ट्री वन-शॉट लेक्चर।",
+              "desc_ta": "முழு NEET பாடத்திட்டத்தை உள்ளடக்கிய அத்தியாயவாரி வேதியியல் ஒன்-ஷாட் வகுப்புகள்."
+            },
+            {
+              "name": "NEET 2026 Biology One Shot - Aagaz Series",
+              "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gdafDcr6je8zPI62LosWk_Y",
+              "subject": "Biology",
+              "desc_en": "Chapter-wise Biology one-shots covering both Botany and Zoology.",
+              "desc_hi": "बॉटनी और जूलॉजी दोनों को कवर करते अध्यायवार बायोलॉजी वन-शॉट।",
+              "desc_ta": "தாவரவியல் மற்றும் விலங்கியல் இரண்டையும் உள்ளடக்கிய அத்தியாயவாரி உயிரியல் ஒன்-ஷாட்."
+            },
+            {
+              "name": "NEET 2026 Mahamarathons - Complete Revision",
+              "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gdFeyrQ6NX4pnl4AMZX40GH",
+              "subject": "Toppers/Strategy",
+              "desc_en": "Marathon crash revision sessions across Botany, Zoology and Chemistry.",
+              "desc_hi": "बॉटनी, जूलॉजी और केमिस्ट्री की मैराथन क्रैश रिवीजन सेशन।",
+              "desc_ta": "தாவரவியல், விலங்கியல், வேதியியல் முழுவதும் மாரத்தான் கிராஷ் ரிவிஷன் அமர்வுகள்."
+            },
+            {
+              "name": "SUPER 999 Most Important Questions for NEET 2026",
+              "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gePnaslqYbU9UlRBPzO0Ebe",
+              "subject": "Other",
+              "desc_en": "Most important practice questions across all NEET subjects.",
+              "desc_hi": "सभी NEET विषयों के सबसे महत्वपूर्ण अभ्यास प्रश्न।",
+              "desc_ta": "அனைத்து NEET பாடங்களின் மிக முக்கியமான பயிற்சி வினாக்கள்."
+            }
+          ]
         },
         {
           "name": "ALLEN Pre-Nurture & Career Foundation",
@@ -1007,7 +1147,8 @@ window.CATALOG = {
           ],
           "verified": true,
           "desc_ta": "6 முதல் 10ம் வகுப்பு, NTSE மற்றும் Olympiad தயாரிப்புக்கான அதிகாரப்பூர்வ Foundation சேனல்.",
-          "how_ta": "அடிப்படை கருத்துகள், Olympiad மற்றும் NTSE வீடியோக்களுக்காகப் பயன்படுத்துங்கள்."
+          "how_ta": "அடிப்படை கருத்துகள், Olympiad மற்றும் NTSE வீடியோக்களுக்காகப் பயன்படுத்துங்கள்.",
+          "playlists_url": "https://www.youtube.com/@ALLENPNCF/playlists"
         },
         {
           "name": "ALLEN Online Programs",
@@ -2287,7 +2428,8 @@ window.CATALOG = {
       "en",
       "hi",
       "ta"
-    ]
+    ],
+    "playlists": 13
   }
 };
 /* === CATALOG END === */
@@ -2308,6 +2450,9 @@ const UI = {
     emptyTitle:"Nothing matches that yet",
     emptyBody:"Try a different word, or clear the filters.",
     clear:"Clear filters",
+    tipAud:"Show what's useful for", tipGoal:"Show only resources for", tipPath:"Tap to jump straight to these resources",
+    switchTo:"View the site in", tipShare:"Copy the link to share with parents & team",
+    topPlaylists:"Top playlists", allPlaylists:"Browse all playlists ↗", openChannel:"Open channel",
     verifyNote:"Every link here is an official ALLEN channel, curated for this guide. A green ✓ means we also confirmed the page opens live. Tap any card to go straight to ALLEN.",
     discTitle:"A note:",
     disclaimer:"This is a free, community-made navigation guide. Every link here points to ALLEN Career Institute's own official websites and channels. “ALLEN” and related names are trademarks of ALLEN Career Institute — this page is not the official ALLEN website and is not affiliated with or endorsed by ALLEN.",
@@ -2336,6 +2481,9 @@ const UI = {
     emptyTitle:"अभी कुछ मेल नहीं खाया",
     emptyBody:"कोई दूसरा शब्द आज़माएँ, या फ़िल्टर हटाएँ।",
     clear:"फ़िल्टर हटाएँ",
+    tipAud:"इनके लिए उपयोगी दिखाएँ —", tipGoal:"सिर्फ़ इनके संसाधन दिखाएँ —", tipPath:"सीधे इन संसाधनों पर जाने के लिए टैप करें",
+    switchTo:"साइट इसमें देखें —", tipShare:"लिंक कॉपी करें — टीम व अभिभावकों के साथ साझा करें",
+    topPlaylists:"टॉप प्लेलिस्ट", allPlaylists:"सभी प्लेलिस्ट देखें ↗", openChannel:"चैनल खोलें",
     verifyNote:"यहाँ हर लिंक एक आधिकारिक ALLEN चैनल है, इस गाइड के लिए चुना गया। हरा ✓ का मतलब है कि हमने पेज को लाइव खुलते हुए भी जाँचा। किसी भी कार्ड पर टैप करके सीधे ALLEN पर जाएँ।",
     discTitle:"एक सूचना:",
     disclaimer:"यह एक मुफ़्त, समुदाय द्वारा बनाई गई नेविगेशन गाइड है। यहाँ हर लिंक ALLEN करियर इंस्टिट्यूट की अपनी आधिकारिक वेबसाइट और चैनलों पर ले जाता है। “ALLEN” और संबंधित नाम ALLEN करियर इंस्टिट्यूट के ट्रेडमार्क हैं — यह पेज आधिकारिक ALLEN वेबसाइट नहीं है और ALLEN से संबद्ध या अनुमोदित नहीं है।",
@@ -2364,6 +2512,9 @@ const UI = {
     emptyTitle:"இதற்கு எதுவும் பொருந்தவில்லை",
     emptyBody:"வேறு வார்த்தையை முயற்சிக்கவும், அல்லது வடிகட்டிகளை அழிக்கவும்.",
     clear:"வடிகட்டிகளை அழி",
+    tipAud:"இவர்களுக்குப் பயனுள்ளவை காட்டு —", tipGoal:"இவற்றுக்கான வளங்களை மட்டும் காட்டு —", tipPath:"இந்த வளங்களுக்கு நேராகச் செல்லத் தட்டவும்",
+    switchTo:"தளத்தை இதில் காண்க —", tipShare:"லிங்கைக் காப்பி செய்து குழு/பெற்றோருடன் பகிரவும்",
+    topPlaylists:"சிறந்த பிளேலிஸ்ட்கள்", allPlaylists:"அனைத்து பிளேலிஸ்ட்களும் ↗", openChannel:"சேனலைத் திற",
     verifyNote:"இங்குள்ள ஒவ்வொரு லிங்கும் ALLEN-இன் அதிகாரப்பூர்வ சேனல்; இந்த வழிகாட்டிக்காகத் தேர்ந்தெடுக்கப்பட்டது. பச்சை ✓ என்றால் அந்தப் பக்கம் சரியாகத் திறக்கிறது என்பதையும் நாங்கள் உறுதிசெய்தோம். எந்த கார்டையும் தட்டினால் நேராக ALLEN பக்கத்திற்குச் செல்லலாம்.",
     discTitle:"ஒரு குறிப்பு:",
     disclaimer:"இது இலவசமான, சமூகத்தால் உருவாக்கப்பட்ட வழிகாட்டி. இங்குள்ள ஒவ்வொரு லிங்கும் ALLEN Career Institute-இன் சொந்த அதிகாரப்பூர்வ வலைதளங்கள் மற்றும் சேனல்களுக்கே செல்கிறது. “ALLEN” மற்றும் தொடர்புடைய பெயர்கள் ALLEN Career Institute-இன் வர்த்தக முத்திரைகள் — இந்தப் பக்கம் அதிகாரப்பூர்வ ALLEN வலைதளம் அல்ல, ALLEN-உடன் தொடர்போ அங்கீகாரமோ இல்லை.",
@@ -2420,6 +2571,10 @@ function applyStaticI18n(){
   });
   document.documentElement.lang = state.lang;
   document.getElementById('reviewed').textContent = window.CATALOG.last_reviewed || '—';
+  // hover help on header controls + language buttons
+  const NATIVE={ en:'English', hi:'हिन्दी', ta:'தமிழ்' };
+  document.querySelectorAll('[data-lang]').forEach(b=>{ b.setAttribute('data-tip', t('switchTo')+' '+(NATIVE[b.dataset.lang]||b.dataset.lang)); if(b.closest('header')) b.classList.add('tipdown'); });
+  const sb=document.getElementById('shareBtn'); if(sb){ sb.setAttribute('data-tip', t('tipShare')); sb.classList.add('tipdown'); }
 }
 
 function renderPaths(){
@@ -2427,6 +2582,7 @@ function renderPaths(){
   t('paths').forEach(p=>{
     const b=document.createElement('button'); b.className='path';
     b.innerHTML=`<span class="emoji">${p.emoji}</span> ${p.label}`;
+    b.setAttribute('data-tip', t('tipPath'));
     b.onclick=()=>{
       if(p.stream){ state.stream=p.stream; state.audience='all'; }
       if(p.aud){ state.audience=p.aud; state.stream='all'; }
@@ -2447,10 +2603,12 @@ function renderStats(){
 function renderFilters(){
   const a=document.getElementById('audienceFilters'); a.innerHTML='';
   AUDS.forEach(v=>{ const b=document.createElement('button'); b.className='chip'; b.textContent=t('aud_'+v);
-    b.setAttribute('aria-pressed', state.audience===v); b.onclick=()=>{ state.audience=v; renderFilters(); renderSections(); }; a.appendChild(b); });
+    b.setAttribute('aria-pressed', state.audience===v); b.setAttribute('data-tip', t('tipAud')+' '+t('aud_'+v));
+    b.onclick=()=>{ state.audience=v; renderFilters(); renderSections(); }; a.appendChild(b); });
   const s=document.getElementById('streamFilters'); s.innerHTML='';
   STREAMS.forEach(v=>{ const b=document.createElement('button'); b.className='chip stream'; b.textContent=t('st_'+v);
-    b.setAttribute('aria-pressed', state.stream===v); b.onclick=()=>{ state.stream=v; renderFilters(); renderSections(); }; s.appendChild(b); });
+    b.setAttribute('aria-pressed', state.stream===v); b.setAttribute('data-tip', t('tipGoal')+' '+t('st_'+v));
+    b.onclick=()=>{ state.stream=v; renderFilters(); renderSections(); }; s.appendChild(b); });
 }
 
 function matchItem(it){
@@ -2464,26 +2622,32 @@ function matchItem(it){
   return true;
 }
 
+const ARROW='<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 function cardHTML(it, guide){
   const L=state.lang;
   const verified = it.verified===true;
   const badge = verified
     ? `<span class="badge ok">✓ ${t('verified')}</span>`
     : `<span class="badge official">● ${t('official')}</span>`;
-  const tags = [
-    ...(it.streams||[]).filter(s=>s!=='general').map(s=>`<span class="tag s">${t('st_'+s)||s}</span>`)
-  ].join('');
+  const tags = (it.streams||[]).filter(s=>s!=='general').map(s=>`<span class="tag s">${t('st_'+s)||s}</span>`).join('');
   const how = it['how_'+L] ? `<p class="how"><b>${t('howLabel')}:</b> ${it['how_'+L]}</p>` : '';
-  return `<a class="card${guide?' guide':''}" href="${it.url}" target="_blank" rel="noopener noreferrer">
-    <div class="top">
-      <span class="pic">${iconFor(it.platform)}</span>
-      <div><h3>${it['name_'+L]||it.name}</h3><div class="plat">${PLAT[it.platform]||it.platform}</div></div>
-    </div>
-    <p class="desc">${it['desc_'+L]||it.desc_en||''}</p>
-    ${how}
-    ${tags?`<div class="tags">${tags}</div>`:''}
-    <div class="foot">${badge}<span class="open">${t('open')} <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
-  </a>`;
+  const head = `<div class="top"><span class="pic">${iconFor(it.platform)}</span><div><h3>${it['name_'+L]||it.name}</h3><div class="plat">${PLAT[it.platform]||it.platform}</div></div></div>`;
+  const body = `<p class="desc">${it['desc_'+L]||it.desc_en||''}</p>${how}${tags?`<div class="tags">${tags}</div>`:''}`;
+  const esc=s=>String(s||'').replace(/"/g,'&quot;');
+
+  const pls = it.playlists||[];
+  const hasPl = it.playlists_url || pls.length;
+  if(hasPl){
+    const links = pls.map(p=>`<a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${p.subject?`<span class="sub">${p.subject}</span>`:''}<span>${p['desc_'+L]||p.desc_en||p.name}</span></a>`).join('');
+    const allLink = it.playlists_url?`<a href="${esc(it.playlists_url)}" target="_blank" rel="noopener noreferrer"><span class="sub">★</span><span>${t('allPlaylists')}</span></a>`:'';
+    const plBlock = `<details class="pl"><summary>${t('topPlaylists')}${pls.length?` (${pls.length})`:''}</summary><div class="pl-list">${links}${allLink}</div></details>`;
+    return `<div class="card ytcard">
+      <a class="card-main" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${head}${body}</a>
+      ${plBlock}
+      <div class="foot">${badge}<a class="open" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${t('openChannel')} ${ARROW}</a></div>
+    </div>`;
+  }
+  return `<a class="card${guide?' guide':''}" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${head}${body}<div class="foot">${badge}<span class="open">${t('open')} ${ARROW}</span></div></a>`;
 }
 
 function renderSecNav(visibleIds){
