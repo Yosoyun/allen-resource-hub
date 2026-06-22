@@ -36,7 +36,11 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -50,19 +54,42 @@
       "aliasOf": "allen-jee-main-advanced-classroom-courses",
       "searchTerms": {
         "en": [
-          "preparing",
-          "jee",
-          "engineering",
-          "here",
-          "main",
-          "advanced",
-          "coaching",
-          "future"
+          "jee coaching",
+          "iit preparation",
+          "jee main advanced",
+          "engineering entrance",
+          "best jee coaching",
+          "allen jee",
+          "iit jee classes"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई कोचिंग",
+          "आईआईटी तैयारी",
+          "इंजीनियरिंग प्रवेश परीक्षा",
+          "जेईई मेन एडवांस्ड",
+          "एलन जेईई"
+        ],
+        "hiLatin": [
+          "jee coaching",
+          "iit taiyari",
+          "engineering entrance",
+          "jee main advanced",
+          "allen jee"
+        ],
+        "ta": [
+          "ஜேஇஇ பயிற்சி",
+          "ஐஐடி தயாரிப்பு",
+          "பொறியியல் நுழைவுத் தேர்வு",
+          "ஜேஇஇ மெயின் அட்வான்ஸ்டு",
+          "ஆலன் ஜேஇஇ"
+        ],
+        "taLatin": [
+          "jee payirchi",
+          "iit thayarippu",
+          "engineering nuzhaivu thervu",
+          "jee main advanced",
+          "allen jee"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -114,7 +141,11 @@
       "exams": [
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -128,19 +159,44 @@
       "aliasOf": "allen-neet-ug-pre-medical-courses",
       "searchTerms": {
         "en": [
-          "preparing",
-          "neet",
-          "medical",
-          "here",
-          "coaching",
-          "class",
-          "dropper",
-          "students"
+          "neet coaching",
+          "medical entrance preparation",
+          "neet ug",
+          "mbbs preparation",
+          "best neet coaching",
+          "allen neet",
+          "doctor entrance exam"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "नीट कोचिंग",
+          "मेडिकल तैयारी",
+          "नीट यूजी",
+          "एमबीबीएस प्रवेश",
+          "एलन नीट",
+          "डॉक्टर बनने की तैयारी"
+        ],
+        "hiLatin": [
+          "neet coaching",
+          "medical taiyari",
+          "neet ug",
+          "mbbs pravesh",
+          "allen neet",
+          "doctor banne ki taiyari"
+        ],
+        "ta": [
+          "நீட் பயிற்சி",
+          "மருத்துவ நுழைவுத் தேர்வு",
+          "நீட் யுஜி",
+          "எம்பிபிஎஸ் தயாரிப்பு",
+          "ஆலன் நீட்"
+        ],
+        "taLatin": [
+          "neet payirchi",
+          "maruthuva nuzhaivu thervu",
+          "neet ug",
+          "mbbs thayarippu",
+          "allen neet"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -194,7 +250,13 @@
         "ntse",
         "olympiad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -208,19 +270,42 @@
       "aliasOf": "allen-pre-nurture-career-foundation-class-6-10",
       "searchTerms": {
         "en": [
-          "younger",
-          "child",
-          "class",
-          "foundation",
-          "courses",
-          "covering",
-          "school",
-          "study"
+          "foundation course",
+          "class 6 to 10 coaching",
+          "olympiad preparation",
+          "ntse coaching",
+          "junior classes allen",
+          "school foundation classes",
+          "early jee neet prep"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "फाउंडेशन कोर्स",
+          "कक्षा 6 से 10 कोचिंग",
+          "ओलंपियाड तैयारी",
+          "एनटीएसई कोचिंग",
+          "स्कूल फाउंडेशन क्लास"
+        ],
+        "hiLatin": [
+          "foundation course",
+          "class 6 se 10 coaching",
+          "olympiad taiyari",
+          "ntse coaching",
+          "school foundation class"
+        ],
+        "ta": [
+          "அடிப்படை கோர்ஸ்",
+          "6 முதல் 10 வகுப்பு பயிற்சி",
+          "ஒலிம்பியாட் தயாரிப்பு",
+          "என்டிஎஸ்இ பயிற்சி",
+          "பள்ளி அடிப்படை வகுப்பு"
+        ],
+        "taLatin": [
+          "foundation course",
+          "class 6 muthal 10 payirchi",
+          "olympiad thayarippu",
+          "ntse payirchi",
+          "palli foundation vakuppu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -284,19 +369,42 @@
       "aliasOf": "allen-contact-us-admission-enquiry-kota-hq",
       "searchTerms": {
         "en": [
-          "have",
-          "question",
-          "want",
-          "enquire",
-          "find",
-          "admission",
-          "helpline",
-          "numbers"
+          "allen contact number",
+          "admission helpline",
+          "allen enquiry",
+          "allen phone number",
+          "allen email",
+          "head office contact",
+          "admission help"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन संपर्क नंबर",
+          "एडमिशन हेल्पलाइन",
+          "एलन पूछताछ",
+          "एलन फोन नंबर",
+          "एलन ईमेल"
+        ],
+        "hiLatin": [
+          "allen sampark number",
+          "admission helpline",
+          "allen poochtaach",
+          "allen phone number",
+          "allen email"
+        ],
+        "ta": [
+          "ஆலன் தொடர்பு எண்",
+          "சேர்க்கை உதவி எண்",
+          "ஆலன் விசாரணை",
+          "ஆலன் தொலைபேசி எண்",
+          "ஆலன் மின்னஞ்சல்"
+        ],
+        "taLatin": [
+          "allen thodarbu enn",
+          "admission helpline",
+          "allen visaranai",
+          "allen tholaipesi enn",
+          "allen email"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -351,7 +459,16 @@
         "olympiad",
         "ntse"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -365,19 +482,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "main",
-          "website",
-          "flagship",
-          "classroom",
-          "online",
-          "coaching"
+          "allen official website",
+          "allen career institute",
+          "allen main site",
+          "allen coaching website",
+          "allen neet jee",
+          "allen centres",
+          "allen results"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन आधिकारिक वेबसाइट",
+          "एलन करियर इंस्टीट्यूट",
+          "एलन वेबसाइट",
+          "एलन कोचिंग साइट",
+          "एलन रिजल्ट"
+        ],
+        "hiLatin": [
+          "allen official website",
+          "allen career institute",
+          "allen website",
+          "allen coaching site",
+          "allen result"
+        ],
+        "ta": [
+          "ஆலன் அதிகாரப்பூர்வ வலைதளம்",
+          "ஆலன் கரியர் இன்ஸ்டிட்யூட்",
+          "ஆலன் வலைதளம்",
+          "ஆலன் பயிற்சி தளம்",
+          "ஆலன் முடிவுகள்"
+        ],
+        "taLatin": [
+          "allen official website",
+          "allen career institute",
+          "allen valaithalam",
+          "allen coaching thalam",
+          "allen mudivugal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -431,7 +571,16 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -447,19 +596,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "online",
-          "digital",
-          "learning",
-          "site",
-          "live",
-          "classes",
-          "neet",
-          "jee"
+          "allen online",
+          "allen digital",
+          "online coaching",
+          "live classes neet jee",
+          "allen online classes",
+          "online tuition",
+          "allen.in login"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ऑनलाइन",
+          "एलन डिजिटल",
+          "ऑनलाइन कोचिंग",
+          "लाइव क्लास नीट जेईई",
+          "ऑनलाइन क्लास"
+        ],
+        "hiLatin": [
+          "allen online",
+          "allen digital",
+          "online coaching",
+          "live class neet jee",
+          "online class"
+        ],
+        "ta": [
+          "ஆலன் ஆன்லைன்",
+          "ஆலன் டிஜிட்டல்",
+          "ஆன்லைன் பயிற்சி",
+          "நேரலை வகுப்புகள்",
+          "ஆன்லைன் வகுப்பு"
+        ],
+        "taLatin": [
+          "allen online",
+          "allen digital",
+          "online payirchi",
+          "neralai vakuppu",
+          "online class"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -514,7 +686,16 @@
         "foundation",
         "olympiad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -528,19 +709,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "store",
-          "genuine",
-          "study",
-          "modules",
-          "books",
-          "mock",
-          "test",
-          "papers"
+          "allen books",
+          "allen study material",
+          "buy allen modules",
+          "allen test papers",
+          "allen e store",
+          "allen books online",
+          "mock test papers"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन किताबें",
+          "एलन स्टडी मटेरियल",
+          "एलन मॉड्यूल खरीदें",
+          "एलन टेस्ट पेपर",
+          "एलन बुक ऑनलाइन"
+        ],
+        "hiLatin": [
+          "allen kitabein",
+          "allen study material",
+          "allen module kharidein",
+          "allen test paper",
+          "allen book online"
+        ],
+        "ta": [
+          "ஆலன் புத்தகங்கள்",
+          "ஆலன் படிப்புப் பொருட்கள்",
+          "ஆலன் மாட்யூல் வாங்க",
+          "ஆலன் தேர்வுத் தாள்கள்",
+          "ஆலன் புத்தகம் ஆன்லைன்"
+        ],
+        "taLatin": [
+          "allen puthagangal",
+          "allen study material",
+          "allen module vaanga",
+          "allen test paper",
+          "allen book online"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -595,7 +799,16 @@
         "foundation",
         "olympiad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -609,19 +822,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "neet",
-          "jee",
-          "class",
-          "ios",
-          "app",
-          "main",
-          "learning",
-          "iphone"
+          "allen app iphone",
+          "allen ios app",
+          "download allen app",
+          "allen app store",
+          "allen learning app",
+          "allen app ipad",
+          "neet jee app"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ऐप आईफोन",
+          "एलन आईओएस ऐप",
+          "एलन ऐप डाउनलोड",
+          "एलन ऐप स्टोर",
+          "एलन लर्निंग ऐप"
+        ],
+        "hiLatin": [
+          "allen app iphone",
+          "allen ios app",
+          "allen app download",
+          "allen app store",
+          "allen learning app"
+        ],
+        "ta": [
+          "ஆலன் ஆப் ஐபோன்",
+          "ஆலன் ஐஓஎஸ் ஆப்",
+          "ஆலன் ஆப் டவுன்லோடு",
+          "ஆலன் ஆப் ஸ்டோர்",
+          "ஆலன் படிப்பு ஆப்"
+        ],
+        "taLatin": [
+          "allen app iphone",
+          "allen ios app",
+          "allen app download",
+          "allen app store",
+          "allen padippu app"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -675,7 +911,11 @@
         "neet",
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -689,19 +929,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "ios",
-          "app",
-          "students",
-          "gulf",
-          "countries",
-          "access",
-          "digital"
+          "allen overseas app",
+          "allen gulf app",
+          "allen abroad app",
+          "allen overseas ios",
+          "neet jee abroad",
+          "allen dubai app",
+          "allen overseas download"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ओवरसीज ऐप",
+          "एलन गल्फ ऐप",
+          "एलन विदेश ऐप",
+          "एलन ओवरसीज आईओएस",
+          "विदेश में नीट जेईई"
+        ],
+        "hiLatin": [
+          "allen overseas app",
+          "allen gulf app",
+          "allen videsh app",
+          "allen overseas ios",
+          "videsh mein neet jee"
+        ],
+        "ta": [
+          "ஆலன் ஓவர்சீஸ் ஆப்",
+          "ஆலன் வளைகுடா ஆப்",
+          "ஆலன் வெளிநாடு ஆப்",
+          "ஆலன் ஓவர்சீஸ் ஐஓஎஸ்",
+          "வெளிநாட்டில் நீட் ஜேஇஇ"
+        ],
+        "taLatin": [
+          "allen overseas app",
+          "allen valaikuda app",
+          "allen velinaadu app",
+          "allen overseas ios",
+          "velinaattil neet jee"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -757,7 +1020,16 @@
         "ntse",
         "olympiad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -773,19 +1045,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "distance",
-          "learning",
-          "program",
-          "dlp",
-          "portal",
-          "study",
-          "material",
-          "question"
+          "allen dlp",
+          "distance learning program",
+          "allen study material online",
+          "allen test series",
+          "allen correspondence course",
+          "allen question bank",
+          "dlp packages"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन डीएलपी",
+          "डिस्टेंस लर्निंग प्रोग्राम",
+          "एलन स्टडी मटेरियल ऑनलाइन",
+          "एलन टेस्ट सीरीज",
+          "एलन प्रश्न बैंक"
+        ],
+        "hiLatin": [
+          "allen dlp",
+          "distance learning program",
+          "allen study material online",
+          "allen test series",
+          "allen prashn bank"
+        ],
+        "ta": [
+          "ஆலன் டிஎல்பி",
+          "தொலைதூரப் படிப்பு திட்டம்",
+          "ஆலன் படிப்புப் பொருட்கள் ஆன்லைன்",
+          "ஆலன் தேர்வுத் தொடர்",
+          "ஆலன் வினா வங்கி"
+        ],
+        "taLatin": [
+          "allen dlp",
+          "tholaithoora padippu thittam",
+          "allen study material online",
+          "allen test series",
+          "allen vina vangi"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -839,7 +1134,11 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -853,19 +1152,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "results",
-          "yesteryears",
-          "portal",
-          "listing",
-          "neet",
-          "jee",
-          "selection",
-          "across"
+          "allen results",
+          "allen neet jee results",
+          "allen toppers",
+          "allen selection results",
+          "allen rankers",
+          "allen past results",
+          "allen result list"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन रिजल्ट",
+          "एलन नीट जेईई रिजल्ट",
+          "एलन टॉपर",
+          "एलन चयन परिणाम",
+          "एलन रैंकर"
+        ],
+        "hiLatin": [
+          "allen result",
+          "allen neet jee result",
+          "allen topper",
+          "allen chayan parinaam",
+          "allen ranker"
+        ],
+        "ta": [
+          "ஆலன் முடிவுகள்",
+          "ஆலன் நீட் ஜேஇஇ முடிவுகள்",
+          "ஆலன் டாப்பர்கள்",
+          "ஆலன் தேர்வு முடிவுகள்",
+          "ஆலன் ரேங்கர்கள்"
+        ],
+        "taLatin": [
+          "allen mudivugal",
+          "allen neet jee mudivugal",
+          "allen toppers",
+          "allen thervu mudivugal",
+          "allen rankers"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -915,7 +1237,16 @@
         "enrolled-student"
       ],
       "exams": [],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -931,19 +1262,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "student",
-          "control",
-          "panel",
-          "login",
-          "2025",
-          "enrolled",
-          "students",
-          "access"
+          "allen student login",
+          "allen control panel",
+          "allen ccp login",
+          "allen student portal",
+          "allen 2025-26 login",
+          "allen form number login",
+          "allen student dashboard"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन स्टूडेंट लॉगिन",
+          "एलन कंट्रोल पैनल",
+          "एलन सीसीपी लॉगिन",
+          "एलन स्टूडेंट पोर्टल",
+          "एलन फॉर्म नंबर लॉगिन"
+        ],
+        "hiLatin": [
+          "allen student login",
+          "allen control panel",
+          "allen ccp login",
+          "allen student portal",
+          "allen form number login"
+        ],
+        "ta": [
+          "ஆலன் மாணவர் உள்நுழைவு",
+          "ஆலன் கன்ட்ரோல் பேனல்",
+          "ஆலன் சிசிபி லாகின்",
+          "ஆலன் மாணவர் போர்ட்டல்",
+          "ஆலன் படிவ எண் உள்நுழைவு"
+        ],
+        "taLatin": [
+          "allen manavar login",
+          "allen control panel",
+          "allen ccp login",
+          "allen manavar portal",
+          "allen padiva enn login"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1009,19 +1363,44 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "form",
-          "status",
-          "application",
-          "login",
-          "2025",
-          "check",
-          "your",
-          "admission"
+          "allen form status",
+          "application status login",
+          "admission status check",
+          "scholarship application status",
+          "allen login 2025-26",
+          "check form status",
+          "admission form login"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "फॉर्म स्टेटस",
+          "आवेदन की स्थिति",
+          "एडमिशन स्थिति लॉगिन",
+          "छात्रवृत्ति आवेदन",
+          "फॉर्म लॉगिन"
+        ],
+        "hiLatin": [
+          "form status",
+          "application status",
+          "admission status",
+          "chhatravritti aavedan",
+          "form login",
+          "sthiti check"
+        ],
+        "ta": [
+          "படிவ நிலை",
+          "விண்ணப்ப நிலை",
+          "சேர்க்கை நிலை",
+          "உதவித்தொகை விண்ணப்பம்",
+          "லாகின்"
+        ],
+        "taLatin": [
+          "padiva nilai",
+          "vinnappa nilai",
+          "serkkai nilai",
+          "uthavithogai",
+          "login",
+          "form status"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1085,19 +1464,43 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "batch",
-          "progress",
-          "monitoring",
-          "system",
-          "bpms",
-          "student",
-          "login",
-          "track"
+          "allen bpms login",
+          "batch progress monitoring",
+          "student attendance portal",
+          "check test marks",
+          "performance tracking login",
+          "classroom batch portal",
+          "allen student login"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "बैच प्रोग्रेस",
+          "उपस्थिति पोर्टल",
+          "टेस्ट मार्क्स",
+          "छात्र लॉगिन",
+          "प्रदर्शन ट्रैकिंग"
+        ],
+        "hiLatin": [
+          "bpms login",
+          "upasthiti portal",
+          "test marks",
+          "chhatra login",
+          "haziri",
+          "progress"
+        ],
+        "ta": [
+          "வருகை போர்ட்டல்",
+          "தேர்வு மதிப்பெண்",
+          "மாணவர் லாகின்",
+          "செயல்திறன்",
+          "பேட்ச் முன்னேற்றம்"
+        ],
+        "taLatin": [
+          "bpms login",
+          "varugai portal",
+          "thervu mathippen",
+          "manavar login",
+          "seyalthiran"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1161,19 +1564,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "astra",
-          "login",
-          "portal",
-          "manage",
-          "your",
-          "account",
-          "linked",
-          "services"
+          "allen astra login",
+          "astra portal",
+          "allen account login",
+          "manage allen account",
+          "student account portal",
+          "allen sign in",
+          "astra allen in"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "अस्त्रा लॉगिन",
+          "अकाउंट लॉगिन",
+          "अकाउंट प्रबंधन",
+          "साइन इन",
+          "पोर्टल लॉगिन"
+        ],
+        "hiLatin": [
+          "astra login",
+          "account login",
+          "account manage",
+          "sign in",
+          "portal login"
+        ],
+        "ta": [
+          "அஸ்ட்ரா லாகின்",
+          "கணக்கு லாகின்",
+          "கணக்கு நிர்வாகம்",
+          "உள்நுழைவு",
+          "போர்ட்டல்"
+        ],
+        "taLatin": [
+          "astra login",
+          "kanakku login",
+          "kanakku nirvaham",
+          "ulnuzhaivu",
+          "portal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1228,7 +1654,16 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -1242,19 +1677,44 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "neet",
-          "jee",
-          "class",
-          "android",
-          "app",
-          "live",
-          "classes",
-          "tests"
+          "allen android app",
+          "download allen app",
+          "allen app play store",
+          "neet jee app",
+          "live classes app",
+          "allen app for android",
+          "doubt solving app"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एंड्रॉइड ऐप",
+          "ऐप डाउनलोड",
+          "अलेन ऐप",
+          "लाइव क्लास ऐप",
+          "नीट जेईई ऐप"
+        ],
+        "hiLatin": [
+          "android app",
+          "app download",
+          "allen app",
+          "live class app",
+          "neet jee app",
+          "play store"
+        ],
+        "ta": [
+          "ஆண்ட்ராய்டு ஆப்",
+          "ஆப் டவுன்லோடு",
+          "அலன் ஆப்",
+          "நேரலை வகுப்பு ஆப்",
+          "நீட் ஜேஇஇ ஆப்"
+        ],
+        "taLatin": [
+          "android app",
+          "app download",
+          "allen app",
+          "live class app",
+          "neet jee app",
+          "play store"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1317,19 +1777,41 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "focus",
-          "launcher",
-          "android",
-          "app",
-          "distraction",
-          "free",
-          "learning",
-          "tablets"
+          "allen focus launcher",
+          "distraction free launcher",
+          "allen tablet app",
+          "allen learning device app",
+          "focus mode app",
+          "allen launcher download"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "फोकस लॉन्चर",
+          "टैबलेट ऐप",
+          "लर्निंग डिवाइस ऐप",
+          "लॉन्चर डाउनलोड",
+          "ध्यान भटकाव रहित"
+        ],
+        "hiLatin": [
+          "focus launcher",
+          "tablet app",
+          "learning device app",
+          "launcher download",
+          "dhyan"
+        ],
+        "ta": [
+          "போகஸ் லாஞ்சர்",
+          "டேப்லெட் ஆப்",
+          "படிப்பு சாதனம்",
+          "லாஞ்சர் டவுன்லோடு",
+          "கவனம்"
+        ],
+        "taLatin": [
+          "focus launcher",
+          "tablet app",
+          "padippu sadhanam",
+          "launcher download",
+          "kavanam"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1395,19 +1877,43 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
+          "allen alumni network",
           "allenites",
-          "alumni",
-          "network",
-          "career",
-          "institute",
-          "connects",
-          "former",
-          "students"
+          "former students community",
+          "alumni login",
+          "reconnect batchmates",
+          "allen alumni events",
+          "old students network"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलुमनाई नेटवर्क",
+          "पूर्व छात्र",
+          "बैचमेट्स",
+          "एलुमनाई लॉगिन",
+          "पुराने छात्र"
+        ],
+        "hiLatin": [
+          "alumni network",
+          "allenites",
+          "purv chhatra",
+          "batchmates",
+          "alumni login",
+          "purane chhatra"
+        ],
+        "ta": [
+          "பழைய மாணவர் வலையமைப்பு",
+          "அலனைட்ஸ்",
+          "பழைய மாணவர்",
+          "பேட்ச் நண்பர்கள்",
+          "alumni லாகின்"
+        ],
+        "taLatin": [
+          "alumni network",
+          "allenites",
+          "pazhaya manavar",
+          "batch nanbargal",
+          "alumni login"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1461,7 +1967,11 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "classroom"
       ],
@@ -1477,19 +1987,44 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "main",
-          "advanced",
-          "classroom",
-          "courses",
-          "prep",
-          "tracks",
-          "class"
+          "jee main advanced coaching",
+          "iit jee classroom course",
+          "allen jee course",
+          "jee preparation class 11",
+          "dropper jee course",
+          "iit coaching",
+          "jee advanced classroom"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई कोचिंग",
+          "आईआईटी जेईई कोर्स",
+          "जेईई एडवांस्ड क्लास",
+          "ड्रॉपर कोर्स",
+          "कक्षा 11 जेईई"
+        ],
+        "hiLatin": [
+          "jee coaching",
+          "iit jee course",
+          "jee advanced class",
+          "dropper course",
+          "class 11 jee",
+          "jee taiyari"
+        ],
+        "ta": [
+          "ஜேஇஇ பயிற்சி",
+          "ஐஐடி ஜேஇஇ கோர்ஸ்",
+          "ஜேஇஇ அட்வான்ஸ்டு",
+          "ட்ராப்பர் கோர்ஸ்",
+          "வகுப்பு 11 ஜேஇஇ"
+        ],
+        "taLatin": [
+          "jee payirchi",
+          "iit jee course",
+          "jee advanced",
+          "dropper course",
+          "class 11 jee",
+          "jee coaching"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1542,7 +2077,11 @@
       "exams": [
         "jee-main"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "classroom"
       ],
@@ -1558,19 +2097,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "main",
-          "course",
-          "classroom",
-          "program",
-          "students",
-          "targeting",
-          "nits"
+          "jee main coaching",
+          "nit admission course",
+          "jee main only course",
+          "iiit preparation",
+          "allen jee main",
+          "jee main classroom program",
+          "jee main prep"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई मेन कोचिंग",
+          "एनआईटी कोर्स",
+          "जेईई मेन कोर्स",
+          "जेईई मेन तैयारी",
+          "आईआईआईटी"
+        ],
+        "hiLatin": [
+          "jee main coaching",
+          "nit course",
+          "jee main course",
+          "jee main taiyari",
+          "iiit prep"
+        ],
+        "ta": [
+          "ஜேஇஇ மெயின் பயிற்சி",
+          "என்ஐடி கோர்ஸ்",
+          "ஜேஇஇ மெயின் கோர்ஸ்",
+          "ஐஐஐடி",
+          "ஜேஇஇ மெயின் தயாரிப்பு"
+        ],
+        "taLatin": [
+          "jee main payirchi",
+          "nit course",
+          "jee main course",
+          "iiit prep",
+          "jee main coaching"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1623,7 +2185,11 @@
       "exams": [
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "classroom"
       ],
@@ -1639,19 +2205,44 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "neet",
-          "pre",
-          "medical",
-          "courses",
-          "classroom",
-          "prep",
-          "class",
-          "dropper"
+          "neet coaching",
+          "neet ug pre medical course",
+          "mbbs preparation",
+          "allen neet classroom",
+          "neet dropper course",
+          "class 11 12 neet",
+          "medical entrance coaching"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "नीट कोचिंग",
+          "नीट यूजी कोर्स",
+          "प्री मेडिकल",
+          "नीट ड्रॉपर कोर्स",
+          "एमबीबीएस तैयारी"
+        ],
+        "hiLatin": [
+          "neet coaching",
+          "neet ug course",
+          "pre medical",
+          "neet dropper course",
+          "mbbs taiyari",
+          "medical coaching"
+        ],
+        "ta": [
+          "நீட் பயிற்சி",
+          "நீட் யூஜி கோர்ஸ்",
+          "ப்ரீ மெடிக்கல்",
+          "நீட் ட்ராப்பர் கோர்ஸ்",
+          "எம்பிபிஎஸ் தயாரிப்பு"
+        ],
+        "taLatin": [
+          "neet payirchi",
+          "neet ug course",
+          "pre medical",
+          "neet dropper course",
+          "mbbs prep",
+          "medical coaching"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1705,7 +2296,13 @@
         "ntse",
         "olympiad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "deliveryModes": [
         "classroom"
       ],
@@ -1721,19 +2318,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "pre",
-          "nurture",
-          "career",
-          "foundation",
-          "class",
-          "courses",
-          "covering",
-          "school"
+          "foundation course class 6 to 10",
+          "ntse coaching",
+          "olympiad preparation",
+          "allen foundation",
+          "school coaching class 8 9 10",
+          "pre nurture career foundation",
+          "junior classes coaching"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "फाउंडेशन कोर्स",
+          "एनटीएसई कोचिंग",
+          "ओलंपियाड तैयारी",
+          "कक्षा 6 से 10",
+          "स्कूल कोचिंग"
+        ],
+        "hiLatin": [
+          "foundation course",
+          "ntse coaching",
+          "olympiad taiyari",
+          "class 6 se 10",
+          "school coaching"
+        ],
+        "ta": [
+          "அடிப்படை கோர்ஸ்",
+          "என்டிஎஸ்இ பயிற்சி",
+          "ஒலிம்பியாட் தயாரிப்பு",
+          "வகுப்பு 6 முதல் 10",
+          "பள்ளி பயிற்சி"
+        ],
+        "taLatin": [
+          "foundation course",
+          "ntse payirchi",
+          "olympiad prep",
+          "class 6 muthal 10",
+          "palli coaching"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1787,7 +2407,13 @@
         "olympiad",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "deliveryModes": [
         "classroom"
       ],
@@ -1803,19 +2429,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "champ",
-          "olympiad",
-          "program",
-          "honouring",
-          "mentoring",
-          "school",
-          "students",
-          "building"
+          "allen champ program",
+          "olympiad champ",
+          "olympiad talent program",
+          "school olympiad mentoring",
+          "early olympiad prep",
+          "allen champ olympiad",
+          "talent honouring program"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "चैंप प्रोग्राम",
+          "ओलंपियाड चैंप",
+          "ओलंपियाड टैलेंट",
+          "स्कूल ओलंपियाड",
+          "मेंटरिंग प्रोग्राम"
+        ],
+        "hiLatin": [
+          "champ program",
+          "olympiad champ",
+          "olympiad talent",
+          "school olympiad",
+          "mentoring program"
+        ],
+        "ta": [
+          "சாம்ப் திட்டம்",
+          "ஒலிம்பியாட் சாம்ப்",
+          "ஒலிம்பியாட் திறமை",
+          "பள்ளி ஒலிம்பியாட்",
+          "வழிகாட்டுதல்"
+        ],
+        "taLatin": [
+          "champ program",
+          "olympiad champ",
+          "olympiad thiramai",
+          "palli olympiad",
+          "vazhikattuthal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1871,7 +2520,11 @@
         "neet",
         "olympiad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -1887,19 +2540,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "ultimate",
-          "online",
-          "programs",
-          "flagship",
-          "live",
-          "courses",
-          "jee",
-          "neet"
+          "allen ultimate online",
+          "live online classes jee neet",
+          "online coaching with mentors",
+          "allen online program",
+          "jee neet online course",
+          "ultimate online batch",
+          "online olympiad classes"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "अल्टीमेट ऑनलाइन",
+          "ऑनलाइन लाइव क्लास",
+          "ऑनलाइन कोचिंग",
+          "जेईई नीट ऑनलाइन",
+          "मेंटर के साथ"
+        ],
+        "hiLatin": [
+          "ultimate online",
+          "online live class",
+          "online coaching",
+          "jee neet online",
+          "mentor ke saath"
+        ],
+        "ta": [
+          "அல்டிமேட் ஆன்லைன்",
+          "ஆன்லைன் நேரலை வகுப்பு",
+          "ஆன்லைன் பயிற்சி",
+          "ஜேஇஇ நீட் ஆன்லைன்",
+          "வழிகாட்டியுடன்"
+        ],
+        "taLatin": [
+          "ultimate online",
+          "online live class",
+          "online payirchi",
+          "jee neet online",
+          "mentor udan"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -1952,7 +2628,12 @@
       "exams": [
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper",
+        "college-other"
+      ],
       "deliveryModes": [
         "classroom"
       ],
@@ -1968,19 +2649,47 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "global",
-          "studies",
-          "study",
-          "abroad",
-          "division",
-          "sat",
-          "ielts",
-          "prep"
+          "study abroad",
+          "ALLEN Global Studies",
+          "SAT preparation",
+          "IELTS coaching",
+          "foreign university admission",
+          "overseas education",
+          "AP exam prep",
+          "study in USA"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "विदेश में पढ़ाई",
+          "SAT तैयारी",
+          "IELTS कोचिंग",
+          "विदेशी यूनिवर्सिटी एडमिशन",
+          "अब्रॉड स्टडी",
+          "ग्लोबल स्टडीज"
+        ],
+        "hiLatin": [
+          "videsh padhai",
+          "study abroad",
+          "SAT taiyari",
+          "IELTS coaching",
+          "foreign university admission",
+          "global studies"
+        ],
+        "ta": [
+          "வெளிநாட்டுப் படிப்பு",
+          "SAT தயாரிப்பு",
+          "IELTS பயிற்சி",
+          "வெளிநாட்டு பல்கலைக்கழக சேர்க்கை",
+          "உலகளாவிய படிப்பு",
+          "அயல்நாட்டுக் கல்வி"
+        ],
+        "taLatin": [
+          "velinaattu padippu",
+          "study abroad",
+          "SAT thayarippu",
+          "IELTS payirchi",
+          "foreign university admission",
+          "global studies"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2033,7 +2742,12 @@
       "exams": [
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper",
+        "college-other"
+      ],
       "deliveryModes": [
         "classroom"
       ],
@@ -2049,19 +2763,47 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "global",
-          "studies",
-          "main",
-          "site",
-          "section",
-          "covering",
-          "sat",
-          "act"
+          "study abroad",
+          "SAT ACT prep",
+          "TOEFL IELTS coaching",
+          "GRE GMAT preparation",
+          "overseas admission",
+          "ALLEN Global Studies",
+          "foreign exam prep",
+          "abroad counselling"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "विदेश पढ़ाई",
+          "SAT ACT तैयारी",
+          "TOEFL IELTS कोचिंग",
+          "GRE GMAT तैयारी",
+          "विदेश एडमिशन",
+          "ग्लोबल स्टडीज"
+        ],
+        "hiLatin": [
+          "videsh padhai",
+          "SAT ACT taiyari",
+          "TOEFL IELTS coaching",
+          "GRE GMAT taiyari",
+          "videsh admission",
+          "global studies"
+        ],
+        "ta": [
+          "வெளிநாட்டுப் படிப்பு",
+          "SAT ACT தயாரிப்பு",
+          "TOEFL IELTS பயிற்சி",
+          "GRE GMAT தயாரிப்பு",
+          "வெளிநாட்டு சேர்க்கை",
+          "உலகளாவிய படிப்பு"
+        ],
+        "taLatin": [
+          "velinaattu padippu",
+          "SAT ACT thayarippu",
+          "TOEFL IELTS payirchi",
+          "GRE GMAT thayarippu",
+          "velinaattu serkkai",
+          "global studies"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2119,7 +2861,16 @@
         "olympiad",
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "classroom"
       ],
@@ -2135,19 +2886,47 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "coaching",
-          "division",
-          "jee",
-          "neet",
-          "foundation",
-          "across",
-          "gulf"
+          "ALLEN Overseas",
+          "JEE NEET coaching Gulf",
+          "ALLEN Dubai",
+          "coaching in Gulf countries",
+          "NEET coaching abroad",
+          "JEE preparation Middle East",
+          "Foundation courses overseas",
+          "ALLEN UAE Qatar"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN ओवरसीज",
+          "खाड़ी देश कोचिंग",
+          "JEE NEET विदेश कोचिंग",
+          "दुबई ALLEN",
+          "गल्फ में कोचिंग",
+          "ओवरसीज एडमिशन"
+        ],
+        "hiLatin": [
+          "ALLEN overseas",
+          "gulf desh coaching",
+          "JEE NEET videsh coaching",
+          "Dubai ALLEN",
+          "gulf coaching",
+          "overseas admission"
+        ],
+        "ta": [
+          "ALLEN Overseas",
+          "வளைகுடா நாடு பயிற்சி",
+          "JEE NEET வெளிநாட்டுப் பயிற்சி",
+          "துபாய் ALLEN",
+          "கல்ஃப் பயிற்சி",
+          "வெளிநாட்டு சேர்க்கை"
+        ],
+        "taLatin": [
+          "ALLEN overseas",
+          "gulf naadu payirchi",
+          "JEE NEET velinaattu payirchi",
+          "Dubai ALLEN",
+          "gulf coaching",
+          "velinaattu serkkai"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2202,13 +2981,23 @@
         "foundation",
         "olympiad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -2252,19 +3041,47 @@
       ],
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "flagship",
-          "channel",
-          "jee",
-          "neet",
-          "classes",
-          "olympiad"
+          "ALLEN YouTube channel",
+          "ALLEN official YouTube",
+          "toppers interview",
+          "JEE NEET motivation",
+          "free coaching videos",
+          "ALLEN strategy videos",
+          "exam analysis",
+          "topper talks"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN यूट्यूब चैनल",
+          "ALLEN आधिकारिक चैनल",
+          "टॉपर इंटरव्यू",
+          "मुफ्त कोचिंग वीडियो",
+          "मोटिवेशन वीडियो",
+          "परीक्षा विश्लेषण"
+        ],
+        "hiLatin": [
+          "ALLEN youtube channel",
+          "ALLEN official channel",
+          "topper interview",
+          "free coaching video",
+          "motivation video",
+          "exam analysis"
+        ],
+        "ta": [
+          "ALLEN யூடியூப் சேனல்",
+          "ALLEN அதிகாரப்பூர்வ சேனல்",
+          "டாப்பர் நேர்காணல்",
+          "இலவச பயிற்சி வீடியோ",
+          "ஊக்க வீடியோ",
+          "தேர்வு பகுப்பாய்வு"
+        ],
+        "taLatin": [
+          "ALLEN youtube channel",
+          "ALLEN athigarapoorva channel",
+          "topper nerkaanal",
+          "ilavasa payirchi video",
+          "ookka video",
+          "thervu paguppaaivu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2316,13 +3133,18 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -2388,18 +3210,47 @@
       ],
       "searchTerms": {
         "en": [
-          "jee",
-          "dedicated",
-          "channel",
-          "main",
-          "advanced",
-          "preparation",
-          "faculty"
+          "ALLEN JEE YouTube",
+          "JEE Main free lectures",
+          "JEE Advanced videos",
+          "previous year questions JEE",
+          "JEE PYQ solutions",
+          "JEE rank booster",
+          "free JEE classes",
+          "JEE concept videos"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN JEE यूट्यूब",
+          "JEE मुफ्त लेक्चर",
+          "JEE पिछले साल के प्रश्न",
+          "JEE PYQ हल",
+          "मुफ्त JEE क्लास",
+          "JEE कॉन्सेप्ट वीडियो"
+        ],
+        "hiLatin": [
+          "ALLEN JEE youtube",
+          "JEE free lecture",
+          "JEE pichhle saal ke prashn",
+          "JEE PYQ hal",
+          "free JEE class",
+          "JEE concept video"
+        ],
+        "ta": [
+          "ALLEN JEE யூடியூப்",
+          "JEE இலவச வகுப்புகள்",
+          "JEE முந்தைய ஆண்டு வினாக்கள்",
+          "JEE PYQ தீர்வு",
+          "இலவச JEE வகுப்பு",
+          "JEE கருத்து வீடியோ"
+        ],
+        "taLatin": [
+          "ALLEN JEE youtube",
+          "JEE ilavasa vaguppu",
+          "JEE munthaiya aandu vinaakkal",
+          "JEE PYQ theervu",
+          "ilavasa JEE vaguppu",
+          "JEE karuthu video"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2450,13 +3301,18 @@
       "exams": [
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -2522,18 +3378,47 @@
       ],
       "searchTerms": {
         "en": [
-          "neet",
-          "dedicated",
-          "channel",
-          "medical",
-          "entrance",
-          "preparation",
-          "faculty"
+          "ALLEN NEET YouTube",
+          "NEET free lectures",
+          "NEET one shot",
+          "NEET biology physics chemistry",
+          "NEET revision marathon",
+          "free NEET classes",
+          "NEET important questions",
+          "NEET 2026 preparation"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN NEET यूट्यूब",
+          "NEET मुफ्त लेक्चर",
+          "NEET वन शॉट",
+          "NEET रिवीजन",
+          "मुफ्त NEET क्लास",
+          "NEET महत्वपूर्ण प्रश्न"
+        ],
+        "hiLatin": [
+          "ALLEN NEET youtube",
+          "NEET free lecture",
+          "NEET one shot",
+          "NEET revision",
+          "free NEET class",
+          "NEET important questions"
+        ],
+        "ta": [
+          "ALLEN NEET யூடியூப்",
+          "NEET இலவச வகுப்புகள்",
+          "NEET ஒன் ஷாட்",
+          "NEET மீள்பார்வை",
+          "இலவச NEET வகுப்பு",
+          "NEET முக்கிய வினாக்கள்"
+        ],
+        "taLatin": [
+          "ALLEN NEET youtube",
+          "NEET ilavasa vaguppu",
+          "NEET one shot",
+          "NEET meelpaarvai",
+          "ilavasa NEET vaguppu",
+          "NEET mukkiya vinaakkal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2586,13 +3471,20 @@
         "olympiad",
         "ntse"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -2601,19 +3493,47 @@
       "playlistsUrl": "https://www.youtube.com/@ALLENPNCF/playlists",
       "searchTerms": {
         "en": [
-          "pre",
-          "nurture",
-          "career",
-          "foundation",
-          "channel",
-          "classes",
-          "ntse",
-          "olympiad"
+          "ALLEN Foundation YouTube",
+          "Class 6 to 10 videos",
+          "NTSE preparation",
+          "Olympiad videos",
+          "foundation course free classes",
+          "school study videos",
+          "junior students coaching",
+          "ALLEN PNCF"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN फाउंडेशन यूट्यूब",
+          "कक्षा 6 से 10 वीडियो",
+          "NTSE तैयारी",
+          "ओलंपियाड वीडियो",
+          "स्कूल पढ़ाई वीडियो",
+          "फाउंडेशन कोर्स"
+        ],
+        "hiLatin": [
+          "ALLEN foundation youtube",
+          "class 6 se 10 video",
+          "NTSE taiyari",
+          "olympiad video",
+          "school padhai video",
+          "foundation course"
+        ],
+        "ta": [
+          "ALLEN அடிப்படை யூடியூப்",
+          "6 முதல் 10 வகுப்பு வீடியோ",
+          "NTSE தயாரிப்பு",
+          "ஒலிம்பியாட் வீடியோ",
+          "பள்ளிப் படிப்பு வீடியோ",
+          "அடிப்படை கோர்ஸ்"
+        ],
+        "taLatin": [
+          "ALLEN foundation youtube",
+          "6 muthal 10 vaguppu video",
+          "NTSE thayarippu",
+          "olympiad video",
+          "palli padippu video",
+          "foundation course"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2668,7 +3588,16 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -2676,7 +3605,8 @@
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -2684,18 +3614,47 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "online",
-          "programs",
-          "channel",
-          "lectures",
-          "strategy",
-          "exam",
-          "updates"
+          "ALLEN Online YouTube",
+          "free online lectures",
+          "JEE NEET online classes",
+          "exam strategy videos",
+          "online coaching videos",
+          "ALLEN online channel",
+          "free concept videos",
+          "exam updates"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN ऑनलाइन यूट्यूब",
+          "मुफ्त ऑनलाइन लेक्चर",
+          "JEE NEET ऑनलाइन क्लास",
+          "रणनीति वीडियो",
+          "ऑनलाइन कोचिंग वीडियो",
+          "परीक्षा अपडेट"
+        ],
+        "hiLatin": [
+          "ALLEN online youtube",
+          "free online lecture",
+          "JEE NEET online class",
+          "strategy video",
+          "online coaching video",
+          "exam update"
+        ],
+        "ta": [
+          "ALLEN ஆன்லைன் யூடியூப்",
+          "இலவச ஆன்லைன் வகுப்புகள்",
+          "JEE NEET ஆன்லைன் வகுப்பு",
+          "உத்தி வீடியோ",
+          "ஆன்லைன் பயிற்சி வீடியோ",
+          "தேர்வு புதுப்பிப்பு"
+        ],
+        "taLatin": [
+          "ALLEN online youtube",
+          "ilavasa online vaguppu",
+          "JEE NEET online vaguppu",
+          "uthi video",
+          "online payirchi video",
+          "thervu puthuppippu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2749,7 +3708,16 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -2757,7 +3725,8 @@
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -2765,19 +3734,47 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "online",
-          "channel",
-          "digital",
-          "arm",
-          "free",
-          "jee",
-          "neet",
-          "school"
+          "ALLEN Online Official YouTube",
+          "free JEE NEET videos",
+          "ALLEN digital classes",
+          "free live sessions",
+          "school content videos",
+          "online official channel",
+          "topic videos",
+          "free coaching"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN ऑनलाइन ऑफिशियल यूट्यूब",
+          "मुफ्त JEE NEET वीडियो",
+          "मुफ्त लाइव सेशन",
+          "स्कूल कंटेंट वीडियो",
+          "टॉपिक वीडियो",
+          "मुफ्त कोचिंग"
+        ],
+        "hiLatin": [
+          "ALLEN online official youtube",
+          "free JEE NEET video",
+          "free live session",
+          "school content video",
+          "topic video",
+          "free coaching"
+        ],
+        "ta": [
+          "ALLEN ஆன்லைன் அதிகாரப்பூர்வ யூடியூப்",
+          "இலவச JEE NEET வீடியோ",
+          "இலவச நேரடி வகுப்பு",
+          "பள்ளி உள்ளடக்க வீடியோ",
+          "தலைப்பு வீடியோ",
+          "இலவச பயிற்சி"
+        ],
+        "taLatin": [
+          "ALLEN online official youtube",
+          "ilavasa JEE NEET video",
+          "ilavasa neradi vaguppu",
+          "palli ullatakka video",
+          "thalaippu video",
+          "ilavasa payirchi"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2831,7 +3828,16 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -2839,7 +3845,8 @@
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -2847,19 +3854,46 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "digital",
-          "online",
-          "learning",
-          "channel",
-          "classes",
-          "free",
-          "demo",
-          "sessions"
+          "ALLEN Digital YouTube",
+          "ALLEN Digital channel",
+          "online course demo",
+          "free demo classes",
+          "online learning videos",
+          "ALLEN Digital lectures",
+          "online classes channel"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN डिजिटल यूट्यूब",
+          "ALLEN डिजिटल चैनल",
+          "मुफ्त डेमो क्लास",
+          "ऑनलाइन लर्निंग वीडियो",
+          "ऑनलाइन कोर्स डेमो",
+          "डिजिटल लेक्चर"
+        ],
+        "hiLatin": [
+          "ALLEN digital youtube",
+          "ALLEN digital channel",
+          "free demo class",
+          "online learning video",
+          "online course demo",
+          "digital lecture"
+        ],
+        "ta": [
+          "ALLEN டிஜிட்டல் யூடியூப்",
+          "ALLEN டிஜிட்டல் சேனல்",
+          "இலவச டெமோ வகுப்பு",
+          "ஆன்லைன் கற்றல் வீடியோ",
+          "ஆன்லைன் கோர்ஸ் டெமோ",
+          "டிஜிட்டல் வகுப்பு"
+        ],
+        "taLatin": [
+          "ALLEN digital youtube",
+          "ALLEN digital channel",
+          "ilavasa demo vaguppu",
+          "online katral video",
+          "online course demo",
+          "digital vaguppu"
+        ]
       },
       "verification": {
         "status": "broken",
@@ -2913,13 +3947,18 @@
         "jee-advanced",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "jaipur"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -2927,19 +3966,46 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jaipur",
-          "city",
-          "centre",
-          "channel",
-          "campus",
-          "covering",
-          "local",
-          "batches"
+          "ALLEN Jaipur YouTube",
+          "ALLEN Jaipur centre",
+          "Jaipur batch info",
+          "ALLEN Jaipur campus",
+          "Jaipur coaching updates",
+          "ALLEN Jaipur events",
+          "local batch videos"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ALLEN जयपुर यूट्यूब",
+          "ALLEN जयपुर सेंटर",
+          "जयपुर बैच जानकारी",
+          "जयपुर कैंपस",
+          "जयपुर कोचिंग अपडेट",
+          "जयपुर इवेंट"
+        ],
+        "hiLatin": [
+          "ALLEN Jaipur youtube",
+          "ALLEN Jaipur center",
+          "Jaipur batch jaankari",
+          "Jaipur campus",
+          "Jaipur coaching update",
+          "Jaipur event"
+        ],
+        "ta": [
+          "ALLEN ஜெய்ப்பூர் யூடியூப்",
+          "ALLEN ஜெய்ப்பூர் மையம்",
+          "ஜெய்ப்பூர் பேட்ச் தகவல்",
+          "ஜெய்ப்பூர் வளாகம்",
+          "ஜெய்ப்பூர் பயிற்சி புதுப்பிப்பு",
+          "ஜெய்ப்பூர் நிகழ்வு"
+        ],
+        "taLatin": [
+          "ALLEN Jaipur youtube",
+          "ALLEN Jaipur maiyam",
+          "Jaipur batch thagaval",
+          "Jaipur valaagam",
+          "Jaipur payirchi puthuppippu",
+          "Jaipur nigalvu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -2991,7 +4057,12 @@
       "exams": [
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper",
+        "college-other"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -3005,19 +4076,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "global",
-          "channel",
-          "study",
-          "abroad",
-          "guidance",
-          "test",
-          "prep",
-          "content"
+          "allen global youtube",
+          "study abroad channel",
+          "SAT prep videos",
+          "IELTS preparation",
+          "abroad admission tips",
+          "allen overseas education",
+          "foreign university guidance"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "विदेश पढ़ाई चैनल",
+          "एसएटी तैयारी",
+          "आईईएलटीएस वीडियो",
+          "विदेश एडमिशन",
+          "स्टडी अब्रॉड"
+        ],
+        "hiLatin": [
+          "videsh padhai",
+          "study abroad",
+          "SAT taiyari",
+          "IELTS video",
+          "abroad admission"
+        ],
+        "ta": [
+          "வெளிநாட்டு படிப்பு",
+          "SAT தயாரிப்பு",
+          "IELTS வீடியோ",
+          "வெளிநாட்டு சேர்க்கை",
+          "ஸ்டடி அப்ராட்"
+        ],
+        "taLatin": [
+          "velinaattu padippu",
+          "study abroad",
+          "SAT thayarippu",
+          "IELTS video",
+          "abroad admission"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3072,7 +4166,11 @@
         "neet",
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -3086,18 +4184,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "youtube",
-          "free",
-          "lessons",
-          "updates",
-          "gulf",
-          "students"
+          "allen overseas youtube",
+          "gulf students channel",
+          "free JEE lessons abroad",
+          "NEET overseas classes",
+          "allen gulf coaching",
+          "overseas batch videos",
+          "allen middle east"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "ओवरसीज चैनल",
+          "खाड़ी छात्र वीडियो",
+          "विदेश जेईई पाठ",
+          "नीट ओवरसीज",
+          "मुफ्त लेसन"
+        ],
+        "hiLatin": [
+          "overseas channel",
+          "gulf chhatra video",
+          "videsh JEE",
+          "NEET overseas",
+          "muft lesson"
+        ],
+        "ta": [
+          "ஓவர்சீஸ் சேனல்",
+          "வளைகுடா மாணவர்",
+          "இலவச JEE பாடம்",
+          "NEET ஓவர்சீஸ்",
+          "வெளிநாட்டு வகுப்பு"
+        ],
+        "taLatin": [
+          "overseas channel",
+          "valaigudaa maanavar",
+          "ilavasa JEE paadam",
+          "NEET overseas",
+          "velinaattu vaguppu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3149,7 +4271,16 @@
         "jee-main",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -3163,19 +4294,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "instagram",
-          "main",
-          "brand",
-          "updates",
-          "results",
-          "toppers"
+          "allen instagram",
+          "allen official insta",
+          "allen updates instagram",
+          "allen toppers results",
+          "allen exam news",
+          "follow allen instagram",
+          "allen career institute insta"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन इंस्टाग्राम",
+          "एलन अपडेट",
+          "एलन टॉपर रिजल्ट",
+          "परीक्षा समाचार",
+          "एलन ऑफिशियल"
+        ],
+        "hiLatin": [
+          "allen instagram",
+          "allen update",
+          "allen topper result",
+          "pariksha samachar",
+          "allen official"
+        ],
+        "ta": [
+          "ஆலன் இன்ஸ்டாகிராம்",
+          "ஆலன் அப்டேட்",
+          "ஆலன் டாப்பர்",
+          "தேர்வு செய்தி",
+          "ஆலன் அதிகாரப்பூர்வ"
+        ],
+        "taLatin": [
+          "allen instagram",
+          "allen update",
+          "allen topper",
+          "thervu seithi",
+          "allen official"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3228,7 +4382,11 @@
         "jee-advanced",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "kota"
@@ -3242,17 +4400,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "facebook",
-          "kota",
-          "main",
-          "page"
+          "allen facebook",
+          "allen kota facebook",
+          "allen official fb page",
+          "allen news facebook",
+          "allen events results",
+          "follow allen facebook",
+          "allen kota page"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन फेसबुक",
+          "एलन कोटा फेसबुक",
+          "एलन पेज",
+          "एलन समाचार",
+          "एलन रिजल्ट"
+        ],
+        "hiLatin": [
+          "allen facebook",
+          "allen kota facebook",
+          "allen page",
+          "allen samachar",
+          "allen result"
+        ],
+        "ta": [
+          "ஆலன் ஃபேஸ்புக்",
+          "ஆலன் கோட்டா",
+          "ஆலன் பக்கம்",
+          "ஆலன் செய்தி",
+          "ஆலன் ரிசல்ட்"
+        ],
+        "taLatin": [
+          "allen facebook",
+          "allen kota",
+          "allen pakkam",
+          "allen seithi",
+          "allen result"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3306,7 +4489,11 @@
         "jee-advanced",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -3320,19 +4507,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "twitter",
-          "handle",
-          "real",
-          "time",
-          "exam",
-          "news"
+          "allen twitter",
+          "allen X handle",
+          "allen exam updates twitter",
+          "allen answer key",
+          "allen result alerts",
+          "allen kota twitter",
+          "live exam news allen"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ट्विटर",
+          "एलन एक्स",
+          "परीक्षा अपडेट",
+          "आंसर की",
+          "रिजल्ट अलर्ट"
+        ],
+        "hiLatin": [
+          "allen twitter",
+          "allen X",
+          "pariksha update",
+          "answer key",
+          "result alert"
+        ],
+        "ta": [
+          "ஆலன் ட்விட்டர்",
+          "ஆலன் எக்ஸ்",
+          "தேர்வு அப்டேட்",
+          "ஆன்சர் கீ",
+          "ரிசல்ட் அலர்ட்"
+        ],
+        "taLatin": [
+          "allen twitter",
+          "allen X",
+          "thervu update",
+          "answer key",
+          "result alert"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3394,19 +4604,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "linkedin",
-          "company",
-          "page",
-          "corporate",
-          "updates",
-          "careers"
+          "allen linkedin",
+          "allen company page",
+          "allen jobs careers",
+          "allen corporate news",
+          "allen hiring",
+          "work at allen",
+          "allen recruitment"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन लिंक्डइन",
+          "एलन नौकरी",
+          "एलन कंपनी पेज",
+          "एलन भर्ती",
+          "कॉर्पोरेट समाचार"
+        ],
+        "hiLatin": [
+          "allen linkedin",
+          "allen naukri",
+          "allen company page",
+          "allen bharti",
+          "corporate samachar"
+        ],
+        "ta": [
+          "ஆலன் லிங்க்ட்இன்",
+          "ஆலன் வேலை",
+          "ஆலன் நிறுவனம்",
+          "ஆலன் ஆட்சேர்ப்பு",
+          "நிறுவன செய்தி"
+        ],
+        "taLatin": [
+          "allen linkedin",
+          "allen velai",
+          "allen niruvanam",
+          "allen aatserppu",
+          "niruvana seithi"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3458,7 +4691,11 @@
         "jee-main",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -3472,19 +4709,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "telegram",
-          "main",
-          "verified",
-          "channel",
-          "updates",
-          "notices"
+          "allen telegram",
+          "allen official telegram channel",
+          "allen exam alerts telegram",
+          "join allen telegram",
+          "allen notices updates",
+          "allen telegram group",
+          "allen announcements"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन टेलीग्राम",
+          "एलन टेलीग्राम चैनल",
+          "परीक्षा अलर्ट",
+          "एलन सूचना",
+          "टेलीग्राम जॉइन"
+        ],
+        "hiLatin": [
+          "allen telegram",
+          "allen telegram channel",
+          "pariksha alert",
+          "allen suchna",
+          "telegram join"
+        ],
+        "ta": [
+          "ஆலன் டெலிகிராம்",
+          "ஆலன் டெலிகிராம் சேனல்",
+          "தேர்வு அலர்ட்",
+          "ஆலன் அறிவிப்பு",
+          "டெலிகிராம் இணை"
+        ],
+        "taLatin": [
+          "allen telegram",
+          "allen telegram channel",
+          "thervu alert",
+          "allen arivippu",
+          "telegram inai"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3537,7 +4797,11 @@
       "exams": [
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -3551,19 +4815,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "neet",
-          "instagram",
-          "focused",
-          "medical",
-          "entrance",
-          "content",
-          "toppers",
-          "updates"
+          "allen neet instagram",
+          "neet official insta",
+          "neet tips instagram",
+          "neet toppers updates",
+          "medical entrance instagram",
+          "allen neet insta",
+          "neet exam updates"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन नीट इंस्टाग्राम",
+          "नीट टिप्स",
+          "नीट टॉपर",
+          "मेडिकल प्रवेश",
+          "नीट अपडेट"
+        ],
+        "hiLatin": [
+          "allen neet instagram",
+          "neet tips",
+          "neet topper",
+          "medical pravesh",
+          "neet update"
+        ],
+        "ta": [
+          "ஆலன் நீட் இன்ஸ்டாகிராம்",
+          "நீட் குறிப்புகள்",
+          "நீட் டாப்பர்",
+          "மருத்துவ நுழைவு",
+          "நீட் அப்டேட்"
+        ],
+        "taLatin": [
+          "allen neet instagram",
+          "neet kurippu",
+          "neet topper",
+          "maruthuva nuzhaivu",
+          "neet update"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3614,7 +4901,11 @@
       "exams": [
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -3628,19 +4919,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "neet",
-          "telegram",
-          "verified",
-          "channel",
-          "one",
-          "stop",
-          "hub",
-          "aspirants"
+          "allen neet telegram",
+          "neet telegram channel",
+          "neet study material telegram",
+          "join neet telegram",
+          "neet exam alerts",
+          "neet notes telegram",
+          "allen neet group"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन नीट टेलीग्राम",
+          "नीट टेलीग्राम चैनल",
+          "नीट स्टडी मटेरियल",
+          "नीट नोट्स",
+          "नीट अलर्ट"
+        ],
+        "hiLatin": [
+          "allen neet telegram",
+          "neet telegram channel",
+          "neet study material",
+          "neet notes",
+          "neet alert"
+        ],
+        "ta": [
+          "ஆலன் நீட் டெலிகிராம்",
+          "நீட் டெலிகிராம் சேனல்",
+          "நீட் படிப்பு தகவல்",
+          "நீட் நோட்ஸ்",
+          "நீட் அலர்ட்"
+        ],
+        "taLatin": [
+          "allen neet telegram",
+          "neet telegram channel",
+          "neet padippu thaval",
+          "neet notes",
+          "neet alert"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3693,7 +5007,11 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -3707,19 +5025,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "instagram",
-          "focused",
-          "engineering",
-          "entrance",
-          "aspirants",
-          "tips",
-          "updates"
+          "allen jee instagram",
+          "jee official insta",
+          "jee tips instagram",
+          "engineering entrance updates",
+          "jee main advanced instagram",
+          "allen jee insta",
+          "iit jee updates"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन जेईई इंस्टाग्राम",
+          "जेईई टिप्स",
+          "इंजीनियरिंग प्रवेश",
+          "जेईई अपडेट",
+          "आईआईटी जेईई"
+        ],
+        "hiLatin": [
+          "allen jee instagram",
+          "jee tips",
+          "engineering pravesh",
+          "jee update",
+          "iit jee"
+        ],
+        "ta": [
+          "ஆலன் ஜேஇஇ இன்ஸ்டாகிராம்",
+          "ஜேஇஇ குறிப்புகள்",
+          "இன்ஜினியரிங் நுழைவு",
+          "ஜேஇஇ அப்டேட்",
+          "ஐஐடி ஜேஇஇ"
+        ],
+        "taLatin": [
+          "allen jee instagram",
+          "jee kurippu",
+          "engineering nuzhaivu",
+          "jee update",
+          "iit jee"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3771,7 +5112,11 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -3785,19 +5130,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "telegram",
-          "verified",
-          "channel",
-          "main",
-          "advanced",
-          "bitsat",
-          "more"
+          "allen jee telegram",
+          "jee telegram channel",
+          "jee study material telegram",
+          "join jee telegram",
+          "jee bitsat alerts",
+          "jee notes telegram",
+          "jee main advanced telegram"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन जेईई टेलीग्राम",
+          "जेईई टेलीग्राम चैनल",
+          "जेईई स्टडी मटेरियल",
+          "जेईई नोट्स",
+          "बिटसैट अलर्ट"
+        ],
+        "hiLatin": [
+          "allen jee telegram",
+          "jee telegram channel",
+          "jee study material",
+          "jee notes",
+          "bitsat alert"
+        ],
+        "ta": [
+          "ஆலன் ஜேஇஇ டெலிகிராம்",
+          "ஜேஇஇ டெலிகிராம் சேனல்",
+          "ஜேஇஇ படிப்பு தகவல்",
+          "ஜேஇஇ நோட்ஸ்",
+          "பிட்சாட் அலர்ட்"
+        ],
+        "taLatin": [
+          "allen jee telegram",
+          "jee telegram channel",
+          "jee padippu thaval",
+          "jee notes",
+          "bitsat alert"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -3853,7 +5221,16 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -3869,19 +5246,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "online",
-          "instagram",
-          "learning",
-          "arm",
-          "course",
-          "updates",
-          "demos",
-          "offers"
+          "allen online instagram",
+          "allen digital insta",
+          "online course updates",
+          "allen online offers",
+          "live class demo instagram",
+          "allen online insta",
+          "online coaching updates"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ऑनलाइन इंस्टाग्राम",
+          "ऑनलाइन कोर्स अपडेट",
+          "एलन ऑफर",
+          "लाइव क्लास डेमो",
+          "ऑनलाइन कोचिंग"
+        ],
+        "hiLatin": [
+          "allen online instagram",
+          "online course update",
+          "allen offer",
+          "live class demo",
+          "online coaching"
+        ],
+        "ta": [
+          "ஆலன் ஆன்லைன் இன்ஸ்டாகிராம்",
+          "ஆன்லைன் கோர்ஸ் அப்டேட்",
+          "ஆலன் சலுகை",
+          "லைவ் கிளாஸ் டெமோ",
+          "ஆன்லைன் கோச்சிங்"
+        ],
+        "taLatin": [
+          "allen online instagram",
+          "online course update",
+          "allen salugai",
+          "live class demo",
+          "online coaching"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4008,7 +5408,12 @@
       "exams": [
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper",
+        "college-other"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -4022,19 +5427,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "global",
-          "instagram",
-          "studies",
-          "sharing",
-          "study",
-          "abroad",
-          "updates",
-          "student"
+          "allen global instagram",
+          "allen study abroad",
+          "allen global studies",
+          "study abroad updates",
+          "allen overseas instagram",
+          "instagram allen",
+          "abroad coaching social"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ग्लोबल इंस्टाग्राम",
+          "विदेश में पढ़ाई",
+          "एलन स्टडी अब्रॉड",
+          "इंस्टाग्राम एलन",
+          "एलन ग्लोबल"
+        ],
+        "hiLatin": [
+          "allen global instagram",
+          "videsh padhai",
+          "study abroad",
+          "instagram allen",
+          "allen global"
+        ],
+        "ta": [
+          "ஆலன் குளோபல் இன்ஸ்டாகிராம்",
+          "வெளிநாட்டுப் படிப்பு",
+          "ஆலன் ஸ்டடி அப்ராட்",
+          "இன்ஸ்டாகிராம் ஆலன்"
+        ],
+        "taLatin": [
+          "allen global instagram",
+          "velinaattu padippu",
+          "study abroad",
+          "instagram allen"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4084,7 +5510,16 @@
         "parent"
       ],
       "exams": [],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "delhi-ncr"
@@ -4098,18 +5533,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "delhi",
-          "facebook",
-          "page",
-          "centre",
-          "news",
-          "events",
-          "announcements"
+          "allen delhi facebook",
+          "allen delhi centre",
+          "allen delhi news",
+          "facebook allen delhi",
+          "allen delhi events",
+          "allen delhi page",
+          "delhi coaching updates"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन दिल्ली फेसबुक",
+          "एलन दिल्ली सेंटर",
+          "एलन दिल्ली समाचार",
+          "फेसबुक एलन दिल्ली",
+          "एलन दिल्ली"
+        ],
+        "hiLatin": [
+          "allen delhi facebook",
+          "allen delhi centre",
+          "allen delhi news",
+          "facebook allen delhi",
+          "allen delhi"
+        ],
+        "ta": [
+          "ஆலன் டெல்லி பேஸ்புக்",
+          "ஆலன் டெல்லி மையம்",
+          "ஆலன் டெல்லி செய்திகள்",
+          "பேஸ்புக் ஆலன்"
+        ],
+        "taLatin": [
+          "allen delhi facebook",
+          "allen delhi center",
+          "allen delhi seithi",
+          "facebook allen"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4162,7 +5619,11 @@
         "jee-advanced",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -4176,19 +5637,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "pinterest",
-          "infographics",
-          "study",
-          "tips",
-          "motivational",
-          "visuals"
+          "allen pinterest",
+          "allen study tips",
+          "allen infographics",
+          "jee neet motivation",
+          "pinterest allen kota",
+          "study tips visuals",
+          "allen motivational"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन पिंटरेस्ट",
+          "एलन स्टडी टिप्स",
+          "पढ़ाई के टिप्स",
+          "प्रेरणा इमेज",
+          "एलन कोटा पिंटरेस्ट"
+        ],
+        "hiLatin": [
+          "allen pinterest",
+          "study tips",
+          "padhai tips",
+          "motivation",
+          "allen kota"
+        ],
+        "ta": [
+          "ஆலன் பின்டெரஸ்ட்",
+          "படிப்பு டிப்ஸ்",
+          "ஊக்கம் படங்கள்",
+          "ஆலன் கோட்டா"
+        ],
+        "taLatin": [
+          "allen pinterest",
+          "padippu tips",
+          "motivation padam",
+          "allen kota"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4237,7 +5719,11 @@
         "parent"
       ],
       "exams": [],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -4251,19 +5737,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "threads",
-          "verified",
-          "account",
-          "mirroring",
-          "main",
-          "brand"
+          "allen threads",
+          "allen career institute threads",
+          "threads allen",
+          "allen official threads",
+          "allen updates threads",
+          "allen social media",
+          "allen news threads"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन थ्रेड्स",
+          "एलन करियर इंस्टीट्यूट थ्रेड्स",
+          "थ्रेड्स एलन",
+          "एलन ऑफिशियल",
+          "एलन अपडेट"
+        ],
+        "hiLatin": [
+          "allen threads",
+          "allen career institute",
+          "threads allen",
+          "allen official",
+          "allen update"
+        ],
+        "ta": [
+          "ஆலன் த்ரெட்ஸ்",
+          "ஆலன் கரியர் இன்ஸ்டிடியூட்",
+          "த்ரெட்ஸ் ஆலன்",
+          "ஆலன் அப்டேட்"
+        ],
+        "taLatin": [
+          "allen threads",
+          "allen career institute",
+          "threads allen",
+          "allen update"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4316,7 +5823,11 @@
         "jee-advanced",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -4330,19 +5841,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "quora",
-          "profile",
-          "answering",
-          "aspirant",
-          "questions",
-          "about"
+          "allen quora",
+          "allen quora answers",
+          "allen jee neet questions",
+          "quora allen",
+          "allen preparation tips",
+          "ask about allen",
+          "allen aspirant questions"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन क्वोरा",
+          "एलन के सवाल जवाब",
+          "क्वोरा एलन",
+          "एलन तैयारी टिप्स",
+          "एलन सवाल"
+        ],
+        "hiLatin": [
+          "allen quora",
+          "sawal jawab",
+          "quora allen",
+          "taiyari tips",
+          "allen sawal"
+        ],
+        "ta": [
+          "ஆலன் குவோரா",
+          "ஆலன் கேள்வி பதில்",
+          "குவோரா ஆலன்",
+          "தயாரிப்பு டிப்ஸ்"
+        ],
+        "taLatin": [
+          "allen quora",
+          "kelvi pathil",
+          "quora allen",
+          "thayarippu tips"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4392,7 +5924,9 @@
         "student"
       ],
       "exams": [],
-      "classLevels": [],
+      "classLevels": [
+        "college-other"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -4406,18 +5940,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "next",
-          "instagram",
-          "neet",
-          "ini",
-          "cet",
-          "fmge",
-          "division"
+          "allen next instagram",
+          "allen neet pg",
+          "ini-cet preparation",
+          "fmge coaching",
+          "allen next official",
+          "neet pg instagram",
+          "allen postgraduate medical"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन नेक्स्ट इंस्टाग्राम",
+          "नीट पीजी",
+          "आईएनआई सेट",
+          "एफएमजीई",
+          "एलन नेक्स्ट"
+        ],
+        "hiLatin": [
+          "allen next instagram",
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "allen next"
+        ],
+        "ta": [
+          "ஆலன் நெக்ஸ்ட் இன்ஸ்டாகிராம்",
+          "நீட் பிஜி",
+          "ஐஎன்ஐ செட்",
+          "எஃப்எம்ஜிஇ"
+        ],
+        "taLatin": [
+          "allen next instagram",
+          "neet pg",
+          "ini cet",
+          "fmge"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4472,7 +6028,11 @@
         "neet",
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -4486,17 +6046,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "instagram",
-          "updates",
-          "results",
-          "tips",
-          "from"
+          "allen overseas instagram",
+          "allen overseas results",
+          "allen abroad coaching",
+          "overseas instagram allen",
+          "allen gulf coaching",
+          "allen overseas tips",
+          "jee neet abroad"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ओवरसीज इंस्टाग्राम",
+          "एलन ओवरसीज रिजल्ट",
+          "विदेश कोचिंग",
+          "इंस्टाग्राम एलन ओवरसीज",
+          "एलन ओवरसीज"
+        ],
+        "hiLatin": [
+          "allen overseas instagram",
+          "overseas result",
+          "videsh coaching",
+          "instagram allen overseas",
+          "allen overseas"
+        ],
+        "ta": [
+          "ஆலன் ஓவர்சீஸ் இன்ஸ்டாகிராம்",
+          "ஆலன் ஓவர்சீஸ் முடிவுகள்",
+          "வெளிநாட்டுப் பயிற்சி",
+          "இன்ஸ்டாகிராம் ஆலன்"
+        ],
+        "taLatin": [
+          "allen overseas instagram",
+          "overseas mudivugal",
+          "velinaattu payirchi",
+          "instagram allen"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4551,7 +6134,11 @@
         "neet",
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -4565,15 +6152,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "facebook",
-          "news",
-          "announcements"
+          "allen overseas facebook",
+          "allen overseas news",
+          "allen abroad facebook",
+          "facebook allen overseas",
+          "allen gulf updates",
+          "overseas announcements",
+          "allen overseas page"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ओवरसीज फेसबुक",
+          "एलन ओवरसीज समाचार",
+          "विदेश एलन फेसबुक",
+          "फेसबुक एलन ओवरसीज",
+          "एलन ओवरसीज"
+        ],
+        "hiLatin": [
+          "allen overseas facebook",
+          "overseas news",
+          "videsh allen",
+          "facebook allen overseas",
+          "allen overseas"
+        ],
+        "ta": [
+          "ஆலன் ஓவர்சீஸ் பேஸ்புக்",
+          "ஆலன் ஓவர்சீஸ் செய்திகள்",
+          "வெளிநாடு ஆலன்",
+          "பேஸ்புக் ஆலன் ஓவர்சீஸ்"
+        ],
+        "taLatin": [
+          "allen overseas facebook",
+          "overseas seithi",
+          "velinaadu allen",
+          "facebook allen overseas"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4629,7 +6241,11 @@
         "neet",
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -4643,16 +6259,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "twitter",
-          "quick",
-          "updates",
-          "from"
+          "allen overseas twitter",
+          "allen overseas x",
+          "allen abroad updates",
+          "twitter allen overseas",
+          "x allen overseas",
+          "allen gulf tweets",
+          "overseas quick updates"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ओवरसीज ट्विटर",
+          "एलन ओवरसीज एक्स",
+          "विदेश अपडेट",
+          "ट्विटर एलन ओवरसीज",
+          "एलन ओवरसीज"
+        ],
+        "hiLatin": [
+          "allen overseas twitter",
+          "allen overseas x",
+          "videsh update",
+          "twitter allen overseas",
+          "allen overseas"
+        ],
+        "ta": [
+          "ஆலன் ஓவர்சீஸ் ட்விட்டர்",
+          "ஆலன் ஓவர்சீஸ் எக்ஸ்",
+          "வெளிநாடு அப்டேட்",
+          "ட்விட்டர் ஆலன்"
+        ],
+        "taLatin": [
+          "allen overseas twitter",
+          "allen overseas x",
+          "velinaadu update",
+          "twitter allen"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4703,7 +6343,9 @@
       "exams": [
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "college-other"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -4717,19 +6359,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "career",
-          "institute",
-          "overseas",
-          "linkedin",
-          "company",
-          "updates",
-          "careers",
-          "from"
+          "allen overseas linkedin",
+          "allen overseas jobs",
+          "allen careers abroad",
+          "linkedin allen overseas",
+          "allen overseas company",
+          "allen recruitment overseas",
+          "allen overseas hiring"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ओवरसीज लिंक्डइन",
+          "एलन ओवरसीज नौकरी",
+          "विदेश करियर",
+          "लिंक्डइन एलन",
+          "एलन ओवरसीज जॉब"
+        ],
+        "hiLatin": [
+          "allen overseas linkedin",
+          "overseas naukri",
+          "videsh career",
+          "linkedin allen",
+          "allen overseas job"
+        ],
+        "ta": [
+          "ஆலன் ஓவர்சீஸ் லிங்க்ட்இன்",
+          "ஆலன் ஓவர்சீஸ் வேலை",
+          "வெளிநாடு வேலை",
+          "லிங்க்ட்இன் ஆலன்"
+        ],
+        "taLatin": [
+          "allen overseas linkedin",
+          "overseas velai",
+          "velinaadu velai",
+          "linkedin allen"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4781,7 +6444,11 @@
       "exams": [
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -4795,16 +6462,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "oman",
-          "instagram",
-          "centre",
-          "updates"
+          "allen oman instagram",
+          "allen overseas oman",
+          "allen oman centre",
+          "instagram allen oman",
+          "allen muscat coaching",
+          "oman allen updates",
+          "allen oman page"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ओमान इंस्टाग्राम",
+          "एलन ओवरसीज ओमान",
+          "एलन ओमान सेंटर",
+          "इंस्टाग्राम एलन ओमान",
+          "एलन ओमान"
+        ],
+        "hiLatin": [
+          "allen oman instagram",
+          "allen overseas oman",
+          "allen oman centre",
+          "instagram allen oman",
+          "allen oman"
+        ],
+        "ta": [
+          "ஆலன் ஓமான் இன்ஸ்டாகிராம்",
+          "ஆலன் ஓவர்சீஸ் ஓமான்",
+          "ஆலன் ஓமான் மையம்",
+          "இன்ஸ்டாகிராம் ஆலன் ஓமான்"
+        ],
+        "taLatin": [
+          "allen oman instagram",
+          "allen overseas oman",
+          "allen oman center",
+          "instagram allen oman"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4856,7 +6547,11 @@
       "exams": [
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -4870,15 +6565,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "oman",
-          "facebook",
-          "news"
+          "allen oman facebook",
+          "allen overseas oman news",
+          "allen oman centre facebook",
+          "facebook allen oman",
+          "allen muscat updates",
+          "oman allen page",
+          "allen oman announcements"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ओमान फेसबुक",
+          "एलन ओवरसीज ओमान समाचार",
+          "एलन ओमान सेंटर फेसबुक",
+          "फेसबुक एलन ओमान",
+          "एलन ओमान"
+        ],
+        "hiLatin": [
+          "allen oman facebook",
+          "overseas oman news",
+          "allen oman centre",
+          "facebook allen oman",
+          "allen oman"
+        ],
+        "ta": [
+          "ஆலன் ஓமான் பேஸ்புக்",
+          "ஆலன் ஓவர்சீஸ் ஓமான் செய்திகள்",
+          "ஆலன் ஓமான் மையம்",
+          "பேஸ்புக் ஆலன் ஓமான்"
+        ],
+        "taLatin": [
+          "allen oman facebook",
+          "overseas oman seithi",
+          "allen oman center",
+          "facebook allen oman"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -4943,16 +6663,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "bhopal",
-          "instagram",
-          "centre",
-          "updates",
-          "events"
+          "allen bhopal instagram",
+          "allen bhopal centre",
+          "allen bhopal updates",
+          "allen bhopal events",
+          "allen bhopal social media",
+          "allen mp coaching",
+          "allen bhopal news"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन भोपाल",
+          "एलन भोपाल इंस्टाग्राम",
+          "एलन भोपाल सेंटर",
+          "एलन भोपाल अपडेट",
+          "एलन भोपाल इवेंट"
+        ],
+        "hiLatin": [
+          "allen bhopal",
+          "allen bhopal instagram",
+          "allen bhopal center",
+          "allen bhopal news",
+          "allen bhopal update"
+        ],
+        "ta": [
+          "எலன் போபால்",
+          "எலன் போபால் இன்ஸ்டாகிராம்",
+          "எலன் போபால் சென்டர்",
+          "எலன் போபால் செய்திகள்"
+        ],
+        "taLatin": [
+          "allen bhopal",
+          "allen bhopal instagram",
+          "allen bhopal center",
+          "allen bhopal seythigal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5004,7 +6748,11 @@
         "jee-advanced",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5018,19 +6766,41 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "previous",
-          "year",
-          "question",
-          "papers",
-          "hub",
-          "jee",
-          "neet",
-          "central"
+          "previous year question papers",
+          "jee neet pyq",
+          "past papers",
+          "jee main advanced papers",
+          "neet old papers",
+          "free question papers with solutions",
+          "pyq hub",
+          "download previous papers"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "पिछले साल के पेपर",
+          "जेईई नीट पुराने पेपर",
+          "प्रीवियस ईयर क्वेश्चन पेपर",
+          "हल सहित पेपर",
+          "नीट जेईई पीवाईक्यू"
+        ],
+        "hiLatin": [
+          "previous year paper",
+          "purane paper",
+          "pichle saal ke paper",
+          "pyq",
+          "jee neet old paper hal sahit"
+        ],
+        "ta": [
+          "முந்தைய ஆண்டு வினாத்தாள்கள்",
+          "பழைய வினாத்தாள்கள்",
+          "JEE NEET பழைய தாள்கள்",
+          "தீர்வுடன் வினாத்தாள்கள்"
+        ],
+        "taLatin": [
+          "munthaiya aandu vinathaalgal",
+          "pazhaiya paper",
+          "previous year paper",
+          "jee neet pyq theervudan"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5080,13 +6850,18 @@
       "exams": [
         "jee-main"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -5094,19 +6869,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "main",
-          "previous",
-          "year",
-          "papers",
-          "2020",
-          "2025",
-          "free"
+          "jee main previous year papers",
+          "jee main pyq",
+          "jee main past papers 2020 2025",
+          "jee main solved papers",
+          "jee main answer key",
+          "jee main papers hindi english",
+          "jee main old papers pdf"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई मेन पिछले साल के पेपर",
+          "जेईई मेन पुराने पेपर",
+          "जेईई मेन हल सहित पेपर",
+          "जेईई मेन आंसर की",
+          "जेईई मेन पीवाईक्यू"
+        ],
+        "hiLatin": [
+          "jee main previous year paper",
+          "jee main purane paper",
+          "jee main pyq",
+          "jee main answer key",
+          "jee main hal sahit"
+        ],
+        "ta": [
+          "JEE Main முந்தைய ஆண்டு தாள்கள்",
+          "JEE Main பழைய தாள்கள்",
+          "JEE Main தீர்வு தாள்கள்",
+          "JEE Main விடைக்குறிப்பு"
+        ],
+        "taLatin": [
+          "jee main previous year paper",
+          "jee main pazhaiya paper",
+          "jee main pyq",
+          "jee main vidaikkurippu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5157,7 +6953,11 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5171,19 +6971,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "advanced",
-          "previous",
-          "year",
-          "papers",
-          "solutions",
-          "free",
-          "past"
+          "jee advanced previous year papers",
+          "jee advanced pyq",
+          "jee advanced solutions pdf",
+          "jee advanced past papers",
+          "iit jee advanced solved papers",
+          "jee advanced step by step solutions",
+          "jee advanced old papers"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई एडवांस्ड पिछले साल के पेपर",
+          "जेईई एडवांस्ड पुराने पेपर",
+          "जेईई एडवांस्ड हल सहित",
+          "जेईई एडवांस्ड सॉल्यूशन",
+          "आईआईटी जेईई पेपर"
+        ],
+        "hiLatin": [
+          "jee advanced previous year paper",
+          "jee advanced purane paper",
+          "jee advanced solution pdf",
+          "iit jee paper",
+          "jee advanced hal sahit"
+        ],
+        "ta": [
+          "JEE Advanced முந்தைய ஆண்டு தாள்கள்",
+          "JEE Advanced பழைய தாள்கள்",
+          "JEE Advanced தீர்வுகள்",
+          "IIT JEE தாள்கள்"
+        ],
+        "taLatin": [
+          "jee advanced previous year paper",
+          "jee advanced pazhaiya paper",
+          "jee advanced theervugal",
+          "iit jee paper"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5233,7 +7054,11 @@
       "exams": [
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5249,19 +7074,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "neet",
-          "previous",
-          "year",
-          "papers",
-          "2016",
-          "2026",
-          "free",
-          "years"
+          "neet previous year papers",
+          "neet pyq 10 years",
+          "neet past papers with solutions",
+          "neet physics chemistry biology pdf",
+          "neet old papers download",
+          "neet solved papers",
+          "neet answer key pdf"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "नीट पिछले साल के पेपर",
+          "नीट पुराने पेपर",
+          "नीट 10 साल के पेपर",
+          "नीट हल सहित पेपर",
+          "नीट फिजिक्स केमिस्ट्री बायोलॉजी"
+        ],
+        "hiLatin": [
+          "neet previous year paper",
+          "neet purane paper",
+          "neet 10 saal ke paper",
+          "neet pyq",
+          "neet hal sahit paper"
+        ],
+        "ta": [
+          "NEET முந்தைய ஆண்டு தாள்கள்",
+          "NEET பழைய தாள்கள்",
+          "NEET 10 ஆண்டு தாள்கள்",
+          "NEET தீர்வுடன் தாள்கள்"
+        ],
+        "taLatin": [
+          "neet previous year paper",
+          "neet pazhaiya paper",
+          "neet phttu aandu paper",
+          "neet theervudan paper"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5315,7 +7161,12 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5329,19 +7180,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "free",
-          "sample",
-          "papers",
-          "solutions",
-          "jee",
-          "neet",
-          "bitsat",
-          "cbse"
+          "free sample papers",
+          "jee neet sample papers",
+          "bitsat sample paper",
+          "cbse icse class 10 12 sample papers",
+          "model papers with solutions",
+          "practice papers free",
+          "sample papers download"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "फ्री सैंपल पेपर",
+          "जेईई नीट सैंपल पेपर",
+          "सीबीएसई आईसीएसई सैंपल पेपर",
+          "मॉडल पेपर हल सहित",
+          "प्रैक्टिस पेपर"
+        ],
+        "hiLatin": [
+          "free sample paper",
+          "jee neet sample paper",
+          "cbse icse sample paper",
+          "model paper hal sahit",
+          "practice paper"
+        ],
+        "ta": [
+          "இலவச மாதிரி வினாத்தாள்கள்",
+          "JEE NEET மாதிரி தாள்கள்",
+          "CBSE ICSE மாதிரி தாள்கள்",
+          "பயிற்சி தாள்கள்"
+        ],
+        "taLatin": [
+          "ilavasa maathiri paper",
+          "jee neet sample paper",
+          "cbse icse sample paper",
+          "payirchi paper"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5392,7 +7264,11 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5406,19 +7282,39 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "advanced",
-          "sample",
-          "papers",
-          "free",
-          "physics",
-          "chemistry",
-          "maths"
+          "jee advanced sample papers",
+          "jee advanced model papers",
+          "jee advanced physics chemistry maths papers",
+          "jee advanced practice papers with solutions",
+          "jee advanced free papers",
+          "jee advanced mock papers"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई एडवांस्ड सैंपल पेपर",
+          "जेईई एडवांस्ड मॉडल पेपर",
+          "जेईई एडवांस्ड प्रैक्टिस पेपर",
+          "जेईई एडवांस्ड हल सहित पेपर",
+          "जेईई एडवांस्ड फिजिक्स मैथ्स"
+        ],
+        "hiLatin": [
+          "jee advanced sample paper",
+          "jee advanced model paper",
+          "jee advanced practice paper",
+          "jee advanced hal sahit",
+          "jee advanced free paper"
+        ],
+        "ta": [
+          "JEE Advanced மாதிரி தாள்கள்",
+          "JEE Advanced பயிற்சி தாள்கள்",
+          "JEE Advanced இயற்பியல் கணிதம் தாள்கள்",
+          "JEE Advanced தீர்வுடன்"
+        ],
+        "taLatin": [
+          "jee advanced sample paper",
+          "jee advanced payirchi paper",
+          "jee advanced model paper",
+          "jee advanced theervudan"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5469,7 +7365,9 @@
       "exams": [
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "10"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5483,19 +7381,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "cbse",
-          "class",
-          "sample",
-          "papers",
-          "solutions",
-          "free",
-          "icse",
-          "board"
+          "cbse class 10 sample papers",
+          "class 10 board sample papers",
+          "icse class 10 sample papers",
+          "mh board class 10 papers",
+          "class 10 model papers with solutions",
+          "free class 10 board papers",
+          "class 10 practice papers"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "सीबीएसई कक्षा 10 सैंपल पेपर",
+          "कक्षा 10 बोर्ड पेपर",
+          "आईसीएसई कक्षा 10 सैंपल पेपर",
+          "कक्षा 10 मॉडल पेपर",
+          "बोर्ड परीक्षा पेपर हल सहित"
+        ],
+        "hiLatin": [
+          "cbse class 10 sample paper",
+          "class 10 board paper",
+          "icse class 10 sample paper",
+          "class 10 model paper",
+          "board pariksha paper"
+        ],
+        "ta": [
+          "CBSE 10ஆம் வகுப்பு மாதிரி தாள்கள்",
+          "10ஆம் வகுப்பு போர்டு தாள்கள்",
+          "ICSE 10ஆம் வகுப்பு தாள்கள்",
+          "10ஆம் வகுப்பு பயிற்சி தாள்கள்"
+        ],
+        "taLatin": [
+          "cbse class 10 sample paper",
+          "patthaam vakuppu board paper",
+          "class 10 model paper",
+          "class 10 payirchi paper"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5549,7 +7468,15 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5563,19 +7490,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "ncert",
-          "solutions",
-          "class",
-          "free",
-          "chapter",
-          "wise",
-          "classes",
-          "across"
+          "ncert solutions",
+          "ncert solutions class 6 to 12",
+          "free ncert solutions chapter wise",
+          "ncert book answers",
+          "ncert solutions all subjects",
+          "ncert textbook solutions",
+          "ncert pdf solutions"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एनसीईआरटी सॉल्यूशन",
+          "एनसीईआरटी समाधान कक्षा 6 से 12",
+          "एनसीईआरटी हल",
+          "एनसीईआरटी अध्याय अनुसार हल",
+          "एनसीईआरटी किताब के उत्तर"
+        ],
+        "hiLatin": [
+          "ncert solution",
+          "ncert samadhan",
+          "ncert hal",
+          "ncert class 6 to 12 solution",
+          "ncert kitab ke uttar"
+        ],
+        "ta": [
+          "NCERT தீர்வுகள்",
+          "NCERT தீர்வுகள் வகுப்பு 6 முதல் 12",
+          "NCERT அத்தியாயம் வாரியான தீர்வுகள்",
+          "NCERT பாடப்புத்தக விடைகள்"
+        ],
+        "taLatin": [
+          "ncert theervugal",
+          "ncert solution",
+          "ncert vakuppu 6 to 12",
+          "ncert paadanool vidaigal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5627,7 +7575,9 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "12"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5641,19 +7591,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "ncert",
-          "solutions",
-          "class",
-          "free",
-          "maths",
-          "physics",
-          "chemistry",
-          "biology"
+          "ncert solutions class 12",
+          "class 12 ncert maths solutions",
+          "class 12 ncert physics solutions",
+          "class 12 ncert chemistry biology",
+          "free ncert class 12 answers",
+          "ncert class 12 pdf",
+          "class 12 textbook solutions"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एनसीईआरटी कक्षा 12 सॉल्यूशन",
+          "कक्षा 12 एनसीईआरटी हल",
+          "कक्षा 12 गणित भौतिकी समाधान",
+          "एनसीईआरटी 12 के उत्तर",
+          "कक्षा 12 केमिस्ट्री बायोलॉजी हल"
+        ],
+        "hiLatin": [
+          "ncert class 12 solution",
+          "class 12 ncert hal",
+          "class 12 maths physics solution",
+          "ncert 12 uttar",
+          "ncert class 12 pdf"
+        ],
+        "ta": [
+          "NCERT வகுப்பு 12 தீர்வுகள்",
+          "12ஆம் வகுப்பு கணிதம் தீர்வுகள்",
+          "12ஆம் வகுப்பு இயற்பியல் வேதியியல்",
+          "NCERT 12 விடைகள்"
+        ],
+        "taLatin": [
+          "ncert class 12 theervu",
+          "panniraendaam vakuppu ncert",
+          "class 12 kanitham physics solution",
+          "ncert 12 vidaigal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5705,7 +7676,9 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5719,19 +7692,40 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "ncert",
-          "solutions",
-          "class",
-          "free",
-          "across",
-          "core",
-          "subjects",
-          "step"
+          "ncert solutions class 11",
+          "class 11 ncert solutions all subjects",
+          "class 11 ncert step by step answers",
+          "free ncert class 11 solutions",
+          "ncert class 11 maths physics chemistry",
+          "class 11 textbook solutions",
+          "ncert class 11 pdf"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एनसीईआरटी कक्षा 11 सॉल्यूशन",
+          "कक्षा 11 एनसीईआरटी हल",
+          "कक्षा 11 एनसीईआरटी समाधान सभी विषय",
+          "एनसीईआरटी 11 के उत्तर",
+          "कक्षा 11 गणित भौतिकी हल"
+        ],
+        "hiLatin": [
+          "ncert class 11 solution",
+          "class 11 ncert hal",
+          "class 11 ncert samadhan",
+          "ncert 11 uttar",
+          "class 11 maths physics solution"
+        ],
+        "ta": [
+          "NCERT வகுப்பு 11 தீர்வுகள்",
+          "11ஆம் வகுப்பு NCERT தீர்வுகள்",
+          "11ஆம் வகுப்பு கணிதம் இயற்பியல்",
+          "NCERT 11 விடைகள்"
+        ],
+        "taLatin": [
+          "ncert class 11 theervu",
+          "pathinonraam vakuppu ncert",
+          "class 11 kanitham physics solution",
+          "ncert 11 vidaigal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5781,7 +7775,11 @@
       "exams": [
         "jee-main"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5795,19 +7793,44 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "main",
-          "free",
-          "mock",
-          "test",
-          "tests",
-          "answer",
-          "keys"
+          "jee main mock test free",
+          "jee main online test",
+          "free jee main practice test",
+          "jee main answer key solutions",
+          "jee main test series free",
+          "jee main sample test latest pattern",
+          "iit jee mock test",
+          "jee main full length test"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई मेन मॉक टेस्ट",
+          "मुफ्त मॉक टेस्ट",
+          "जेईई मेन ऑनलाइन टेस्ट",
+          "जेईई मेन अभ्यास प्रश्न",
+          "आंसर की और हल"
+        ],
+        "hiLatin": [
+          "jee main mock test",
+          "free mock test",
+          "jee main online test",
+          "jee main practice",
+          "answer key hindi",
+          "muft test"
+        ],
+        "ta": [
+          "ஜேஇஇ மெயின் மாதிரி தேர்வு",
+          "இலவச மாதிரி தேர்வு",
+          "ஆன்லைன் தேர்வு",
+          "ஜேஇஇ பயிற்சி தேர்வு",
+          "விடைக்குறிப்பு"
+        ],
+        "taLatin": [
+          "jee main mock test",
+          "ilavasa madhiri thervu",
+          "online thervu",
+          "jee main payirchi",
+          "vidaikurippu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5858,7 +7881,11 @@
         "jee-main",
         "jee-advanced"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5872,19 +7899,43 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "advanced",
-          "free",
-          "mock",
-          "test",
-          "tests",
-          "practice",
-          "sets"
+          "jee advanced mock test free",
+          "jee advanced practice test",
+          "iit jee advanced online test",
+          "jee advanced sample paper pdf",
+          "free jee advanced test series",
+          "jee advanced exam pattern practice",
+          "jee advanced full test",
+          "jee advanced practice sets"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई एडवांस्ड मॉक टेस्ट",
+          "मुफ्त मॉक टेस्ट",
+          "जेईई एडवांस्ड अभ्यास",
+          "आईआईटी जेईई टेस्ट",
+          "जेईई एडवांस्ड प्रैक्टिस सेट"
+        ],
+        "hiLatin": [
+          "jee advanced mock test",
+          "free mock test",
+          "jee advanced practice",
+          "iit jee test",
+          "jee advanced practice set"
+        ],
+        "ta": [
+          "ஜேஇஇ அட்வான்ஸ்டு மாதிரி தேர்வு",
+          "இலவச மாதிரி தேர்வு",
+          "ஐஐடி ஜேஇஇ தேர்வு",
+          "ஜேஇஇ பயிற்சி தொகுப்பு",
+          "ஆன்லைன் தேர்வு"
+        ],
+        "taLatin": [
+          "jee advanced mock test",
+          "ilavasa madhiri thervu",
+          "iit jee thervu",
+          "jee payirchi thoguppu",
+          "online thervu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -5934,7 +7985,11 @@
       "exams": [
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -5948,19 +8003,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "neet",
-          "free",
-          "mock",
-          "test",
-          "tests",
-          "online",
-          "pdf",
-          "step"
+          "neet mock test free",
+          "neet online test",
+          "free neet practice test pdf",
+          "neet 2026 pattern mock test",
+          "neet full length mock test",
+          "neet test with solutions",
+          "medical entrance mock test",
+          "neet ug mock test"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "नीट मॉक टेस्ट",
+          "मुफ्त नीट टेस्ट",
+          "नीट ऑनलाइन टेस्ट",
+          "नीट अभ्यास प्रश्न",
+          "नीट हल सहित",
+          "नीट 2026 मॉक"
+        ],
+        "hiLatin": [
+          "neet mock test",
+          "free neet test",
+          "neet online test",
+          "neet practice",
+          "neet solutions",
+          "muft neet test"
+        ],
+        "ta": [
+          "நீட் மாதிரி தேர்வு",
+          "இலவச நீட் தேர்வு",
+          "நீட் ஆன்லைன் தேர்வு",
+          "நீட் பயிற்சி தேர்வு",
+          "மருத்துவ நுழைவுத் தேர்வு"
+        ],
+        "taLatin": [
+          "neet mock test",
+          "ilavasa neet thervu",
+          "neet online thervu",
+          "neet payirchi thervu",
+          "maruthuva nuzhaivu thervu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6012,7 +8093,11 @@
         "jee-advanced",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -6028,19 +8113,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "online",
-          "test",
-          "series",
-          "self",
-          "study",
-          "courses",
-          "national",
-          "benchmarking"
+          "allen online test series",
+          "jee neet test series",
+          "self study course online",
+          "allen test series fees",
+          "national level test series jee neet",
+          "online mock test subscription",
+          "all india test series allen",
+          "buy test series allen"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ऑनलाइन टेस्ट सीरीज",
+          "जेईई नीट टेस्ट सीरीज",
+          "स्व अध्ययन कोर्स",
+          "ऑनलाइन मॉक टेस्ट",
+          "ऑल इंडिया टेस्ट सीरीज",
+          "टेस्ट सीरीज फीस"
+        ],
+        "hiLatin": [
+          "allen online test series",
+          "jee neet test series",
+          "self study course",
+          "online mock test",
+          "all india test series",
+          "test series fees"
+        ],
+        "ta": [
+          "எலன் ஆன்லைன் டெஸ்ட் சீரிஸ்",
+          "ஜேஇஇ நீட் டெஸ்ட் சீரிஸ்",
+          "சுய படிப்பு கோர்ஸ்",
+          "ஆன்லைன் மாதிரி தேர்வு",
+          "அகில இந்திய தேர்வு தொடர்"
+        ],
+        "taLatin": [
+          "allen online test series",
+          "jee neet test series",
+          "suya padippu course",
+          "online mock test",
+          "akila india thervu thodar"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6093,13 +8204,20 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
       ],
       "languagesAvailable": [
-        "en"
+        "en",
+        "hi"
       ],
       "academicSessions": [],
       "access": "public",
@@ -6108,18 +8226,44 @@
       "searchTerms": {
         "en": [
           "doubtnut",
-          "doubt",
-          "solving",
-          "owned",
-          "platform",
-          "giving",
-          "instant",
-          "free"
+          "doubt solving app",
+          "ai doubt solver free",
+          "photo question solver",
+          "instant video solutions",
+          "free doubt clearing jee neet",
+          "scan question get answer",
+          "step by step solution app"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "डाउटनट",
+          "डाउट हल करने वाला ऐप",
+          "फोटो से सवाल हल",
+          "मुफ्त डाउट समाधान",
+          "वीडियो हल",
+          "सवाल का जवाब तुरंत"
+        ],
+        "hiLatin": [
+          "doubtnut",
+          "doubt solving app",
+          "photo se sawal hal",
+          "muft doubt",
+          "video hal",
+          "sawal ka jawab"
+        ],
+        "ta": [
+          "டவுட்நட்",
+          "சந்தேக தீர்வு ஆப்",
+          "புகைப்படத்தில் கேள்வி தீர்வு",
+          "இலவச சந்தேக தீர்வு",
+          "வீடியோ விடை"
+        ],
+        "taLatin": [
+          "doubtnut",
+          "sandhega theervu app",
+          "photo kelvi theervu",
+          "ilavasa sandhega theervu",
+          "video vidai"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6174,7 +8318,13 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -6188,19 +8338,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "exam",
-          "news",
-          "blog",
-          "free",
-          "dates",
-          "admit",
-          "cards",
-          "answer"
+          "allen exam news",
+          "jee neet exam dates",
+          "admit card download",
+          "answer key results",
+          "exam notification updates",
+          "neet jee result date",
+          "allen blog preparation tips",
+          "exam calendar 2026"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन परीक्षा समाचार",
+          "जेईई नीट परीक्षा तिथि",
+          "एडमिट कार्ड डाउनलोड",
+          "आंसर की परिणाम",
+          "परीक्षा सूचना",
+          "रिजल्ट डेट"
+        ],
+        "hiLatin": [
+          "allen exam news",
+          "jee neet pariksha tithi",
+          "admit card download",
+          "answer key result",
+          "pariksha suchna",
+          "result date"
+        ],
+        "ta": [
+          "எலன் தேர்வு செய்தி",
+          "ஜேஇஇ நீட் தேர்வு தேதி",
+          "அட்மிட் கார்டு பதிவிறக்கம்",
+          "விடைக்குறிப்பு முடிவுகள்",
+          "தேர்வு அறிவிப்பு"
+        ],
+        "taLatin": [
+          "allen exam news",
+          "jee neet thervu thedhi",
+          "admit card download",
+          "vidaikurippu mudivugal",
+          "thervu arivippu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6254,7 +8430,13 @@
         "jee-advanced",
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -6268,19 +8450,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "exam",
-          "news",
-          "myexam",
-          "secondary",
-          "portal",
-          "jee",
-          "neet",
-          "board"
+          "allen exam news myexam",
+          "jee neet board exam updates",
+          "exam result news",
+          "latest exam dates",
+          "board exam results portal",
+          "neet jee notification",
+          "exam news allen",
+          "breaking exam news"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन एग्जाम न्यूज",
+          "जेईई नीट बोर्ड अपडेट",
+          "परीक्षा परिणाम समाचार",
+          "नवीनतम परीक्षा तिथि",
+          "बोर्ड रिजल्ट",
+          "परीक्षा सूचना"
+        ],
+        "hiLatin": [
+          "allen exam news myexam",
+          "jee neet board update",
+          "pariksha result news",
+          "naveen pariksha tithi",
+          "board result",
+          "pariksha suchna"
+        ],
+        "ta": [
+          "எலன் தேர்வு செய்தி",
+          "ஜேஇஇ நீட் போர்டு புதுப்பிப்பு",
+          "தேர்வு முடிவு செய்தி",
+          "சமீபத்திய தேர்வு தேதி",
+          "போர்டு முடிவுகள்"
+        ],
+        "taLatin": [
+          "allen exam news myexam",
+          "jee neet board update",
+          "thervu mudivu seydhi",
+          "sameebathiya thervu thedhi",
+          "board mudivugal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6334,7 +8542,13 @@
         "olympiad",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -6348,19 +8562,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "tallentex",
-          "talent",
-          "encouragement",
-          "exam",
-          "national",
-          "scholarship",
-          "search",
-          "class"
+          "tallentex registration",
+          "talent search exam allen",
+          "scholarship exam class 5 to 10",
+          "tallentex 2026 apply",
+          "national scholarship test",
+          "talent encouragement exam prizes",
+          "tallentex form fees",
+          "olympiad scholarship exam"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "टैलेंटेक्स रजिस्ट्रेशन",
+          "प्रतिभा खोज परीक्षा",
+          "छात्रवृत्ति परीक्षा कक्षा 5 से 10",
+          "टैलेंटेक्स 2026 आवेदन",
+          "राष्ट्रीय स्कॉलरशिप टेस्ट",
+          "टैलेंटेक्स फॉर्म"
+        ],
+        "hiLatin": [
+          "tallentex registration",
+          "pratibha khoj pariksha",
+          "chhatravritti pariksha",
+          "tallentex 2026 aavedan",
+          "scholarship test",
+          "tallentex form"
+        ],
+        "ta": [
+          "டாலென்டெக்ஸ் பதிவு",
+          "திறமை தேடல் தேர்வு",
+          "உதவித்தொகை தேர்வு வகுப்பு 5 முதல் 10",
+          "டாலென்டெக்ஸ் 2026 விண்ணப்பம்",
+          "தேசிய உதவித்தொகை தேர்வு"
+        ],
+        "taLatin": [
+          "tallentex pathivu",
+          "thiramai thedal thervu",
+          "udhavithogai thervu",
+          "tallentex 2026 vinnappam",
+          "thesiya udhavithogai thervu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6415,7 +8655,16 @@
         "neet",
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "kota"
@@ -6431,19 +8680,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "scholarship",
-          "cum",
-          "admission",
-          "test",
-          "asat",
-          "kota",
-          "entrance",
-          "qualify"
+          "allen asat",
+          "scholarship cum admission test",
+          "allen kota admission test",
+          "asat registration apply",
+          "allen scholarship 90 percent",
+          "allen entrance test kota",
+          "asat exam dates",
+          "allen admission scholarship test"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन असैट",
+          "स्कॉलरशिप कम एडमिशन टेस्ट",
+          "एलन कोटा एडमिशन टेस्ट",
+          "असैट रजिस्ट्रेशन",
+          "एलन छात्रवृत्ति परीक्षा",
+          "एलन प्रवेश परीक्षा"
+        ],
+        "hiLatin": [
+          "allen asat",
+          "scholarship cum admission test",
+          "allen kota admission test",
+          "asat registration",
+          "allen chhatravritti pariksha",
+          "allen pravesh pariksha"
+        ],
+        "ta": [
+          "எலன் அசாட்",
+          "உதவித்தொகை சேர்க்கை தேர்வு",
+          "எலன் கோட்டா சேர்க்கை தேர்வு",
+          "அசாட் பதிவு",
+          "எலன் உதவித்தொகை தேர்வு"
+        ],
+        "taLatin": [
+          "allen asat",
+          "udhavithogai serkkai thervu",
+          "allen kota serkkai thervu",
+          "asat pathivu",
+          "allen udhavithogai thervu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6497,7 +8772,13 @@
         "neet",
         "ntse"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -6513,19 +8794,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "online",
-          "test",
-          "series",
-          "dlp",
-          "jee",
-          "main",
-          "advanced",
-          "neet"
+          "allen dlp test series",
+          "online test series jee neet ntse",
+          "distance learning test series",
+          "allen test series with analysis",
+          "buy online mock test package",
+          "jee advanced neet test series dlp",
+          "allen dlp mock test",
+          "test series fees allen"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन डीएलपी टेस्ट सीरीज",
+          "ऑनलाइन टेस्ट सीरीज जेईई नीट",
+          "डिस्टेंस लर्निंग टेस्ट",
+          "एलन टेस्ट सीरीज विश्लेषण",
+          "मॉक टेस्ट पैकेज",
+          "टेस्ट सीरीज फीस"
+        ],
+        "hiLatin": [
+          "allen dlp test series",
+          "online test series jee neet",
+          "distance learning test",
+          "allen test series",
+          "mock test package",
+          "test series fees"
+        ],
+        "ta": [
+          "எலன் டிஎல்பி டெஸ்ட் சீரிஸ்",
+          "ஆன்லைன் டெஸ்ட் சீரிஸ் ஜேஇஇ நீட்",
+          "தொலைதூர படிப்பு தேர்வு",
+          "எலன் தேர்வு தொடர் பகுப்பாய்வு",
+          "மாதிரி தேர்வு தொகுப்பு"
+        ],
+        "taLatin": [
+          "allen dlp test series",
+          "online test series jee neet",
+          "tholaithoora padippu thervu",
+          "allen thervu thodar",
+          "madhiri thervu thoguppu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6577,7 +8884,10 @@
       "exams": [
         "jee-main"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -6593,19 +8903,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "jee",
-          "main",
-          "answer",
-          "key",
-          "2026",
-          "live",
-          "free",
-          "keys"
+          "jee main answer key 2026",
+          "jee main 2026 solutions",
+          "jee main response sheet",
+          "jee main score calculator",
+          "jee main paper solution subject wise",
+          "jee main answer key download",
+          "jee main 2026 live answer key",
+          "estimate jee main score"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "जेईई मेन आंसर की 2026",
+          "जेईई मेन 2026 हल",
+          "जेईई मेन रिस्पॉन्स शीट",
+          "जेईई मेन स्कोर अनुमान",
+          "आंसर की डाउनलोड",
+          "जेईई मेन पेपर सॉल्यूशन"
+        ],
+        "hiLatin": [
+          "jee main answer key 2026",
+          "jee main 2026 hal",
+          "jee main response sheet",
+          "jee main score anuman",
+          "answer key download",
+          "jee main paper solution"
+        ],
+        "ta": [
+          "ஜேஇஇ மெயின் விடைக்குறிப்பு 2026",
+          "ஜேஇஇ மெயின் 2026 விடைகள்",
+          "ஜேஇஇ மெயின் ரெஸ்பான்ஸ் ஷீட்",
+          "ஜேஇஇ மதிப்பெண் கணிப்பு",
+          "விடைக்குறிப்பு பதிவிறக்கம்"
+        ],
+        "taLatin": [
+          "jee main vidaikurippu 2026",
+          "jee main 2026 vidaigal",
+          "jee main response sheet",
+          "jee main madhippen kanippu",
+          "vidaikurippu download"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6657,7 +8993,10 @@
       "exams": [
         "neet"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -6673,19 +9012,45 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "neet",
-          "answer",
-          "key",
-          "2026",
-          "solutions",
-          "free",
-          "code",
-          "wise"
+          "neet answer key 2026",
+          "neet 2026 solutions code wise",
+          "neet score calculator",
+          "neet paper solution download",
+          "neet 2026 expected marks",
+          "neet booklet code answer key",
+          "neet answer key with solutions",
+          "neet response sheet check"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "नीट आंसर की 2026",
+          "नीट 2026 हल कोडवार",
+          "नीट स्कोर अनुमान",
+          "नीट पेपर सॉल्यूशन",
+          "नीट अनुमानित अंक",
+          "नीट आंसर की डाउनलोड"
+        ],
+        "hiLatin": [
+          "neet answer key 2026",
+          "neet 2026 hal code wise",
+          "neet score anuman",
+          "neet paper solution",
+          "neet anumanit ank",
+          "answer key download"
+        ],
+        "ta": [
+          "நீட் விடைக்குறிப்பு 2026",
+          "நீட் 2026 விடைகள் கோடு வாரியாக",
+          "நீட் மதிப்பெண் கணிப்பு",
+          "நீட் தாள் விடை பதிவிறக்கம்",
+          "நீட் எதிர்பார்க்கும் மதிப்பெண்"
+        ],
+        "taLatin": [
+          "neet vidaikurippu 2026",
+          "neet 2026 vidaigal code wise",
+          "neet madhippen kanippu",
+          "neet thaal vidai download",
+          "neet ethirparkum madhippen"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6810,7 +9175,16 @@
         "parent"
       ],
       "exams": [],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -6824,19 +9198,43 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "centers",
-          "locator",
-          "select",
-          "center",
-          "find",
-          "browse",
-          "centres",
-          "across"
+          "allen center near me",
+          "allen branches",
+          "allen centres list",
+          "find allen coaching center",
+          "allen kota address",
+          "allen center locator",
+          "allen branch in my city",
+          "nearest allen center"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन सेंटर",
+          "नज़दीकी एलन शाखा",
+          "एलन कोचिंग सेंटर",
+          "एलन सेंटर पता",
+          "एलन शाखाएँ"
+        ],
+        "hiLatin": [
+          "allen center",
+          "nazdeeki branch",
+          "allen shakha",
+          "center pata",
+          "allen branch"
+        ],
+        "ta": [
+          "அலன் சென்டர்",
+          "அருகில் உள்ள அலன் கிளை",
+          "அலன் கோச்சிங் மையம்",
+          "அலன் கிளைகள்",
+          "அலன் முகவரி"
+        ],
+        "taLatin": [
+          "allen center",
+          "arugil center",
+          "allen kilai",
+          "coaching maiyam",
+          "allen muhavari"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6885,7 +9283,16 @@
         "parent"
       ],
       "exams": [],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -6899,18 +9306,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "whatsapp",
-          "support",
-          "number",
-          "admission",
-          "exam",
-          "related",
-          "notifications"
+          "allen whatsapp number",
+          "allen contact whatsapp",
+          "allen admission whatsapp",
+          "message allen",
+          "allen helpline whatsapp",
+          "allen exam updates whatsapp",
+          "chat with allen"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन व्हाट्सएप नंबर",
+          "एलन संपर्क",
+          "एलन व्हाट्सएप हेल्पलाइन",
+          "एलन एडमिशन व्हाट्सएप",
+          "एलन से बात करें"
+        ],
+        "hiLatin": [
+          "allen whatsapp number",
+          "allen sampark",
+          "whatsapp helpline",
+          "admission whatsapp",
+          "allen se baat"
+        ],
+        "ta": [
+          "அலன் வாட்ஸ்அப் எண்",
+          "அலன் தொடர்பு",
+          "அலன் வாட்ஸ்அப் ஹெல்ப்லைன்",
+          "அலன் சேர்க்கை வாட்ஸ்அப்",
+          "அலன் செய்தி"
+        ],
+        "taLatin": [
+          "allen whatsapp number",
+          "allen thodarbu",
+          "whatsapp helpline",
+          "admission whatsapp",
+          "allen seithi"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -6961,7 +9392,16 @@
       "exams": [
         "foundation"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -6975,18 +9415,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "support",
-          "email",
-          "general",
-          "use",
-          "prenurture",
-          "foundation",
-          "program"
+          "allen email id",
+          "allen support email",
+          "contact allen email",
+          "allen info email",
+          "foundation program email",
+          "email allen",
+          "allen customer care email"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ईमेल",
+          "एलन सपोर्ट ईमेल",
+          "एलन संपर्क ईमेल",
+          "एलन ईमेल आईडी",
+          "एलन को ईमेल करें"
+        ],
+        "hiLatin": [
+          "allen email",
+          "support email",
+          "sampark email",
+          "allen email id",
+          "email karein"
+        ],
+        "ta": [
+          "அலன் மின்னஞ்சல்",
+          "அலன் ஆதரவு மின்னஞ்சல்",
+          "அலன் தொடர்பு மின்னஞ்சல்",
+          "அலன் இமெயில்",
+          "அலன் மின்னஞ்சல் முகவரி"
+        ],
+        "taLatin": [
+          "allen email",
+          "aadharavu email",
+          "thodarbu email",
+          "allen imeyil",
+          "email muhavari"
+        ]
       },
       "verification": {
         "status": "verified",
@@ -7034,7 +9498,16 @@
         "parent"
       ],
       "exams": [],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [],
       "regions": [
         "pan-india"
@@ -7048,19 +9521,43 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "student",
-          "helpdesk",
-          "request",
-          "grievance",
-          "online",
-          "form",
-          "enrolled",
-          "students"
+          "allen helpdesk",
+          "allen complaint",
+          "allen grievance form",
+          "raise request allen",
+          "student support form",
+          "allen problem report",
+          "allen issue complaint",
+          "allen helpdesk login"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन हेल्पडेस्क",
+          "एलन शिकायत",
+          "एलन शिकायत फॉर्म",
+          "छात्र सहायता",
+          "एलन समस्या"
+        ],
+        "hiLatin": [
+          "allen helpdesk",
+          "allen shikayat",
+          "shikayat form",
+          "chhatra sahayata",
+          "allen samasya"
+        ],
+        "ta": [
+          "அலன் ஹெல்ப்டெஸ்க்",
+          "அலன் புகார்",
+          "அலன் புகார் படிவம்",
+          "மாணவர் உதவி",
+          "அலன் சிக்கல்"
+        ],
+        "taLatin": [
+          "allen helpdesk",
+          "allen pugaar",
+          "pugaar padivam",
+          "maanavar udhavi",
+          "allen sikkal"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -7110,7 +9607,16 @@
         "parent"
       ],
       "exams": [],
-      "classLevels": [],
+      "classLevels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -7126,19 +9632,43 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "digital",
-          "help",
-          "center",
-          "faq",
-          "site",
-          "covering",
-          "login",
-          "payments"
+          "allen digital help",
+          "allen digital faq",
+          "allen login problem",
+          "allen payment help",
+          "allen digital support",
+          "allen app help",
+          "allen digital troubleshoot",
+          "myallendigital help"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन डिजिटल हेल्प",
+          "एलन लॉगिन समस्या",
+          "एलन पेमेंट हेल्प",
+          "एलन डिजिटल सपोर्ट",
+          "एलन डिजिटल मदद"
+        ],
+        "hiLatin": [
+          "allen digital help",
+          "login samasya",
+          "payment help",
+          "digital support",
+          "digital madad"
+        ],
+        "ta": [
+          "அலன் டிஜிட்டல் உதவி",
+          "அலன் உள்நுழைவு சிக்கல்",
+          "அலன் கட்டண உதவி",
+          "அலன் டிஜிட்டல் ஆதரவு",
+          "அலன் கேள்வி பதில்"
+        ],
+        "taLatin": [
+          "allen digital udhavi",
+          "login sikkal",
+          "kattana udhavi",
+          "digital aadharavu",
+          "kelvi pathil"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -7201,19 +9731,43 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "careers",
-          "work",
-          "page",
-          "describing",
-          "culture",
-          "link",
-          "current",
-          "job"
+          "allen careers",
+          "work at allen",
+          "allen jobs",
+          "allen faculty jobs",
+          "teaching jobs allen",
+          "allen recruitment",
+          "allen vacancy",
+          "join allen team"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन करियर",
+          "एलन में नौकरी",
+          "एलन जॉब",
+          "एलन भर्ती",
+          "एलन फैकल्टी नौकरी"
+        ],
+        "hiLatin": [
+          "allen career",
+          "allen naukri",
+          "allen job",
+          "allen bharti",
+          "faculty naukri"
+        ],
+        "ta": [
+          "அலன் வேலைவாய்ப்பு",
+          "அலன் வேலை",
+          "அலன் ஆசிரியர் வேலை",
+          "அலன் வேலை சேர்க்கை",
+          "அலன் பணி"
+        ],
+        "taLatin": [
+          "allen velaivaaippu",
+          "allen velai",
+          "aasiriyar velai",
+          "velai serkkai",
+          "allen pani"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -7275,19 +9829,43 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "job",
-          "openings",
-          "submit",
-          "profile",
-          "recruitment",
-          "page",
-          "your",
-          "access"
+          "allen job openings",
+          "apply allen job",
+          "submit resume allen",
+          "allen vacancy apply",
+          "allen current openings",
+          "allen recruitment apply",
+          "allen job application",
+          "allen hiring"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन जॉब ओपनिंग",
+          "एलन नौकरी आवेदन",
+          "एलन रिज्यूमे जमा करें",
+          "एलन भर्ती आवेदन",
+          "एलन वैकेंसी"
+        ],
+        "hiLatin": [
+          "allen job opening",
+          "naukri aavedan",
+          "resume jama",
+          "bharti aavedan",
+          "allen vacancy"
+        ],
+        "ta": [
+          "அலன் வேலை வாய்ப்புகள்",
+          "அலன் வேலை விண்ணப்பம்",
+          "ரெசுயூம் சமர்ப்பி",
+          "அலன் காலிப்பணியிடம்",
+          "அலன் வேலைக்கு விண்ணப்பி"
+        ],
+        "taLatin": [
+          "allen velai vaaippu",
+          "velai vinnappam",
+          "resume samarppi",
+          "kaalippaniyidam",
+          "velaikku vinnappi"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -7340,7 +9918,11 @@
         "neet",
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper"
+      ],
       "deliveryModes": [
         "online"
       ],
@@ -7356,19 +9938,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "overseas",
-          "digital",
-          "class",
-          "portal",
-          "online",
-          "classroom",
-          "login",
-          "students"
+          "allen overseas login",
+          "allen overseas digital class",
+          "allen gulf online class",
+          "allen overseas portal",
+          "allen abroad class login",
+          "allen overseas student login",
+          "allen overseas online classroom"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ओवरसीज लॉगिन",
+          "एलन ओवरसीज क्लास",
+          "एलन गल्फ ऑनलाइन क्लास",
+          "एलन ओवरसीज पोर्टल",
+          "एलन विदेश क्लास"
+        ],
+        "hiLatin": [
+          "allen overseas login",
+          "overseas class",
+          "gulf online class",
+          "overseas portal",
+          "videsh class"
+        ],
+        "ta": [
+          "அலன் ஓவர்சீஸ் உள்நுழைவு",
+          "அலன் ஓவர்சீஸ் வகுப்பு",
+          "அலன் கல்ஃப் ஆன்லைன் வகுப்பு",
+          "அலன் ஓவர்சீஸ் போர்ட்டல்",
+          "அலன் வெளிநாட்டு வகுப்பு"
+        ],
+        "taLatin": [
+          "overseas login",
+          "overseas vaguppu",
+          "gulf online class",
+          "overseas portal",
+          "velinaattu class"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
@@ -7418,7 +10023,12 @@
       "exams": [
         "abroad"
       ],
-      "classLevels": [],
+      "classLevels": [
+        "11",
+        "12",
+        "dropper",
+        "college-other"
+      ],
       "deliveryModes": [],
       "regions": [
         "international"
@@ -7432,19 +10042,42 @@
       "aliasOf": null,
       "searchTerms": {
         "en": [
-          "global",
-          "acap",
-          "application",
-          "portal",
-          "login",
-          "students",
-          "manage",
-          "their"
+          "allen global login",
+          "ACAP application portal",
+          "allen study abroad application",
+          "allen global studies login",
+          "allen abroad application status",
+          "allen global acap",
+          "study abroad allen portal"
         ],
-        "hi": [],
-        "hiLatin": [],
-        "ta": [],
-        "taLatin": []
+        "hi": [
+          "एलन ग्लोबल लॉगिन",
+          "ACAP आवेदन पोर्टल",
+          "एलन विदेश पढ़ाई आवेदन",
+          "एलन ग्लोबल स्टडीज लॉगिन",
+          "एलन विदेश आवेदन स्थिति"
+        ],
+        "hiLatin": [
+          "allen global login",
+          "ACAP aavedan portal",
+          "videsh padhai aavedan",
+          "global studies login",
+          "videsh aavedan"
+        ],
+        "ta": [
+          "அலன் குளோபல் உள்நுழைவு",
+          "ACAP விண்ணப்ப போர்ட்டல்",
+          "அலன் வெளிநாட்டு படிப்பு விண்ணப்பம்",
+          "அலன் குளோபல் ஸ்டடீஸ் உள்நுழைவு",
+          "வெளிநாடு படிப்பு விண்ணப்பம்"
+        ],
+        "taLatin": [
+          "global login",
+          "ACAP vinnappa portal",
+          "velinaattu padippu vinnappam",
+          "global studies login",
+          "velinaadu padippu"
+        ]
       },
       "verification": {
         "checkedAt": "2026-06-22",
