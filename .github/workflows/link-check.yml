@@ -1,0 +1,30 @@
+name: link-check
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"   # weekly, Sunday 03:00 UTC (brief §12)
+  workflow_dispatch:
+
+# Weekly browser-grade link-health probe. Publishes reports/link-health.json as an
+# artifact and fails if genuinely-broken links exceed the threshold (bot-blocked
+# official social hosts are never counted as broken).
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Probe all catalogue URLs
+        run: node scripts/check-links.mjs data/catalogue.json
+      - name: Upload link-health report
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-health
+          path: reports/link-health.json
+      - name: Fail if broken links exceed threshold
+        run: |
+          BROKEN=$(node -e "const d=require('./reports/link-health.json');console.log(d.summary.broken + d.summary.unreachable)")
+          echo "Genuinely broken/unreachable: $BROKEN"
+          if [ "$BROKEN" -gt 3 ]; then echo "Too many broken links"; exit 1; fi

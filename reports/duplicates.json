@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-06-22",
+  "duplicateIds": [],
+  "urlClusters": [
+    {
+      "url": "allen.in/kota/jee-main-advanced",
+      "ids": [
+        "preparing-for-jee-engineering",
+        "allen-jee-main-advanced-classroom-courses"
+      ],
+      "approved": true
+    },
+    {
+      "url": "allen.in/kota/neet",
+      "ids": [
+        "preparing-for-neet-medical",
+        "allen-neet-ug-pre-medical-courses"
+      ],
+      "approved": true
+    },
+    {
+      "url": "allen.in/kota/pncf",
+      "ids": [
+        "younger-child-class-6-to-10",
+        "allen-pre-nurture-career-foundation-class-6-10"
+      ],
+      "approved": true
+    },
+    {
+      "url": "allen.ac.in/contactus.asp",
+      "ids": [
+        "have-a-question-or-want-to-enquire",
+        "allen-contact-us-admission-enquiry-kota-hq"
+      ],
+      "approved": true
+    }
+  ],
+  "unapprovedUrlDuplicates": []
+}

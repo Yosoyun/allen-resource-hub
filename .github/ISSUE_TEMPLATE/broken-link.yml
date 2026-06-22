@@ -1,0 +1,34 @@
+name: "🔗 Broken or wrong link"
+description: A resource link is broken, goes to the wrong place, or is outdated.
+title: "[link] "
+labels: ["link-health"]
+body:
+  - type: input
+    id: resource-id
+    attributes:
+      label: Resource id (if known)
+      placeholder: e.g. allen-jee-main-advanced-classroom-courses
+  - type: input
+    id: url
+    attributes:
+      label: The link as shown on the site
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: What's wrong?
+      options:
+        - Broken link (does not open)
+        - Wrong destination
+        - Outdated course / session
+        - Not actually official
+        - Translation error
+        - Missing information
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      placeholder: What did you expect, and what happened?

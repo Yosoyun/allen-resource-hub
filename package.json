@@ -1,0 +1,15 @@
+{
+  "name": "allen-resource-hub",
+  "version": "2.0.0-rebuild",
+  "private": true,
+  "type": "module",
+  "description": "Curated, multilingual navigation guide to important official ALLEN resources. Not affiliated with ALLEN Career Institute.",
+  "scripts": {
+    "build:catalogue": "node scripts/build-catalogue.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "duplicates": "node scripts/detect-duplicates.mjs",
+    "check-links": "node scripts/check-links.mjs data/catalogue.json",
+    "check": "npm run validate && npm run duplicates"
+  },
+  "engines": { "node": ">=20" }
+}
