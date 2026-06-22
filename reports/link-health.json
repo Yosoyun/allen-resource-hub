@@ -1,0 +1,961 @@
+{
+  "checkedAt": "2026-06-22",
+  "source": "/tmp/cat_now.json",
+  "summary": {
+    "total": 105,
+    "ok": 94,
+    "redirect": 0,
+    "blocked": 8,
+    "broken": 1,
+    "serverError": 0,
+    "unreachable": 2,
+    "other": 0
+  },
+  "results": [
+    {
+      "url": "https://allen.in/kota/jee-main-advanced",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/kota/jee-main-advanced",
+      "redirected": false,
+      "ms": 304,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/kota/neet",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/kota/neet",
+      "redirected": false,
+      "ms": 261,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/kota/pncf",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/kota/pncf",
+      "redirected": false,
+      "ms": 263,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/contactus.asp",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/contactus.asp",
+      "redirected": false,
+      "ms": 265,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/",
+      "redirected": false,
+      "ms": 334,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/",
+      "redirected": false,
+      "ms": 476,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://estore.allen.ac.in/",
+      "httpStatus": 200,
+      "finalUrl": "https://estore.allen.ac.in/",
+      "redirected": false,
+      "ms": 486,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://apps.apple.com/in/app/allen-neet-jee-class-6-12/id6449251524",
+      "httpStatus": 200,
+      "finalUrl": "https://apps.apple.com/in/app/allen-neet-jee-class-6-12/id6449251524",
+      "redirected": false,
+      "ms": 196,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://apps.apple.com/in/app/allen-overseas/id1610327307",
+      "httpStatus": 200,
+      "finalUrl": "https://apps.apple.com/in/app/allen-overseas/id1610327307",
+      "redirected": false,
+      "ms": 199,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://dlp.allen.ac.in/",
+      "httpStatus": 200,
+      "finalUrl": "https://dlp.allen.ac.in/",
+      "redirected": false,
+      "ms": 311,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/apps/selection-results/yesteryears/default.asp",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/apps/selection-results/yesteryears/default.asp",
+      "redirected": false,
+      "ms": 582,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/apps2526/ccp/Login",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/apps2526/ccp/Login",
+      "redirected": false,
+      "ms": 312,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/apps2526/formstatus/login",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/apps2526/formstatus/login",
+      "redirected": false,
+      "ms": 199,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://student.allenbpms.in/login",
+      "httpStatus": 0,
+      "finalUrl": "https://student.allenbpms.in/login",
+      "redirected": false,
+      "ms": 84,
+      "class": "unreachable",
+      "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+    },
+    {
+      "url": "https://astra.allen.in/",
+      "httpStatus": 200,
+      "finalUrl": "https://astra.allen.in/",
+      "redirected": false,
+      "ms": 340,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=digital.allen.study",
+      "httpStatus": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=digital.allen.study",
+      "redirected": false,
+      "ms": 188,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=digital.allen.launcher",
+      "httpStatus": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=digital.allen.launcher",
+      "redirected": false,
+      "ms": 154,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allenites.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allenites.com/",
+      "redirected": false,
+      "ms": 1109,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/kota/jee-main",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/kota/jee-main",
+      "redirected": false,
+      "ms": 151,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allenchamp.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allenchamp.com/",
+      "redirected": false,
+      "ms": 176,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/ultimate-program-live-courses",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/ultimate-program-live-courses",
+      "redirected": false,
+      "ms": 140,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allenglobalstudies.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allenglobalstudies.com/",
+      "redirected": false,
+      "ms": 243,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/globalstudies",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/globalstudies/",
+      "redirected": true,
+      "ms": 523,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allenoverseas.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allenoverseas.com/",
+      "redirected": false,
+      "ms": 194,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENCareerInstituteofficial",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENCareerInstituteofficial",
+      "redirected": false,
+      "ms": 211,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENCareerInstituteofficial/playlists",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENCareerInstituteofficial/playlists",
+      "redirected": false,
+      "ms": 150,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL46TqiNVZpK-aC7QMHHeqiHBp5bvSDEdu",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL46TqiNVZpK-aC7QMHHeqiHBp5bvSDEdu",
+      "redirected": false,
+      "ms": 177,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL46TqiNVZpK9K05jEDuQ09cvbxqe71OnG",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL46TqiNVZpK9K05jEDuQ09cvbxqe71OnG",
+      "redirected": false,
+      "ms": 181,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL46TqiNVZpK-ONqbEKKGCDssIh8ncjI5v",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL46TqiNVZpK-ONqbEKKGCDssIh8ncjI5v",
+      "redirected": false,
+      "ms": 184,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENJEE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENJEE",
+      "redirected": false,
+      "ms": 261,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENJEE/playlists",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENJEE/playlists",
+      "redirected": false,
+      "ms": 240,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s1ypx_GIE99bAbnn4lpfrCU",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL_aKL95N88s1ypx_GIE99bAbnn4lpfrCU",
+      "redirected": false,
+      "ms": 252,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s3SaoCmNcrJpGWM9pfB6Q9w",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL_aKL95N88s3SaoCmNcrJpGWM9pfB6Q9w",
+      "redirected": false,
+      "ms": 332,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s3n0nDKqlv74E1verw2G_s8",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL_aKL95N88s3n0nDKqlv74E1verw2G_s8",
+      "redirected": false,
+      "ms": 152,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s2RTMp2L6PHG7rPbmSMu6jg",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL_aKL95N88s2RTMp2L6PHG7rPbmSMu6jg",
+      "redirected": false,
+      "ms": 291,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL_aKL95N88s1nKCZhEPZU-ohMjoCzoHlS",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL_aKL95N88s1nKCZhEPZU-ohMjoCzoHlS",
+      "redirected": false,
+      "ms": 292,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENNEET",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENNEET",
+      "redirected": false,
+      "ms": 240,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENNEET/playlists",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENNEET/playlists",
+      "redirected": false,
+      "ms": 259,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gdu2KTm-9x3I0POx4gcR8GF",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLru9htpOg_gdu2KTm-9x3I0POx4gcR8GF",
+      "redirected": false,
+      "ms": 164,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gfntexp5UewLaoKphx6H8ix",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLru9htpOg_gfntexp5UewLaoKphx6H8ix",
+      "redirected": false,
+      "ms": 191,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gdafDcr6je8zPI62LosWk_Y",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLru9htpOg_gdafDcr6je8zPI62LosWk_Y",
+      "redirected": false,
+      "ms": 227,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gdFeyrQ6NX4pnl4AMZX40GH",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLru9htpOg_gdFeyrQ6NX4pnl4AMZX40GH",
+      "redirected": false,
+      "ms": 182,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLru9htpOg_gePnaslqYbU9UlRBPzO0Ebe",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLru9htpOg_gePnaslqYbU9UlRBPzO0Ebe",
+      "redirected": false,
+      "ms": 155,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENPNCF",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENPNCF",
+      "redirected": false,
+      "ms": 986,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENPNCF/playlists",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENPNCF/playlists",
+      "redirected": false,
+      "ms": 164,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCcPauQfd9drEEC8_PoZ6Wpw",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/channel/UCcPauQfd9drEEC8_PoZ6Wpw",
+      "redirected": false,
+      "ms": 124,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENOnlineOfficial",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENOnlineOfficial",
+      "redirected": false,
+      "ms": 118,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENDigital",
+      "httpStatus": 404,
+      "finalUrl": "https://www.youtube.com/@ALLENDigital",
+      "redirected": false,
+      "ms": 120,
+      "class": "broken",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/@ALLENJaipurofficial",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ALLENJaipurofficial",
+      "redirected": false,
+      "ms": 109,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCuI7VRMwOQYyMm0zFYF6ZDg",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/channel/UCuI7VRMwOQYyMm0zFYF6ZDg",
+      "redirected": false,
+      "ms": 204,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/c/ALLENOverseas",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/c/ALLENOverseas",
+      "redirected": false,
+      "ms": 198,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.instagram.com/allen_career_institute/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allen_career_institute/",
+      "redirected": false,
+      "ms": 398,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.facebook.com/ALLENKota/",
+      "httpStatus": 400,
+      "finalUrl": "https://www.facebook.com/ALLENKota/",
+      "redirected": false,
+      "ms": 332,
+      "class": "blocked",
+      "error": null
+    },
+    {
+      "url": "https://x.com/ALLENkota",
+      "httpStatus": 200,
+      "finalUrl": "https://x.com/ALLENkota",
+      "redirected": false,
+      "ms": 1009,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.linkedin.com/company/allen-career-institute/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.linkedin.com/company/allen-career-institute/",
+      "redirected": false,
+      "ms": 925,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://t.me/allencareerinstitute_official",
+      "httpStatus": 0,
+      "finalUrl": "https://t.me/allencareerinstitute_official",
+      "redirected": false,
+      "ms": 10260,
+      "class": "blocked",
+      "error": "UND_ERR_CONNECT_TIMEOUT"
+    },
+    {
+      "url": "https://www.instagram.com/allenneetofficial/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allenneetofficial/",
+      "redirected": false,
+      "ms": 383,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://t.me/ALLENNEETOfficial",
+      "httpStatus": 0,
+      "finalUrl": "https://t.me/ALLENNEETOfficial",
+      "redirected": false,
+      "ms": 10115,
+      "class": "blocked",
+      "error": "UND_ERR_CONNECT_TIMEOUT"
+    },
+    {
+      "url": "https://www.instagram.com/allenjeeofficial/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allenjeeofficial/",
+      "redirected": false,
+      "ms": 585,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://t.me/ALLENJEEofficial",
+      "httpStatus": 0,
+      "finalUrl": "https://t.me/ALLENJEEofficial",
+      "redirected": false,
+      "ms": 10055,
+      "class": "blocked",
+      "error": "UND_ERR_CONNECT_TIMEOUT"
+    },
+    {
+      "url": "https://www.instagram.com/allenonlineofficial/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allenonlineofficial/",
+      "redirected": false,
+      "ms": 442,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.linkedin.com/company/weareallendigital/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.linkedin.com/company/weareallendigital/",
+      "redirected": false,
+      "ms": 1202,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.instagram.com/allenglobalstudies/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allenglobalstudies/",
+      "redirected": false,
+      "ms": 304,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.facebook.com/ALLENDelhiOfficial",
+      "httpStatus": 400,
+      "finalUrl": "https://www.facebook.com/ALLENDelhiOfficial",
+      "redirected": false,
+      "ms": 282,
+      "class": "blocked",
+      "error": null
+    },
+    {
+      "url": "https://www.pinterest.com/allenkota/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.pinterest.com/allenkota/",
+      "redirected": false,
+      "ms": 644,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.threads.com/@allen_career_institute",
+      "httpStatus": 200,
+      "finalUrl": "https://www.threads.com/@allen_career_institute",
+      "redirected": false,
+      "ms": 403,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.quora.com/profile/ALLEN-Career-Institute-1",
+      "httpStatus": 403,
+      "finalUrl": "https://www.quora.com/profile/ALLEN-Career-Institute-1",
+      "redirected": false,
+      "ms": 67,
+      "class": "blocked",
+      "error": null
+    },
+    {
+      "url": "https://www.instagram.com/allennextofficial/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allennextofficial/",
+      "redirected": false,
+      "ms": 284,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.instagram.com/allenoverseas/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allenoverseas/",
+      "redirected": false,
+      "ms": 353,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.facebook.com/ALLENOverseas/",
+      "httpStatus": 400,
+      "finalUrl": "https://www.facebook.com/ALLENOverseas/",
+      "redirected": false,
+      "ms": 461,
+      "class": "blocked",
+      "error": null
+    },
+    {
+      "url": "https://x.com/ALLENOverseas",
+      "httpStatus": 200,
+      "finalUrl": "https://x.com/ALLENOverseas",
+      "redirected": false,
+      "ms": 543,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.linkedin.com/company/allen-career-institute-overseas/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.linkedin.com/company/allen-career-institute-overseas/",
+      "redirected": false,
+      "ms": 1272,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.instagram.com/allenoverseasoman/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allenoverseasoman/",
+      "redirected": false,
+      "ms": 310,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.facebook.com/allenoverseasoman/",
+      "httpStatus": 400,
+      "finalUrl": "https://www.facebook.com/allenoverseasoman/",
+      "redirected": false,
+      "ms": 286,
+      "class": "blocked",
+      "error": null
+    },
+    {
+      "url": "https://www.instagram.com/allenbhopal/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/allenbhopal/",
+      "redirected": false,
+      "ms": 403,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/previous-year-papers",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/previous-year-papers",
+      "redirected": false,
+      "ms": 147,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/jee-main/previous-year-papers",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/jee-main/previous-year-papers",
+      "redirected": false,
+      "ms": 97,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/jee-advanced/previous-year-papers-with-solutions",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/jee-advanced/previous-year-papers-with-solutions",
+      "redirected": false,
+      "ms": 331,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/neet/previous-year-papers",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/neet/previous-year-papers",
+      "redirected": false,
+      "ms": 341,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/sample-papers/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/sample-papers/",
+      "redirected": false,
+      "ms": 438,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/jee-advanced/sample-papers",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/jee-advanced/sample-papers",
+      "redirected": false,
+      "ms": 438,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/boards/cbse/class-10/sample-papers/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/boards/cbse/class-10/sample-papers/",
+      "redirected": false,
+      "ms": 485,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/ncert-solutions",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/ncert-solutions",
+      "redirected": false,
+      "ms": 381,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/ncert-solutions/class-12",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/ncert-solutions/class-12",
+      "redirected": false,
+      "ms": 273,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/ncert-solutions/class-11",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/ncert-solutions/class-11",
+      "redirected": false,
+      "ms": 323,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/jee-main/mock-test",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/jee-main/mock-test",
+      "redirected": false,
+      "ms": 272,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/jee-advanced/mock-test",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/jee-advanced/mock-test",
+      "redirected": false,
+      "ms": 287,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/neet/mock-test",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/neet/mock-test",
+      "redirected": false,
+      "ms": 229,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/online-test-series",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/online-test-series",
+      "redirected": false,
+      "ms": 103,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/dn",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/dn",
+      "redirected": false,
+      "ms": 63,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://news.allen.in/",
+      "httpStatus": 200,
+      "finalUrl": "https://news.allen.in/",
+      "redirected": false,
+      "ms": 1425,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://myexam.allen.in/",
+      "httpStatus": 200,
+      "finalUrl": "https://news.allen.in/",
+      "redirected": true,
+      "ms": 1651,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.tallentex.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.tallentex.com/",
+      "redirected": false,
+      "ms": 218,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/kota/2025-26/About-ALLEN-Scholarship-Admission-Test.asp",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/kota/2025-26/About-ALLEN-Scholarship-Admission-Test.asp",
+      "redirected": false,
+      "ms": 416,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://dlp.allen.ac.in/common/allen-online-test-series.asp",
+      "httpStatus": 200,
+      "finalUrl": "https://dlp.allen.ac.in/common/allen-online-test-series.asp",
+      "redirected": false,
+      "ms": 223,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/jee-main/answer-key-2026",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/jee-main/answer-key-2026",
+      "redirected": false,
+      "ms": 195,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://allen.in/neet/2026-answer-key-solutions",
+      "httpStatus": 200,
+      "finalUrl": "https://allen.in/neet/2026-answer-key-solutions",
+      "redirected": false,
+      "ms": 58,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/allen-centers.asp",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/allen-centers.asp",
+      "redirected": false,
+      "ms": 71,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://wa.me/917442757700",
+      "httpStatus": 200,
+      "finalUrl": "https://api.whatsapp.com/send/?phone=917442757700&text&type=phone_number&app_absent=0",
+      "redirected": true,
+      "ms": 886,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/helpdesk/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/helpdesk/",
+      "redirected": false,
+      "ms": 172,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://adhelp.myallendigital.com/",
+      "httpStatus": 0,
+      "finalUrl": "https://adhelp.myallendigital.com/",
+      "redirected": false,
+      "ms": 3,
+      "class": "unreachable",
+      "error": "ENOTFOUND"
+    },
+    {
+      "url": "https://www.allen.ac.in/career.asp",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/career.asp",
+      "redirected": false,
+      "ms": 208,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.allen.ac.in/jobs-at-allen.asp",
+      "httpStatus": 200,
+      "finalUrl": "https://www.allen.ac.in/jobs-at-allen.asp",
+      "redirected": false,
+      "ms": 380,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://digitalclass.allenoverseas.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://digitalclass.allenoverseas.com/",
+      "redirected": false,
+      "ms": 517,
+      "class": "ok",
+      "error": null
+    },
+    {
+      "url": "https://acap.allenglobalstudies.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://acap.allenglobalstudies.com/",
+      "redirected": false,
+      "ms": 442,
+      "class": "ok",
+      "error": null
+    }
+  ]
+}
