@@ -1,0 +1,32 @@
+{
+  "_comment": "Registry of recognised official ALLEN identities. A resource may be marked official only if its sourceId is registered here (brief §10). trustScore 0-100. Social/app sources are platform-level; individual handles still require per-resource verification.",
+  "sources": {
+    "allen-in": { "name": "ALLEN (current)", "domain": "allen.in", "status": "official", "trustScore": 100, "allowedResourceTypes": ["course-page", "portal", "study-material", "result-page", "registration-page", "contact-page", "centre-page", "news", "guidance-pointer"], "notes": "Primary current official ALLEN domain." },
+    "allen-ac-in": { "name": "ALLEN (legacy)", "domain": "allen.ac.in", "status": "legacy-official", "trustScore": 95, "allowedResourceTypes": ["portal", "result-page", "contact-page", "centre-page", "support-page", "registration-page", "course-page", "study-material", "guidance-pointer"], "notes": "Official legacy domain; still live. Prefer allen.in equivalents where they exist; monitor for redirects/migration." },
+    "allen-dlp": { "name": "ALLEN Distance Learning", "domain": "dlp.allen.ac.in", "status": "official", "trustScore": 95, "allowedResourceTypes": ["portal", "study-material", "registration-page"], "notes": "Distance Learning Program portal." },
+    "allen-estore": { "name": "ALLEN E-Store", "domain": "estore.allen.ac.in", "status": "official", "trustScore": 95, "allowedResourceTypes": ["store"], "notes": "Official study-material store." },
+    "allen-astra": { "name": "ALLEN ASTRA", "domain": "astra.allen.in", "status": "official", "trustScore": 95, "allowedResourceTypes": ["portal"], "notes": "Student account / linked-services login." },
+    "allen-news": { "name": "ALLEN News", "domain": "news.allen.in", "status": "official", "trustScore": 90, "allowedResourceTypes": ["news"], "notes": "Exam news & blog." },
+    "allen-myexam": { "name": "ALLEN MyExam", "domain": "myexam.allen.in", "status": "official", "trustScore": 85, "allowedResourceTypes": ["news", "result-page"], "notes": "Exam updates portal." },
+    "allen-bpms": { "name": "ALLEN BPMS", "domain": "student.allenbpms.in", "status": "official", "trustScore": 80, "allowedResourceTypes": ["portal"], "notes": "Batch Progress Monitoring System. WARNING: TLS certificate name mismatch observed 2026-06-22 — verify correct host." },
+    "allen-champ": { "name": "ALLEN CHAMP", "domain": "allenchamp.com", "status": "official", "trustScore": 90, "allowedResourceTypes": ["course-page", "registration-page"], "notes": "Olympiad Champ program." },
+    "allen-global": { "name": "ALLEN Global Studies", "domain": "allenglobalstudies.com", "status": "official", "trustScore": 90, "allowedResourceTypes": ["course-page", "registration-page", "portal"], "notes": "Study-abroad division." },
+    "allen-overseas": { "name": "ALLEN Overseas", "domain": "allenoverseas.com", "status": "official", "trustScore": 90, "allowedResourceTypes": ["course-page", "portal"], "notes": "Gulf-region coaching division." },
+    "allenites": { "name": "ALLENites Alumni Network", "domain": "allenites.com", "status": "official", "trustScore": 85, "allowedResourceTypes": ["portal"], "notes": "Official alumni network." },
+    "allen-digital-help": { "name": "ALLEN Digital Help", "domain": "myallendigital.com", "status": "official", "trustScore": 60, "allowedResourceTypes": ["support-page"], "notes": "WARNING: adhelp.myallendigital.com did not resolve (DNS) 2026-06-22 — likely retired." },
+    "tallentex": { "name": "TALLENTEX", "domain": "tallentex.com", "status": "official", "trustScore": 95, "allowedResourceTypes": ["registration-page"], "notes": "ALLEN's scholarship & talent exam. Seasonal." },
+    "yt-allen": { "name": "ALLEN on YouTube", "domain": "youtube.com", "status": "official", "trustScore": 90, "allowedResourceTypes": ["official-channel"], "notes": "Official ALLEN YouTube channels; each handle verified individually." },
+    "ig-allen": { "name": "ALLEN on Instagram", "domain": "instagram.com", "status": "official", "trustScore": 85, "allowedResourceTypes": ["official-channel"], "notes": "Bot-blocks automated checks; verify handles manually." },
+    "fb-allen": { "name": "ALLEN on Facebook", "domain": "facebook.com", "status": "official", "trustScore": 85, "allowedResourceTypes": ["official-channel"], "notes": "Bot-blocks automated checks." },
+    "x-allen": { "name": "ALLEN on X", "domain": "x.com", "status": "official", "trustScore": 85, "allowedResourceTypes": ["official-channel"], "notes": "Bot-blocks automated checks." },
+    "li-allen": { "name": "ALLEN on LinkedIn", "domain": "linkedin.com", "status": "official", "trustScore": 85, "allowedResourceTypes": ["official-channel"], "notes": "Bot-blocks automated checks." },
+    "tg-allen": { "name": "ALLEN on Telegram", "domain": "t.me", "status": "official", "trustScore": 80, "allowedResourceTypes": ["official-channel"], "notes": "t.me times out automated checks; verify handles manually." },
+    "threads-allen": { "name": "ALLEN on Threads", "domain": "threads.com", "status": "official", "trustScore": 80, "allowedResourceTypes": ["official-channel"], "notes": "" },
+    "pinterest-allen": { "name": "ALLEN on Pinterest", "domain": "pinterest.com", "status": "official", "trustScore": 75, "allowedResourceTypes": ["official-channel"], "notes": "" },
+    "quora-allen": { "name": "ALLEN on Quora", "domain": "quora.com", "status": "official", "trustScore": 70, "allowedResourceTypes": ["official-channel"], "notes": "Bot-blocks automated checks." },
+    "playstore-allen": { "name": "ALLEN on Google Play", "domain": "play.google.com", "status": "official", "trustScore": 90, "allowedResourceTypes": ["mobile-app"], "notes": "Official ALLEN Android apps." },
+    "appstore-allen": { "name": "ALLEN on App Store", "domain": "apps.apple.com", "status": "official", "trustScore": 90, "allowedResourceTypes": ["mobile-app"], "notes": "Official ALLEN iOS apps." },
+    "wa-allen": { "name": "ALLEN WhatsApp", "domain": "wa.me", "status": "official", "trustScore": 85, "allowedResourceTypes": ["support-page", "official-channel"], "notes": "Official WhatsApp support number." },
+    "email-allen": { "name": "ALLEN Email", "domain": "allen.in", "status": "official", "trustScore": 90, "allowedResourceTypes": ["support-page"], "notes": "info@allen.in support email." }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_comment": "Region taxonomy (brief §24). Default region for most ALLEN web resources is pan-india; centre/portal pages may be region-specific. No automatic geolocation — user selects.",
+  "regions": [
+    { "id": "pan-india", "label": { "en": "Online / Pan-India", "hi": "ऑनलाइन / पूरे भारत", "ta": "ஆன்லைன் / அகில இந்தியா" }, "default": true },
+    { "id": "kota", "label": { "en": "Kota", "hi": "कोटा", "ta": "கோட்டா" } },
+    { "id": "tamil-nadu", "label": { "en": "Tamil Nadu", "hi": "तमिलनाडु", "ta": "தமிழ்நாடு" } },
+    { "id": "bengaluru", "label": { "en": "Bengaluru", "hi": "बेंगलुरु", "ta": "பெங்களூரு" } },
+    { "id": "delhi-ncr", "label": { "en": "Delhi NCR", "hi": "दिल्ली एनसीआर", "ta": "டெல்லி NCR" } },
+    { "id": "jaipur", "label": { "en": "Jaipur", "hi": "जयपुर", "ta": "ஜெய்ப்பூர்" } },
+    { "id": "bhopal", "label": { "en": "Bhopal", "hi": "भोपाल", "ta": "போபால்" } },
+    { "id": "international", "label": { "en": "International / Gulf", "hi": "अंतरराष्ट्रीय / खाड़ी", "ta": "சர்வதேச / வளைகுடா" } },
+    { "id": "regional-centre", "label": { "en": "Other centre", "hi": "अन्य केंद्र", "ta": "பிற மையம்" } }
+  ]
+}
