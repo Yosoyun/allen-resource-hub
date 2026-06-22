@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yosoyun.github.io/allen-resource-hub/schemas/catalogue.schema.json",
+  "title": "ALLEN Resource Hub — Catalogue",
+  "type": "object",
+  "required": ["version", "generatedAt", "resources"],
+  "properties": {
+    "version": { "type": "string" },
+    "generatedAt": { "type": "string", "format": "date" },
+    "resources": { "type": "array", "items": { "$ref": "#/$defs/resource" } }
+  },
+  "$defs": {
+    "i18n": {
+      "type": "object",
+      "required": ["en", "hi", "ta"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "hi": { "type": "string", "minLength": 1 },
+        "ta": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "resource": {
+      "type": "object",
+      "required": [
+        "id", "name", "description", "url", "canonicalUrl", "sourceId",
+        "officialStatus", "resourceType", "purpose", "audience",
+        "verification", "lifecycle"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "name": { "$ref": "#/$defs/i18n" },
+        "description": { "$ref": "#/$defs/i18n" },
+        "howToUse": { "$ref": "#/$defs/i18n" },
+        "url": { "type": "string", "pattern": "^(https?:|mailto:)" },
+        "canonicalUrl": { "type": "string" },
+        "sourceId": { "type": "string", "minLength": 1 },
+        "officialStatus": {
+          "type": "string",
+          "enum": ["official", "legacy-official", "regional-official", "third-party", "unverified"]
+        },
+        "resourceType": {
+          "type": "string",
+          "enum": ["course-page", "portal", "mobile-app", "official-channel", "study-material", "archive", "result-page", "contact-page", "centre-page", "registration-page", "support-page", "guidance-pointer", "store", "news"]
+        },
+        "purpose": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "audience": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "exams": { "type": "array", "items": { "type": "string" } },
+        "classLevels": { "type": "array", "items": { "type": "string" } },
+        "deliveryModes": { "type": "array", "items": { "type": "string" } },
+        "regions": { "type": "array", "items": { "type": "string" } },
+        "languagesAvailable": { "type": "array", "items": { "type": "string" } },
+        "academicSessions": { "type": "array", "items": { "type": "string" } },
+        "access": { "type": "string", "enum": ["public", "registration-required", "login-required", "email"] },
+        "platform": { "type": "string" },
+        "aliasOf": { "type": ["string", "null"] },
+        "playlistsUrl": { "type": "string" },
+        "playlists": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "url"],
+            "properties": {
+              "name": { "type": "string" },
+              "url": { "type": "string" },
+              "subject": { "type": "string" },
+              "verified": { "type": "boolean" },
+              "description": { "$ref": "#/$defs/i18n" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "searchTerms": {
+          "type": "object",
+          "properties": {
+            "en": { "type": "array", "items": { "type": "string" } },
+            "hi": { "type": "array", "items": { "type": "string" } },
+            "hiLatin": { "type": "array", "items": { "type": "string" } },
+            "ta": { "type": "array", "items": { "type": "string" } },
+            "taLatin": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "verification": {
+          "type": "object",
+          "required": ["status", "checkedAt"],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["verified", "verified-legacy", "verified-regional", "redirected", "registration-required", "temporarily-unavailable", "historical", "unverified", "broken"]
+            },
+            "checkedAt": { "type": "string", "format": "date" },
+            "httpStatus": { "type": "integer" },
+            "finalUrl": { "type": "string" },
+            "method": { "type": "string" },
+            "notes": { "type": "string" }
+          }
+        },
+        "lifecycle": {
+          "type": "object",
+          "required": ["status"],
+          "properties": {
+            "status": { "type": "string", "enum": ["active", "seasonal", "paused", "discontinued", "historical", "archived"] },
+            "validFrom": { "type": ["string", "null"] },
+            "validUntil": { "type": ["string", "null"] },
+            "replacementId": { "type": ["string", "null"] },
+            "statusNote": { "type": "string" }
+          }
+        },
+        "featured": { "type": "boolean" },
+        "priority": { "type": "integer", "minimum": 0, "maximum": 100 }
+      },
+      "additionalProperties": false
+    }
+  }
+}

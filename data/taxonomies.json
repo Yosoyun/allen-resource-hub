@@ -1,0 +1,57 @@
+{
+  "_comment": "Controlled vocabularies (brief §15). The catalogue and validator reference these; the UI renders labels per language.",
+  "audience": ["student", "parent", "teacher", "counsellor", "prospective-student", "enrolled-student"],
+  "exam": ["jee-main", "jee-advanced", "neet", "foundation", "olympiad", "ntse", "board", "scholarship", "abroad", "general"],
+  "purpose": ["course-discovery", "admission", "login", "app-download", "fee-payment", "results", "study-material", "scholarship-registration", "centre-location", "support", "technical-help", "parent-help", "social-channel", "official-news", "alumni", "careers"],
+  "deliveryMode": ["classroom", "online", "hybrid"],
+  "resourceType": ["course-page", "portal", "mobile-app", "official-channel", "study-material", "archive", "result-page", "contact-page", "centre-page", "registration-page", "support-page", "guidance-pointer", "store", "news"],
+  "officialStatus": ["official", "legacy-official", "regional-official", "third-party", "unverified"],
+  "verificationStatus": ["verified", "verified-legacy", "verified-regional", "redirected", "registration-required", "temporarily-unavailable", "historical", "unverified", "broken"],
+  "lifecycleStatus": ["active", "seasonal", "paused", "discontinued", "historical", "archived"],
+  "classLevel": ["6", "7", "8", "9", "10", "11", "12", "dropper", "college-other"],
+  "labels": {
+    "audience": {
+      "student": { "en": "Student", "hi": "छात्र", "ta": "மாணவர்" },
+      "parent": { "en": "Parent", "hi": "अभिभावक", "ta": "பெற்றோர்" },
+      "teacher": { "en": "Teacher", "hi": "शिक्षक", "ta": "ஆசிரியர்" },
+      "counsellor": { "en": "Counsellor", "hi": "काउंसलर", "ta": "ஆலோசகர்" },
+      "prospective-student": { "en": "Prospective student", "hi": "भावी छात्र", "ta": "வருங்கால மாணவர்" },
+      "enrolled-student": { "en": "Current ALLEN student", "hi": "मौजूदा ALLEN छात्र", "ta": "தற்போதைய ALLEN மாணவர்" }
+    },
+    "exam": {
+      "jee-main": { "en": "JEE Main", "hi": "JEE Main", "ta": "JEE Main" },
+      "jee-advanced": { "en": "JEE Advanced", "hi": "JEE Advanced", "ta": "JEE Advanced" },
+      "neet": { "en": "NEET", "hi": "NEET", "ta": "NEET" },
+      "foundation": { "en": "Foundation (6–10)", "hi": "फाउंडेशन (6–10)", "ta": "Foundation (6–10)" },
+      "olympiad": { "en": "Olympiad", "hi": "ओलंपियाड", "ta": "Olympiad" },
+      "ntse": { "en": "NTSE", "hi": "NTSE", "ta": "NTSE" },
+      "board": { "en": "Board exams", "hi": "बोर्ड परीक्षा", "ta": "போர்டு தேர்வு" },
+      "scholarship": { "en": "Scholarship", "hi": "छात्रवृत्ति", "ta": "உதவித்தொகை" },
+      "abroad": { "en": "Study abroad", "hi": "विदेश में पढ़ाई", "ta": "வெளிநாட்டுப் படிப்பு" },
+      "general": { "en": "General", "hi": "सामान्य", "ta": "பொது" }
+    },
+    "purpose": {
+      "course-discovery": { "en": "Explore courses", "hi": "कोर्स देखें", "ta": "பாடத்திட்டங்களைப் பார்" },
+      "admission": { "en": "Admission", "hi": "प्रवेश", "ta": "சேர்க்கை" },
+      "login": { "en": "Student login", "hi": "छात्र लॉगिन", "ta": "மாணவர் உள்நுழைவு" },
+      "app-download": { "en": "Download app", "hi": "ऐप डाउनलोड", "ta": "ஆப் பதிவிறக்கம்" },
+      "fee-payment": { "en": "Fee payment", "hi": "फीस भुगतान", "ta": "கட்டணம் செலுத்து" },
+      "results": { "en": "Results", "hi": "परिणाम", "ta": "முடிவுகள்" },
+      "study-material": { "en": "Free study material", "hi": "मुफ़्त अध्ययन सामग्री", "ta": "இலவசப் படிப்புப் பொருட்கள்" },
+      "scholarship-registration": { "en": "Scholarship test", "hi": "छात्रवृत्ति परीक्षा", "ta": "உதவித்தொகைத் தேர்வு" },
+      "centre-location": { "en": "Find a centre", "hi": "सेंटर खोजें", "ta": "சென்டர் கண்டறி" },
+      "support": { "en": "Contact support", "hi": "सहायता संपर्क", "ta": "ஆதரவைத் தொடர்பு" },
+      "technical-help": { "en": "Technical help", "hi": "तकनीकी सहायता", "ta": "தொழில்நுட்ப உதவி" },
+      "parent-help": { "en": "Parent support", "hi": "अभिभावक सहायता", "ta": "பெற்றோர் ஆதரவு" },
+      "social-channel": { "en": "Official social channel", "hi": "आधिकारिक सोशल चैनल", "ta": "அதிகாரப்பூர்வ சமூக சேனல்" },
+      "official-news": { "en": "Official news", "hi": "आधिकारिक समाचार", "ta": "அதிகாரப்பூர்வ செய்தி" },
+      "alumni": { "en": "Alumni network", "hi": "एलुमनाई नेटवर्क", "ta": "பழைய மாணவர் வலையமைப்பு" },
+      "careers": { "en": "Careers / Work at ALLEN", "hi": "करियर / ALLEN में नौकरी", "ta": "வேலைவாய்ப்பு / ALLEN-இல் பணி" }
+    },
+    "deliveryMode": {
+      "classroom": { "en": "Classroom", "hi": "क्लासरूम", "ta": "வகுப்பறை" },
+      "online": { "en": "Online", "hi": "ऑनलाइन", "ta": "ஆன்லைன்" },
+      "hybrid": { "en": "Hybrid", "hi": "हाइब्रिड", "ta": "கலப்பு" }
+    }
+  }
+}

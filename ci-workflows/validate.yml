@@ -1,0 +1,20 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+# Data-quality gate (brief §38). Fails on invalid schema, duplicate ids,
+# missing translations, unknown sources, broken internal refs, malformed dates.
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate catalogue against schema
+        run: node scripts/validate-data.mjs
+      - name: Detect duplicates
+        run: node scripts/detect-duplicates.mjs

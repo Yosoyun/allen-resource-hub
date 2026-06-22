@@ -1,0 +1,145 @@
+{
+  "generatedFromCheck": "2026-06-22",
+  "sections": 8,
+  "items": 93,
+  "uniqueDomains": 29,
+  "domains": [
+    [
+      "allen.in",
+      24
+    ],
+    [
+      "allen.ac.in",
+      14
+    ],
+    [
+      "youtube.com",
+      10
+    ],
+    [
+      "instagram.com",
+      9
+    ],
+    [
+      "facebook.com",
+      4
+    ],
+    [
+      "linkedin.com",
+      3
+    ],
+    [
+      "t.me",
+      3
+    ],
+    [
+      "apps.apple.com",
+      2
+    ],
+    [
+      "dlp.allen.ac.in",
+      2
+    ],
+    [
+      "play.google.com",
+      2
+    ],
+    [
+      "x.com",
+      2
+    ],
+    [
+      "estore.allen.ac.in",
+      1
+    ],
+    [
+      "student.allenbpms.in",
+      1
+    ],
+    [
+      "astra.allen.in",
+      1
+    ],
+    [
+      "allenites.com",
+      1
+    ],
+    [
+      "allenchamp.com",
+      1
+    ],
+    [
+      "allenglobalstudies.com",
+      1
+    ],
+    [
+      "allenoverseas.com",
+      1
+    ],
+    [
+      "pinterest.com",
+      1
+    ],
+    [
+      "threads.com",
+      1
+    ],
+    [
+      "quora.com",
+      1
+    ],
+    [
+      "news.allen.in",
+      1
+    ],
+    [
+      "myexam.allen.in",
+      1
+    ],
+    [
+      "tallentex.com",
+      1
+    ],
+    [
+      "wa.me",
+      1
+    ],
+    [
+      "",
+      1
+    ],
+    [
+      "adhelp.myallendigital.com",
+      1
+    ],
+    [
+      "digitalclass.allenoverseas.com",
+      1
+    ],
+    [
+      "acap.allenglobalstudies.com",
+      1
+    ]
+  ],
+  "duplicateUrlCount": 4,
+  "duplicates": [
+    "https://allen.in/kota/jee-main-advanced",
+    "https://allen.in/kota/neet",
+    "https://allen.in/kota/pncf",
+    "https://www.allen.ac.in/contactus.asp"
+  ],
+  "currentlyFlaggedVerified": 78,
+  "currentlyFlaggedUnverified": 15,
+  "linkHealthByClass": {
+    "ok": 81,
+    "unreachable": 2,
+    "broken": 1,
+    "blocked": 8,
+    "(not-checked)": 1
+  },
+  "translation": {
+    "missingDesc_hi": 0,
+    "missingDesc_ta": 0,
+    "itemsMissingSomeHow": 0
+  }
+}
